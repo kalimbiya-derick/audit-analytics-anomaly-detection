@@ -26,7 +26,7 @@ def test_app_runs_without_exception(app):
 
 
 def test_app_renders_all_tabs(app):
-    assert len(app.tabs) == 8
+    assert len(app.tabs) == 9
 
 
 def test_app_renders_key_metrics(app):
@@ -43,3 +43,39 @@ def test_demo_dataset_used_by_default(app):
 def test_app_shows_critical_risk_metric(app):
     metric_labels = [m.label for m in app.metric]
     assert "Critical Risk" in metric_labels
+
+
+def test_ai_narrative_tab_generates_with_mocked_api():
+    """
+    Clicks the 'Generate AI Narrative' button with the Anthropic client
+    mocked out, confirming the full UI interaction (text input -> button
+    click -> session state -> rendered text area) works end to end without
+    ever hitting the real, paid API.
+    """
+    from unittest.mock import patch, MagicMock
+
+    fake_text = (
+        "<overview>Test overview.</overview>"
+        "<key_findings>Test findings.</key_findings>"
+        "<recommendations>Test recommendation.</recommendations>"
+    )
+    mock_block = MagicMock()
+    mock_block.type = "text"
+    mock_block.text = fake_text
+    mock_response = MagicMock()
+    mock_response.content = [mock_block]
+    mock_client = MagicMock()
+    mock_client.messages.create.return_value = mock_response
+
+    with patch("modules.ai_narrative_generator.anthropic") as mock_anthropic_module:
+        mock_anthropic_module.Anthropic.return_value = mock_client
+
+        at = AppTest.from_file(APP_PATH, default_timeout=60)
+        at.run()
+        at.tabs[8].text_input[0].set_value("fake-test-key")
+        at.tabs[8].button[0].click().run()
+
+        assert len(at.exception) == 0
+        text_areas = at.tabs[8].text_area
+        assert len(text_areas) == 1
+        assert "Test overview." in text_areas[0].value

@@ -14,10 +14,10 @@ Running a single command against a transaction CSV produces:
 
 - **Seven independent detection procedures**, each grounded in real audit methodology
 - **One weighted risk score per transaction** (0–100), combining corroborating evidence across methods with financial materiality
-- **A complete PDF audit report** — cover page, table of contents with clickable bookmarks, executive summary, detailed per-method findings, and a methodology/limitations appendix
+- **A complete PDF audit report** — cover page, table of contents with clickable bookmarks, executive summary, an optional AI-assisted findings narrative, detailed per-method findings, and a methodology/limitations appendix
 - **CSV exports** of consolidated and risk-scored findings for further analysis
-- **An interactive Streamlit dashboard** — upload your own transaction data (or explore the bundled demo dataset), browse live charts and findings tables across all seven procedures, and download the PDF report on demand
-- **110 passing automated tests**
+- **An interactive Streamlit dashboard** — upload your own transaction data (or explore the bundled demo dataset), browse live charts and findings tables across all seven procedures, generate an AI-drafted findings narrative on demand, and download the PDF report
+- **123 passing automated tests**
 
 ```bash
 python run_full_audit.py
@@ -28,6 +28,11 @@ python run_full_audit.py
 streamlit run app.py
 ```
 …and an interactive dashboard opens in your browser at `localhost:8501`.
+
+```bash
+python run_full_audit.py --narrative   # requires ANTHROPIC_API_KEY
+```
+…also drafts an AI-assisted findings narrative and includes it in the PDF.
 
 ## Sample output
 
@@ -59,6 +64,16 @@ On the demo dataset (496 transactions, 37 loan accounts), the toolkit flags 260 
 
 Every flagged transaction receives a score reflecting **likelihood × materiality** (ISA 315-aligned risk-of-material-misstatement framing): a confirmed identity match (related-party self-dealing) outweighs a single Benford digit-bucket flag, and a transaction's size relative to its account's typical activity scales the final score. Raw scores are proportionally rescaled (not hard-clipped) so genuinely different transactions don't pile up at an artificial ceiling.
 
+### AI-assisted findings narrative (optional)
+
+An opt-in feature that drafts an auditor-style findings narrative — overview, key findings, recommended follow-up procedures — from the engagement's aggregated quantitative results, using Claude. It is **never required**: every other feature in this project works completely normally without it.
+
+Designed with explicit safety framing, not just a feature bolt-on:
+- **Always labeled as an AI-generated draft requiring review**, both in the PDF (a prominent callout box) and the dashboard (a warning banner plus an editable text area before download) — it must never be mistaken for an auditor's own professional conclusion.
+- **The prompt explicitly instructs the model** to use only the provided figures (no fabrication) and to use hedged audit language ("is consistent with," "warrants further investigation") rather than asserting confirmed fraud — a determination that requires audit evidence this module does not gather.
+- **Tested entirely with mocked API calls** — the automated test suite never makes a real, paid API request; it validates prompt construction, response parsing, and the full UI interaction flow with the Anthropic client mocked out.
+- Requires your own `ANTHROPIC_API_KEY` (get one at [console.anthropic.com](https://console.anthropic.com)) — consumes API credits on your account, never Anthropic's or this repo's.
+
 ## Tech stack
 
 Python · pandas · NumPy · SciPy · Matplotlib · ReportLab · pytest
@@ -78,12 +93,13 @@ audit_analytics/
 │   ├── reconciliation_engine.py
 │   ├── risk_scoring_engine.py
 │   ├── audit_pipeline.py         # Shared computation core (CLI + dashboard)
+│   ├── ai_narrative_generator.py # Optional Claude-drafted findings narrative
 │   ├── chart_style.py            # Shared visual identity across all charts
 │   ├── summary_visuals.py        # Executive-summary level charts
 │   └── pdf_report_generator.py   # ReportLab-based PDF assembly
 ├── data/                         # Demo dataset generators + generated CSVs
 ├── docs/screenshots/             # README screenshots
-├── tests/                        # 110 pytest tests (unit + integration + dashboard)
+├── tests/                        # 123 pytest tests (unit + integration + dashboard)
 ├── output/                       # Generated reports, charts, CSVs
 ├── app.py                        # Streamlit interactive dashboard
 ├── run_full_audit.py             # CLI: orchestrates the full pipeline, builds the PDF
@@ -102,6 +118,12 @@ streamlit run app.py                     # or explore interactively in the brows
 pytest                                   # runs the full test suite
 ```
 
+To use the optional AI narrative layer, set your own Anthropic API key first:
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...      # or enter it directly in the dashboard
+python run_full_audit.py --narrative
+```
+
 ### Deploying the dashboard live (free)
 
 [Streamlit Community Cloud](https://streamlit.io/cloud) will host `app.py` directly from this GitHub repo for free, producing a public shareable link — far more compelling for a portfolio than a screenshot or local-only instructions. Sign in with GitHub, point it at this repo and `app.py`, and it deploys automatically on every push.
@@ -115,13 +137,14 @@ A few real bugs were found and fixed during development by validating against ac
 - **PDF blank page / orphaned headings:** an explicit page break combined with content that already overflowed naturally produced a stray blank page; later, a section heading could render with nothing underneath it if upstream data was incomplete. Both fixed by mirroring each section's actual rendering condition exactly, and verified by rendering every page to an image and inspecting it — not just checking the PDF built without error.
 - **Fuzzy name-matching threshold:** a realistic single-character typo ("Alise" vs "Alice") scored exactly 0.80 similarity under `difflib`, just under the initial 0.82 cutoff — recalibrated to reliably catch genuine minor data-entry variants.
 - **Dashboard testing without a browser:** the Streamlit dashboard is tested with Streamlit's own `AppTest` framework, which actually executes `app.py`'s logic (not just a syntax check) and inspects what renders — closer in spirit to the PDF's render-and-visually-inspect QA process than a plain HTTP request, which would only confirm the page shell loaded, not that the underlying Python logic ran correctly.
+- **AI narrative as a genuinely optional layer, not a tacked-on demo:** the narrative generator is fully decoupled — every other feature works identically whether or not it's ever called — and is tested entirely with a mocked API client (prompt construction, response parsing, error handling, and even a full dashboard button-click interaction), so the test suite never makes a real, billed request. The prompt itself was deliberately engineered to constrain the model to the provided figures and use hedged audit language, since an AI-drafted conclusion that overclaims wrongdoing would be a worse outcome than not having the feature at all.
 
 ## Testing
 
 ```bash
 pytest
 ```
-110 tests across unit tests (isolated logic on small synthetic data), integration tests (the real pipeline against the actual demo dataset, locking in known planted-anomaly counts so future changes can't silently break detection), and dashboard tests (using Streamlit's `AppTest` framework to actually execute `app.py`'s logic headlessly and confirm it runs without exceptions — not just a syntax check).
+123 tests across unit tests (isolated logic on small synthetic data), integration tests (the real pipeline against the actual demo dataset, locking in known planted-anomaly counts so future changes can't silently break detection), dashboard tests (using Streamlit's `AppTest` framework to actually execute `app.py`'s logic headlessly, including a full button-click-to-rendered-output interaction test), and AI narrative tests (entirely mocked — the suite never makes a real, paid API call).
 
 ## Roadmap
 
@@ -130,7 +153,7 @@ pytest
 - [x] PDF audit report generation
 - [x] Journal entry testing & related-party screening
 - [x] Interactive Streamlit dashboard
-- [ ] AI-generated findings narrative
+- [x] AI-generated findings narrative
 
 ## Author
 

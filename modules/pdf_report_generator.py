@@ -353,6 +353,49 @@ def _build_executive_summary(story, styles, df, risk_scored, reconciled, chart_p
     story.append(PageBreak())
 
 
+def _build_ai_narrative_section(story, styles, narrative: dict):
+    """
+    Renders the optional AI-assisted findings narrative — a translation of
+    the quantitative executive summary into audit-register prose, drafted
+    by Claude from an aggregated summary of the engagement's findings.
+
+    PROMINENTLY labeled as an AI-generated draft requiring review: this
+    content must never be mistaken for an auditor's own professional
+    conclusions. The same labeling discipline applies wherever this
+    narrative is surfaced (PDF, dashboard) — see ai_narrative_generator.py
+    for the full framing rationale.
+    """
+    story.append(Paragraph("AI-Assisted Findings Narrative", styles["SectionHeading"]))
+    story.append(_callout_box(
+        "<b>AI-generated draft — requires auditor review.</b> The narrative below was drafted by an "
+        "AI model from the quantitative findings in this report. It is intended to assist, not "
+        "replace, the engagement team's own analysis and professional judgment, and must be reviewed, "
+        "corroborated, and edited before inclusion in any audit working paper or client deliverable.",
+        styles, bg_color="#fdf2e3", border_color="#e67e22"
+    ))
+    story.append(Spacer(1, 0.3 * cm))
+
+    sections = narrative.get("sections", {})
+    if "overview" in sections:
+        story.append(Paragraph(sections["overview"], styles["BodyJustified"]))
+        story.append(Spacer(1, 0.2 * cm))
+    if "key_findings" in sections:
+        for para in sections["key_findings"].split("\n\n"):
+            if para.strip():
+                story.append(Paragraph(para.strip(), styles["BodyJustified"]))
+        story.append(Spacer(1, 0.2 * cm))
+    if "recommendations" in sections:
+        story.append(Paragraph("Recommended Follow-Up Procedures", styles["CaptionNote"]))
+        items = [ListItem(Paragraph(line.strip(), styles["BodyJustified"]), bulletColor=RL_COLORS["low"])
+                 for line in sections["recommendations"].split("\n") if line.strip()]
+        if items:
+            story.append(ListFlowable(items, bulletType="bullet", leftIndent=14, bulletFontSize=10))
+
+    story.append(Spacer(1, 0.3 * cm))
+    story.append(Paragraph(f"Drafted by {narrative.get('model', 'AI model')}.", styles["CaptionNote"]))
+    story.append(PageBreak())
+
+
 def _findings_table(headers, rows, col_widths, highlight_col=None, highlight_map=None):
     """
     Reusable styled table for detailed-findings listings. If highlight_col
@@ -709,11 +752,13 @@ def generate_report(output_path: str, df, risk_scored, reconciled, chart_paths: 
                       round_flagged=None, outlier_flagged=None,
                       timing_flagged=None, user_concentration=None,
                       related_party_flagged=None, related_party_fuzzy=None,
+                      narrative: dict = None,
                       period_label: str = "Financial Year 2025", prepared_by: str = "Audit Analytics System"):
     """
     Builds the complete audit findings PDF: cover page, executive summary
-    (Day 10), detailed per-method findings plus a methodology and
-    limitations appendix (Day 11), journal entry testing (Day 15-16), and
+    (Day 10), an optional AI-assisted findings narrative (Day 20-21),
+    detailed per-method findings plus a methodology and limitations
+    appendix (Day 11), journal entry testing (Day 15-16), and
     related-party transaction screening (Day 17).
 
     chart_paths required keys: risk_breakdown, flags_by_method, monthly_trend,
@@ -721,6 +766,11 @@ def generate_report(output_path: str, df, risk_scored, reconciled, chart_paths: 
     All flagged-transaction DataFrames are optional — if omitted, the
     detailed findings section for that method is skipped (keeps the
     function usable for executive-summary-only reports too).
+
+    narrative: the dict returned by ai_narrative_generator.generate_findings_narrative(),
+    or None to skip the AI narrative section entirely (the default — this
+    feature requires its own API key and is never required for the report
+    to be complete and useful on its own).
     """
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     styles = _build_styles()
@@ -735,6 +785,9 @@ def generate_report(output_path: str, df, risk_scored, reconciled, chart_paths: 
     _build_cover_page(story, styles, period_label, prepared_by)
     _build_table_of_contents(story, styles)
     _build_executive_summary(story, styles, df, risk_scored, reconciled, chart_paths)
+
+    if narrative is not None and narrative.get("sections"):
+        _build_ai_narrative_section(story, styles, narrative)
 
     # Mirror each section's OWN gating condition exactly here — using a
     # looser check (e.g. "reconciled is not None") risks printing the

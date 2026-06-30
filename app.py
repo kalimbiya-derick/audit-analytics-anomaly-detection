@@ -29,6 +29,7 @@ from modules.reconciliation_engine import plot_reconciliation_chart, get_actiona
 from modules.risk_scoring_engine import plot_risk_distribution
 from modules.summary_visuals import plot_risk_rating_breakdown, plot_flags_by_method, plot_monthly_anomaly_trend
 from modules.pdf_report_generator import generate_report
+from modules.ai_narrative_generator import generate_findings_narrative, NarrativeGenerationError
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 DEMO_TRANSACTIONS_PATH = DATA_DIR / "amani_microfinance_transactions.csv"
@@ -196,7 +197,7 @@ st.divider()
 
 tab_names = [
     "Overview", "Benford's Law", "Duplicates", "Round Numbers", "Outliers",
-    "Journal Entry Testing", "Related Party", "Reconciliation",
+    "Journal Entry Testing", "Related Party", "Reconciliation", "AI Narrative",
 ]
 tabs = st.tabs(tab_names)
 
@@ -302,6 +303,49 @@ with tabs[7]:
             cols = [c for c in ["loan_id", "borrower", "gl_outstanding_balance",
                                   "schedule_outstanding_balance", "variance", "category"] if c in findings.columns]
             st.dataframe(findings[cols], width='stretch', hide_index=True)
+
+with tabs[8]:
+    st.subheader("AI-Assisted Findings Narrative")
+    st.caption(
+        "Drafts an auditor-style findings narrative from the quantitative results above, using Claude. "
+        "This is an optional, opt-in feature — generating it consumes API credits on your own Anthropic "
+        "account and is never required for anything else in this dashboard."
+    )
+
+    api_key_input = st.text_input(
+        "Anthropic API key", type="password",
+        value="", placeholder="sk-ant-... (or set ANTHROPIC_API_KEY in your environment)",
+        help="Your key is used only for this request and is never stored or logged.",
+    )
+
+    if st.button("✨ Generate AI Narrative"):
+        with st.spinner("Drafting narrative..."):
+            try:
+                narrative_result = generate_findings_narrative(
+                    results, api_key=api_key_input or None
+                )
+                st.session_state["narrative_result"] = narrative_result
+            except NarrativeGenerationError as e:
+                st.error(str(e))
+
+    if "narrative_result" in st.session_state:
+        narrative_result = st.session_state["narrative_result"]
+        st.warning(
+            "**AI-generated draft — requires auditor review.** This narrative is intended to assist, "
+            "not replace, professional analysis. Review, corroborate, and edit before using it anywhere "
+            "near a real audit working paper or client deliverable."
+        )
+        sections = narrative_result["sections"]
+        combined = "\n\n".join(
+            f"{label}\n{sections[key]}" for key, label in [
+                ("overview", "OVERVIEW"), ("key_findings", "KEY FINDINGS"),
+                ("recommendations", "RECOMMENDATIONS"),
+            ] if key in sections
+        )
+        edited = st.text_area("Review and edit before use:", value=combined, height=400)
+        st.caption(f"Drafted by {narrative_result['model']}.")
+        st.download_button("⬇️ Download narrative (text)", data=edited,
+                             file_name="ai_findings_narrative.txt", mime="text/plain")
 
 
 # ---------------------------------------------------------------------------

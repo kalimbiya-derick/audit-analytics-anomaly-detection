@@ -35,17 +35,26 @@ from modules.risk_scoring_engine import print_risk_summary, plot_risk_distributi
 from modules.summary_visuals import plot_risk_rating_breakdown, plot_flags_by_method, plot_monthly_anomaly_trend
 from modules.reconciliation_engine import print_reconciliation_summary, plot_reconciliation_chart
 from modules.pdf_report_generator import generate_report
+from modules.ai_narrative_generator import generate_findings_narrative, NarrativeGenerationError
 
 
 def run_full_audit(transactions_path: str, output_dir: str = "output",
                      loan_gl_path: str = None, loan_schedule_path: str = None,
-                     prepared_by: str = "Audit Analytics System") -> pd.DataFrame:
+                     prepared_by: str = "Audit Analytics System",
+                     generate_narrative: bool = False) -> pd.DataFrame:
     """
     Runs the full audit pipeline (modules/audit_pipeline.py) and handles
     ALL presentation: console summaries, chart generation, CSV exports,
     and the final PDF report. The computation itself lives in
     audit_pipeline.run_audit_pipeline(), shared with the Streamlit
     dashboard (app.py) so both stay in sync from one source of truth.
+
+    generate_narrative: if True, also calls the optional AI-assisted
+    narrative layer (requires an ANTHROPIC_API_KEY environment variable
+    and consumes API credits). Defaults to False — the report is complete
+    and useful without it. If the API key is missing or the call fails,
+    a warning is printed and the report is generated normally without the
+    narrative section, rather than failing the whole run.
 
     Saves two CSVs to output_dir:
         - consolidated_findings.csv : Day 7 view (which methods flagged what)
@@ -137,6 +146,17 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
     related_party_chart_path = Path(output_dir) / "related_party_findings.png"
     plot_related_party_findings(results["related_party_flagged"], str(related_party_chart_path))
 
+    # --- Optional AI-assisted findings narrative (off by default) ---
+    narrative = None
+    if generate_narrative:
+        print()
+        print("Generating AI-assisted findings narrative...")
+        try:
+            narrative = generate_findings_narrative(results)
+            print("AI narrative generated successfully.")
+        except NarrativeGenerationError as e:
+            print(f"⚠ AI narrative skipped: {e}")
+
     # --- Final PDF report ---
     print()
     print("Generating PDF audit report...")
@@ -157,6 +177,7 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
         round_flagged=results["round_flagged"], outlier_flagged=results["outlier_flagged"],
         timing_flagged=results["timing_flagged"], user_concentration=results["user_concentration"],
         related_party_flagged=results["related_party_flagged"], related_party_fuzzy=results["related_party_fuzzy"],
+        narrative=narrative,
         prepared_by=prepared_by,
     )
     print(f"PDF audit report saved to: {report_path}")
@@ -219,5 +240,7 @@ def _print_consolidation_summary(consolidated: pd.DataFrame):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "data/amani_microfinance_transactions.csv"
-    run_full_audit(path)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    path = args[0] if args else "data/amani_microfinance_transactions.csv"
+    narrative_requested = "--narrative" in sys.argv
+    run_full_audit(path, generate_narrative=narrative_requested)
