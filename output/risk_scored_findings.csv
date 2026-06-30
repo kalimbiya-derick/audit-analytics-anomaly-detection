@@ -1,0 +1,261 @@
+transaction_id,date,amount,account,description,user,counterparty,base_score,score_breakdown,materiality_factor,raw_score,risk_score,risk_rating
+TXN10006,2025-02-10 16:18:00,390000.0,Savings Deposit,Micro Business Loan - Savings Deposit,F. Kalemela,Lucy Ngonyani,80,"Duplicate Payment (+40); Statistical Outlier (+25); Benford's Law (+10); Round Number (Moderately round (multiple of 10,000)) (+5)",2.0,160.0,100.0,Critical
+TXN-DUP4,2025-02-10 19:18:00,390000.0,Savings Deposit,Micro Business Loan - Savings Deposit,F. Kalemela,Lucy Ngonyani,80,"Duplicate Payment (+40); Statistical Outlier (+25); Benford's Law (+10); Round Number (Moderately round (multiple of 10,000)) (+5)",2.0,160.0,100.0,Critical
+TXN-DUP2,2025-05-21 17:04:00,373900.0,Savings Deposit,Salary Advance - Savings Deposit,A. Mwakasege,Joseph Lyimo,75,Duplicate Payment (+40); Statistical Outlier (+25); Benford's Law (+10),2.0,150.0,93.8,Critical
+TXN10071,2025-05-21 15:04:00,373900.0,Savings Deposit,Salary Advance - Savings Deposit,A. Mwakasege,Joseph Lyimo,75,Duplicate Payment (+40); Statistical Outlier (+25); Benford's Law (+10),2.0,150.0,93.8,Critical
+TXN-RPT2,2025-02-19 08:13:00,2929200.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,F. Kalemela,F. Kalemela,70,Statistical Outlier (+25); Related Party (Self-dealing) (+45),2.0,140.0,87.5,Critical
+TXN-DUP5,2025-08-05 16:17:00,444000.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,S. Ngowi,Hamisi Kileo,65,Duplicate Payment (+40); Statistical Outlier (+25),2.0,130.0,81.2,Critical
+TXN10031,2025-08-05 10:17:00,444000.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,S. Ngowi,Hamisi Kileo,65,Duplicate Payment (+40); Statistical Outlier (+25),2.0,130.0,81.2,Critical
+TXN-RND6,2025-03-12 14:12:00,3000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,R. Temba,Hamisi Mboya,55,"Statistical Outlier (+25); Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,110.0,68.8,Critical
+TXN-RND7,2025-10-06 08:24:00,3000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,A. Mwakasege,Pendo Sanga,55,"Statistical Outlier (+25); Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,110.0,68.8,Critical
+TXN-RND0,2025-11-19 09:37:00,10000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,A. Mwakasege,Catherine Mushi,55,"Statistical Outlier (+25); Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,110.0,68.8,Critical
+TXN-RND1,2025-02-03 11:57:00,3000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,S. Ngowi,Elisha Kileo,55,"Statistical Outlier (+25); Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,110.0,68.8,Critical
+TXN-RND2,2025-06-19 09:02:00,5000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,J. Mushi,Faraja Ngonyani,45,"Statistical Outlier (+25); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,90.0,56.2,High
+TXN-RND3,2025-07-22 15:01:00,5000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,S. Ngowi,Faraja Kimaro,45,"Statistical Outlier (+25); Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,90.0,56.2,High
+TXN10003,2025-04-23 15:37:00,100000.0,Interest Income,Salary Advance - Interest Income,S. Ngowi,Amani Mwakatobe,45,"Statistical Outlier (+25); Benford's Law (+10); Round Number (Highly round (multiple of 100,000)) (+10)",2.0,90.0,56.2,High
+TXN-ODD1,2025-07-12 10:00:00,1478800.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Salome Kileo,40,Journal Entry Timing (User Concentration) (+30); Benford's Law (+10),2.0,80.0,50.0,High
+TXN10436,2025-08-26 13:37:00,370800.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,R. Temba,Grace Kway,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10378,2025-01-03 11:13:00,176300.0,Interest Income,Agri Loan - Interest Income,J. Mushi,Catherine Ngonyani,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10361,2025-07-23 13:18:00,371900.0,Savings Deposit,Salary Advance - Savings Deposit,F. Kalemela,Pendo Ngonyani,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10113,2025-09-10 15:05:00,110300.0,Processing Fee Income,Salary Advance - Processing Fee Income,A. Mwakasege,Baraka Shayo,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN-FF1,2025-09-08 12:05:00,378000.0,Savings Deposit,Savings Deposit (possible data entry error),R. Temba,Mariam Mwakatobe,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10209,2025-03-20 10:11:00,3997200.0,Savings Deposit,Micro Business Loan - Savings Deposit,S. Ngowi,Faraja Kway,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10266,2025-02-07 14:32:00,372000.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,R. Temba,Salome Massawe,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10234,2025-02-10 13:42:00,169500.0,Interest Income,Group Loan - Interest Income,R. Temba,Joseph Mrema,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10374,2025-01-23 09:01:00,170900.0,Interest Income,Agri Loan - Interest Income,F. Kalemela,Daniel Mboya,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10248,2025-10-22 09:08:00,122900.0,Interest Income,Salary Advance - Interest Income,S. Ngowi,Catherine Mrema,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN-FF2,2025-07-09 14:23:00,329000.0,Interest Income,Interest Income (possible data entry error),S. Ngowi,Baraka Massawe,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10282,2025-05-29 08:18:00,392800.0,Savings Deposit,Salary Advance - Savings Deposit,S. Ngowi,Catherine Kimaro,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN10167,2025-07-15 17:33:00,137400.0,Interest Income,Group Loan - Interest Income,R. Temba,Oscar Sanga,35,Statistical Outlier (+25); Benford's Law (+10),2.0,70.0,43.8,High
+TXN-ODD3,2025-01-18 11:00:00,1089600.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Neema Mwakatobe,40,Journal Entry Timing (User Concentration) (+30); Benford's Law (+10),1.5278553865806452,61.11421546322581,38.2,High
+TXN10284,2025-02-25 17:47:00,87700.0,Processing Fee Income,Agri Loan - Processing Fee Income,J. Mushi,Hamisi Lyimo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10420,2025-09-17 12:40:00,638500.0,Savings Deposit,Group Loan - Savings Deposit,S. Ngowi,Rashid Shayo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN-FF3,2025-08-14 15:16:00,249000.0,Interest Income,Interest Income (possible data entry error),A. Mwakasege,Baraka Mwakatobe,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10125,2025-04-08 17:32:00,729100.0,Savings Deposit,Group Loan - Savings Deposit,A. Mwakasege,Elisha Kileo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10220,2025-10-08 17:33:00,644100.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,F. Kalemela,Daniel Massawe,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10393,2025-10-29 13:55:00,504900.0,Savings Deposit,Agri Loan - Savings Deposit,R. Temba,Neema Mwakatobe,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10179,2025-09-29 11:24:00,892600.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,F. Kalemela,Oscar Kimaro,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10106,2025-11-14 08:39:00,534000.0,Savings Deposit,Salary Advance - Savings Deposit,F. Kalemela,Daniel Lyimo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10156,2025-04-22 15:28:00,728900.0,Loan Repayment,Salary Advance - Loan Repayment,A. Mwakasege,Lucy Kileo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10323,2025-01-27 12:24:00,659500.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Baraka Kileo,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN-FF0,2025-05-30 09:30:00,282000.0,Interest Income,Interest Income (possible data entry error),A. Mwakasege,Mariam Mrema,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10387,2025-07-29 15:26:00,528600.0,Savings Deposit,Micro Business Loan - Savings Deposit,F. Kalemela,Oscar Mrema,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN10252,2025-03-06 12:39:00,87100.0,Processing Fee Income,Agri Loan - Processing Fee Income,F. Kalemela,Catherine Sanga,25,Statistical Outlier (+25),2.0,50.0,31.2,Medium
+TXN-RND4,2025-05-21 12:28:00,1000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,J. Mushi,Hamisi Mboya,30,"Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",1.402216764482971,42.06650293448913,26.3,Medium
+TXN-RND9,2025-01-14 13:38:00,1000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,J. Mushi,Irene Mushi,30,"Benford's Law (+10); Round Number (Extremely round (multiple of 1,000,000)) (+20)",1.402216764482971,42.06650293448913,26.3,Medium
+TXN-RND8,2025-06-26 17:32:00,2000000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,S. Ngowi,Irene Mwakatobe,20,"Round Number (Extremely round (multiple of 1,000,000)) (+20)",2.0,40.0,25.0,Medium
+TXN-RPT0,2025-01-02 14:05:00,532500.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,A. Mwakasege,A. Mwakasege,45,Related Party (Self-dealing) (+45),0.7466804270871821,33.60061921892319,21.0,Medium
+TXN-ODD0,2025-05-14 23:00:00,742400.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Kulwa Mwakatobe,30,Journal Entry Timing (User Concentration) (+30),1.0410057259521577,31.23017177856473,19.5,Medium
+TXN-ODD6,2025-05-25 10:00:00,720500.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Baraka Shayo,30,Journal Entry Timing (User Concentration) (+30),1.0102971788099806,30.308915364299416,18.9,Medium
+TXN-RPT1,2025-12-05 17:30:00,344200.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,A. Mwakasege,A. Mwakasege,55,Benford's Law (+10); Related Party (Self-dealing) (+45),0.5,27.5,17.2,Low
+TXN-DUP3,2025-10-08 12:19:00,10700.0,Interest Income,Salary Advance - Interest Income,R. Temba,Grace Shayo,50,Duplicate Payment (+40); Benford's Law (+10),0.5,25.0,15.6,Low
+TXN10062,2025-10-08 08:19:00,10700.0,Interest Income,Salary Advance - Interest Income,R. Temba,Grace Shayo,50,Duplicate Payment (+40); Benford's Law (+10),0.5,25.0,15.6,Low
+TXN-ODD4,2025-02-01 12:00:00,541000.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Grace Shayo,30,Journal Entry Timing (User Concentration) (+30),0.7585992695852873,22.75797808755862,14.2,Low
+TXN-ODD2,2025-06-23 03:00:00,397400.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Pendo Kway,40,Journal Entry Timing (User Concentration) (+30); Benford's Law (+10),0.5572409422055328,22.289637688221312,13.9,Low
+TXN-ODD7,2025-10-20 02:00:00,384300.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Elisha Mushi,40,Journal Entry Timing (User Concentration) (+30); Benford's Law (+10),0.5388719025908058,21.554876103632232,13.5,Low
+TXN10327,2025-09-12 15:06:00,174200.0,Savings Deposit,Salary Advance - Savings Deposit,F. Kalemela,Pendo Kimaro,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10394,2025-04-16 11:51:00,1721300.0,Loan Disbursement,Agri Loan - Loan Disbursement,A. Mwakasege,Lucy Sanga,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10312,2025-05-22 11:59:00,180300.0,Savings Deposit,Micro Business Loan - Savings Deposit,S. Ngowi,Daniel Mushi,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10243,2025-08-20 10:57:00,187900.0,Savings Deposit,Salary Advance - Savings Deposit,A. Mwakasege,Oscar Kileo,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10306,2025-08-05 13:44:00,1839700.0,Loan Disbursement,Group Loan - Loan Disbursement,J. Mushi,Salome Mushi,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10177,2025-01-15 10:17:00,342900.0,Savings Deposit,Micro Business Loan - Savings Deposit,A. Mwakasege,Joseph Kimaro,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10425,2025-12-08 10:07:00,1956500.0,Loan Disbursement,Agri Loan - Loan Disbursement,J. Mushi,Elisha Kway,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10067,2025-03-17 08:57:00,1528000.0,Loan Disbursement,Group Loan - Loan Disbursement,F. Kalemela,Neema Lyimo,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN-DUP0,2025-03-26 17:22:00,24500.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Grace Mboya,40,Duplicate Payment (+40),0.5,20.0,12.5,Low
+TXN10411,2025-03-26 15:22:00,24500.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Grace Mboya,40,Duplicate Payment (+40),0.5,20.0,12.5,Low
+TXN10428,2025-12-31 17:40:00,1585900.0,Loan Disbursement,Salary Advance - Loan Disbursement,R. Temba,Pendo Mrema,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10434,2025-07-25 09:56:00,335000.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,A. Mwakasege,Joseph Massawe,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN-DUP1,2025-07-22 14:46:00,26000.0,Savings Deposit,Micro Business Loan - Savings Deposit,J. Mushi,Hamisi Shayo,40,Duplicate Payment (+40),0.5,20.0,12.5,Low
+TXN10406,2025-07-22 12:46:00,26000.0,Savings Deposit,Micro Business Loan - Savings Deposit,J. Mushi,Hamisi Shayo,40,Duplicate Payment (+40),0.5,20.0,12.5,Low
+TXN10034,2025-05-27 14:44:00,179800.0,Savings Deposit,Agri Loan - Savings Deposit,S. Ngowi,Salome Mboya,10,Benford's Law (+10),2.0,20.0,12.5,Low
+TXN10239,2025-07-09 13:28:00,1379500.0,Loan Disbursement,Group Loan - Loan Disbursement,A. Mwakasege,Elisha Sanga,10,Benford's Law (+10),1.9343580266042586,19.343580266042586,12.1,Low
+TXN10352,2025-05-19 09:08:00,1384400.0,Loan Disbursement,Group Loan - Loan Disbursement,S. Ngowi,Faraja Shayo,10,Benford's Law (+10),1.9412288887502251,19.41228888750225,12.1,Low
+TXN-ODD5,2025-12-23 03:00:00,452800.0,Loan Disbursement,Salary Advance - Loan Disbursement,J. Mushi,Irene Mboya,30,Journal Entry Timing (User Concentration) (+30),0.6349237509578893,19.04771252873668,11.9,Low
+TXN10091,2025-06-16 10:31:00,391400.0,Loan Repayment,Salary Advance - Loan Repayment,A. Mwakasege,Lucy Massawe,10,Benford's Law (+10),1.8593824228028504,18.593824228028502,11.6,Low
+TXN10120,2025-11-17 15:48:00,1323300.0,Loan Disbursement,Agri Loan - Loan Disbursement,R. Temba,Grace Massawe,10,Benford's Law (+10),1.8555534444403157,18.555534444403158,11.6,Low
+TXN10075,2025-06-30 12:48:00,193800.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,R. Temba,Neema Sanga,10,Benford's Law (+10),1.8457142857142856,18.457142857142856,11.5,Low
+TXN10388,2025-10-17 08:50:00,386500.0,Loan Repayment,Agri Loan - Loan Repayment,A. Mwakasege,Joseph Mushi,10,Benford's Law (+10),1.836104513064133,18.36104513064133,11.5,Low
+TXN10259,2025-06-13 11:29:00,1308700.0,Loan Disbursement,Agri Loan - Loan Disbursement,F. Kalemela,Irene Mrema,10,Benford's Law (+10),1.8350810796788644,18.350810796788643,11.5,Low
+TXN10258,2025-06-10 13:46:00,39900.0,Interest Income,Micro Business Loan - Interest Income,A. Mwakasege,Mariam Mwakatobe,10,Benford's Law (+10),1.78125,17.8125,11.1,Low
+TXN10376,2025-04-29 14:40:00,366100.0,Loan Repayment,Group Loan - Loan Repayment,S. Ngowi,Faraja Mboya,10,Benford's Law (+10),1.7391923990498812,17.39192399049881,10.9,Low
+TXN10119,2025-12-03 16:29:00,183100.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,R. Temba,Baraka Lyimo,10,Benford's Law (+10),1.743809523809524,17.43809523809524,10.9,Low
+TXN10191,2025-06-23 11:21:00,362100.0,Loan Repayment,Agri Loan - Loan Repayment,J. Mushi,Catherine Sanga,10,Benford's Law (+10),1.720190023752969,17.201900237529692,10.8,Low
+TXN10287,2025-05-28 13:18:00,141500.0,Savings Deposit,Agri Loan - Savings Deposit,R. Temba,Baraka Kileo,10,Benford's Law (+10),1.7161916312916918,17.16191631291692,10.7,Low
+TXN10002,2025-04-30 16:38:00,1200900.0,Loan Disbursement,Group Loan - Loan Disbursement,R. Temba,Salome Lyimo,10,Benford's Law (+10),1.6839221124676,16.839221124676,10.5,Low
+TXN10210,2025-07-30 13:43:00,138900.0,Savings Deposit,Salary Advance - Savings Deposit,R. Temba,Hamisi Mrema,10,Benford's Law (+10),1.68465736810188,16.8465736810188,10.5,Low
+TXN10166,2025-02-11 13:38:00,353600.0,Loan Repayment,Salary Advance - Loan Repayment,A. Mwakasege,Catherine Mwakatobe,10,Benford's Law (+10),1.6798099762470309,16.798099762470308,10.5,Low
+TXN10364,2025-05-30 09:52:00,174300.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,A. Mwakasege,Pendo Mwakatobe,10,Benford's Law (+10),1.66,16.599999999999998,10.4,Low
+TXN10446,2025-08-20 12:29:00,37400.0,Interest Income,Salary Advance - Interest Income,F. Kalemela,Daniel Kileo,10,Benford's Law (+10),1.6696428571428572,16.696428571428573,10.4,Low
+TXN10138,2025-09-12 17:09:00,351500.0,Loan Repayment,Group Loan - Loan Repayment,A. Mwakasege,Oscar Mboya,10,Benford's Law (+10),1.669833729216152,16.69833729216152,10.4,Low
+TXN10303,2025-09-19 15:51:00,1171000.0,Loan Disbursement,Group Loan - Loan Disbursement,R. Temba,Oscar Mwakatobe,10,Benford's Law (+10),1.6419958312095593,16.41995831209559,10.3,Low
+TXN10053,2025-06-06 11:14:00,1172000.0,Loan Disbursement,Salary Advance - Loan Disbursement,A. Mwakasege,Grace Shayo,10,Benford's Law (+10),1.6433980479740422,16.433980479740423,10.3,Low
+TXN10427,2025-01-16 13:51:00,173700.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,J. Mushi,Irene Sanga,10,Benford's Law (+10),1.6542857142857144,16.542857142857144,10.3,Low
+TXN10405,2025-12-02 13:16:00,1180900.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,F. Kalemela,Lucy Mboya,10,Benford's Law (+10),1.6558777771779407,16.558777771779408,10.3,Low
+TXN10009,2025-12-10 12:44:00,135000.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Catherine Ngonyani,10,Benford's Law (+10),1.6373559733171619,16.373559733171618,10.2,Low
+TXN10445,2025-08-19 15:20:00,171400.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,A. Mwakasege,Daniel Sanga,10,Benford's Law (+10),1.6323809523809525,16.323809523809526,10.2,Low
+TXN10161,2025-01-08 13:50:00,345100.0,Loan Repayment,Salary Advance - Loan Repayment,F. Kalemela,Kulwa Mushi,10,Benford's Law (+10),1.6394299287410927,16.394299287410927,10.2,Low
+TXN10048,2025-03-18 16:02:00,36700.0,Interest Income,Agri Loan - Interest Income,S. Ngowi,Salome Mwakatobe,10,Benford's Law (+10),1.6383928571428572,16.383928571428573,10.2,Low
+TXN10086,2025-10-17 08:22:00,37700.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,A. Mwakasege,Neema Mboya,10,Benford's Law (+10),1.6391304347826088,16.391304347826086,10.2,Low
+TXN10296,2025-06-04 17:46:00,37300.0,Processing Fee Income,Agri Loan - Processing Fee Income,A. Mwakasege,Amani Massawe,10,Benford's Law (+10),1.6217391304347826,16.217391304347824,10.1,Low
+TXN10424,2025-05-06 09:59:00,168100.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,R. Temba,Daniel Mrema,10,Benford's Law (+10),1.600952380952381,16.00952380952381,10.0,Low
+TXN10360,2025-06-03 13:38:00,131800.0,Savings Deposit,Agri Loan - Savings Deposit,A. Mwakasege,Grace Mrema,10,Benford's Law (+10),1.5985445724681626,15.985445724681625,10.0,Low
+TXN10017,2025-12-16 16:48:00,35800.0,Interest Income,Group Loan - Interest Income,A. Mwakasege,Kulwa Kileo,10,Benford's Law (+10),1.5982142857142858,15.982142857142858,10.0,Low
+TXN10235,2025-03-27 15:22:00,166600.0,Loan Loss Provision,Group Loan - Loan Loss Provision,A. Mwakasege,Baraka Kway,10,Benford's Law (+10),1.5866666666666667,15.866666666666667,9.9,Low
+TXN10297,2025-12-08 09:29:00,35600.0,Interest Income,Salary Advance - Interest Income,R. Temba,Faraja Shayo,10,Benford's Law (+10),1.5892857142857142,15.892857142857142,9.9,Low
+TXN10206,2025-12-10 16:05:00,131200.0,Savings Deposit,Micro Business Loan - Savings Deposit,A. Mwakasege,Neema Sanga,10,Benford's Law (+10),1.591267434808975,15.91267434808975,9.9,Low
+TXN10089,2025-08-27 14:52:00,131000.0,Savings Deposit,Micro Business Loan - Savings Deposit,F. Kalemela,Irene Kimaro,10,Benford's Law (+10),1.5888417222559126,15.888417222559125,9.9,Low
+TXN10096,2025-06-30 15:17:00,35200.0,Interest Income,Agri Loan - Interest Income,J. Mushi,Irene Lyimo,10,Benford's Law (+10),1.5714285714285714,15.714285714285714,9.8,Low
+TXN10000,2025-11-24 09:01:00,128800.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Irene Lyimo,10,Benford's Law (+10),1.5621588841722256,15.621588841722255,9.8,Low
+TXN10293,2025-12-12 11:11:00,36000.0,Processing Fee Income,Salary Advance - Processing Fee Income,R. Temba,Mariam Shayo,10,Benford's Law (+10),1.565217391304348,15.652173913043478,9.8,Low
+TXN10410,2025-06-03 10:24:00,327500.0,Loan Repayment,Micro Business Loan - Loan Repayment,R. Temba,Elisha Kileo,10,Benford's Law (+10),1.5558194774346794,15.558194774346795,9.7,Low
+TXN10175,2025-02-25 13:54:00,35500.0,Processing Fee Income,Agri Loan - Processing Fee Income,A. Mwakasege,Lucy Kileo,10,Benford's Law (+10),1.5434782608695652,15.434782608695652,9.6,Low
+TXN10321,2025-10-13 16:08:00,161400.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,F. Kalemela,Hamisi Massawe,10,Benford's Law (+10),1.5371428571428571,15.371428571428572,9.6,Low
+TXN10183,2025-02-26 12:43:00,126900.0,Savings Deposit,Micro Business Loan - Savings Deposit,A. Mwakasege,Pendo Sanga,10,Benford's Law (+10),1.5391146149181323,15.391146149181322,9.6,Low
+TXN10409,2025-02-06 11:24:00,1097300.0,Loan Disbursement,Salary Advance - Loan Disbursement,A. Mwakasege,Daniel Kileo,10,Benford's Law (+10),1.5386524556671641,15.386524556671642,9.6,Low
+TXN10313,2025-04-16 09:06:00,35100.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,R. Temba,Baraka Mrema,10,Benford's Law (+10),1.5260869565217392,15.260869565217392,9.5,Low
+TXN10229,2025-04-14 08:50:00,320300.0,Loan Repayment,Group Loan - Loan Repayment,A. Mwakasege,Baraka Kimaro,10,Benford's Law (+10),1.5216152019002376,15.216152019002376,9.5,Low
+TXN10316,2025-05-02 12:56:00,320900.0,Loan Repayment,Salary Advance - Loan Repayment,S. Ngowi,Rashid Lyimo,10,Benford's Law (+10),1.5244655581947744,15.244655581947743,9.5,Low
+TXN10391,2025-10-07 11:27:00,1080700.0,Loan Disbursement,Group Loan - Loan Disbursement,J. Mushi,Hamisi Massawe,10,Benford's Law (+10),1.515375657376747,15.15375657376747,9.5,Low
+TXN10144,2025-04-23 11:39:00,34200.0,Interest Income,Micro Business Loan - Interest Income,J. Mushi,Elisha Mboya,10,Benford's Law (+10),1.5267857142857142,15.267857142857142,9.5,Low
+TXN10064,2025-12-04 09:18:00,35100.0,Processing Fee Income,Salary Advance - Processing Fee Income,F. Kalemela,Kulwa Kileo,10,Benford's Law (+10),1.5260869565217392,15.260869565217392,9.5,Low
+TXN10298,2025-11-24 12:23:00,35100.0,Processing Fee Income,Group Loan - Processing Fee Income,F. Kalemela,Hamisi Lyimo,10,Benford's Law (+10),1.5260869565217392,15.260869565217392,9.5,Low
+TXN10133,2025-02-11 13:54:00,125800.0,Savings Deposit,Group Loan - Savings Deposit,A. Mwakasege,Salome Shayo,10,Benford's Law (+10),1.5257731958762886,15.257731958762886,9.5,Low
+TXN10157,2025-07-23 12:12:00,1067600.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,F. Kalemela,Oscar Kileo,10,Benford's Law (+10),1.49700661776202,14.9700661776202,9.4,Low
+TXN10159,2025-10-28 11:52:00,315300.0,Loan Repayment,Micro Business Loan - Loan Repayment,R. Temba,Kulwa Mwakatobe,10,Benford's Law (+10),1.4978622327790974,14.978622327790973,9.4,Low
+TXN10275,2025-10-21 09:12:00,1059100.0,Loan Disbursement,Agri Loan - Loan Disbursement,S. Ngowi,Oscar Kimaro,10,Benford's Law (+10),1.4850877752639147,14.850877752639146,9.3,Low
+TXN10308,2025-07-15 15:55:00,155300.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,R. Temba,Mariam Kileo,10,Benford's Law (+10),1.479047619047619,14.79047619047619,9.2,Low
+TXN10215,2025-03-24 12:28:00,33800.0,Processing Fee Income,Agri Loan - Processing Fee Income,J. Mushi,Elisha Shayo,10,Benford's Law (+10),1.4695652173913043,14.695652173913043,9.2,Low
+TXN10302,2025-03-26 13:54:00,33600.0,Processing Fee Income,Group Loan - Processing Fee Income,F. Kalemela,Oscar Kileo,10,Benford's Law (+10),1.4608695652173913,14.608695652173914,9.1,Low
+TXN10207,2025-04-03 11:21:00,151200.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,F. Kalemela,Grace Lyimo,10,Benford's Law (+10),1.44,14.399999999999999,9.0,Low
+TXN10165,2025-09-03 14:27:00,118200.0,Savings Deposit,Micro Business Loan - Savings Deposit,S. Ngowi,Daniel Mrema,10,Benford's Law (+10),1.4335961188599151,14.335961188599152,9.0,Low
+TXN10242,2025-11-10 12:44:00,150100.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,F. Kalemela,Grace Kileo,10,Benford's Law (+10),1.4295238095238094,14.295238095238094,8.9,Low
+TXN10433,2025-10-20 13:07:00,32900.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,F. Kalemela,Baraka Mwakatobe,10,Benford's Law (+10),1.4304347826086956,14.304347826086957,8.9,Low
+TXN10371,2025-09-05 09:18:00,149300.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,F. Kalemela,Catherine Kileo,10,Benford's Law (+10),1.421904761904762,14.21904761904762,8.9,Low
+TXN10124,2025-08-01 15:30:00,300400.0,Loan Repayment,Group Loan - Loan Repayment,F. Kalemela,Oscar Sanga,10,Benford's Law (+10),1.4270783847980997,14.270783847980997,8.9,Low
+TXN10363,2025-12-16 16:01:00,116900.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Oscar Kway,10,Benford's Law (+10),1.4178289872650092,14.178289872650092,8.9,Low
+TXN10222,2025-10-02 08:40:00,32200.0,Processing Fee Income,Salary Advance - Processing Fee Income,F. Kalemela,Hamisi Kway,10,Benford's Law (+10),1.4,14.0,8.8,Low
+TXN10281,2025-03-04 17:43:00,31600.0,Processing Fee Income,Agri Loan - Processing Fee Income,A. Mwakasege,Mariam Shayo,10,Benford's Law (+10),1.373913043478261,13.73913043478261,8.6,Low
+TXN10213,2025-03-24 11:51:00,31400.0,Processing Fee Income,Group Loan - Processing Fee Income,J. Mushi,Elisha Massawe,10,Benford's Law (+10),1.3652173913043477,13.652173913043477,8.5,Low
+TXN10280,2025-09-08 13:30:00,30200.0,Interest Income,Salary Advance - Interest Income,A. Mwakasege,Salome Kway,10,Benford's Law (+10),1.3482142857142858,13.482142857142858,8.4,Low
+TXN10328,2025-06-10 14:02:00,30800.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,F. Kalemela,Hamisi Kway,10,Benford's Law (+10),1.3391304347826087,13.391304347826088,8.4,Low
+TXN10329,2025-05-14 16:59:00,30900.0,Processing Fee Income,Agri Loan - Processing Fee Income,F. Kalemela,Neema Massawe,10,Benford's Law (+10),1.3434782608695652,13.434782608695652,8.4,Low
+TXN10180,2025-06-09 13:49:00,30900.0,Processing Fee Income,Agri Loan - Processing Fee Income,F. Kalemela,Catherine Mushi,10,Benford's Law (+10),1.3434782608695652,13.434782608695652,8.4,Low
+TXN10299,2025-03-20 15:47:00,30900.0,Processing Fee Income,Group Loan - Processing Fee Income,R. Temba,Lucy Shayo,10,Benford's Law (+10),1.3434782608695652,13.434782608695652,8.4,Low
+TXN10173,2025-07-01 14:55:00,109800.0,Savings Deposit,Salary Advance - Savings Deposit,R. Temba,Baraka Massawe,10,Benford's Law (+10),1.3317161916312916,13.317161916312916,8.3,Low
+TXN10058,2025-09-24 16:43:00,108700.0,Savings Deposit,Micro Business Loan - Savings Deposit,S. Ngowi,Grace Kimaro,10,Benford's Law (+10),1.3183747725894481,13.18374772589448,8.2,Low
+TXN10105,2025-09-25 14:28:00,138400.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,S. Ngowi,Joseph Ngonyani,10,Benford's Law (+10),1.318095238095238,13.18095238095238,8.2,Low
+TXN10195,2025-08-14 09:30:00,136400.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,R. Temba,Joseph Massawe,10,Benford's Law (+10),1.299047619047619,12.99047619047619,8.1,Low
+TXN10115,2025-03-31 15:33:00,105500.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Oscar Massawe,10,Benford's Law (+10),1.2795633717404487,12.795633717404487,8.0,Low
+TXN10154,2025-08-21 13:42:00,104600.0,Savings Deposit,Agri Loan - Savings Deposit,R. Temba,Salome Shayo,10,Benford's Law (+10),1.2686476652516676,12.686476652516676,7.9,Low
+TXN10087,2025-09-17 13:00:00,130300.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,S. Ngowi,Pendo Kileo,10,Benford's Law (+10),1.240952380952381,12.40952380952381,7.8,Low
+TXN10050,2025-07-01 16:56:00,129800.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,F. Kalemela,Elisha Lyimo,10,Benford's Law (+10),1.2361904761904763,12.361904761904762,7.7,Low
+TXN10108,2025-01-02 14:28:00,100800.0,Savings Deposit,Agri Loan - Savings Deposit,J. Mushi,Pendo Massawe,10,Benford's Law (+10),1.222559126743481,12.22559126743481,7.6,Low
+TXN10150,2025-10-27 14:52:00,100100.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Lucy Kileo,10,Benford's Law (+10),1.2140691328077622,12.140691328077622,7.6,Low
+TXN10012,2025-06-11 11:41:00,121500.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,S. Ngowi,Mariam Mboya,10,Benford's Law (+10),1.1571428571428573,11.571428571428573,7.2,Low
+TXN10137,2025-10-17 10:10:00,160000.0,Loan Repayment,Agri Loan - Loan Repayment,S. Ngowi,Catherine Ngonyani,15,"Benford's Law (+10); Round Number (Moderately round (multiple of 10,000)) (+5)",0.7600950118764845,11.401425178147267,7.1,Low
+TXN10269,2025-06-20 15:33:00,111100.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,R. Temba,Elisha Ngonyani,10,Benford's Law (+10),1.0580952380952382,10.580952380952382,6.6,Low
+TXN-RND5,2025-07-30 16:30:00,500000.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,J. Mushi,Irene Shayo,15,"Round Number (Very round (multiple of 500,000)) (+15)",0.7011083822414855,10.516625733622282,6.6,Low
+TXN10320,2025-06-03 10:51:00,108100.0,Loan Loss Provision,Group Loan - Loan Loss Provision,S. Ngowi,Baraka Sanga,10,Benford's Law (+10),1.0295238095238095,10.295238095238094,6.4,Low
+TXN10078,2025-02-12 14:08:00,107700.0,Loan Loss Provision,Group Loan - Loan Loss Provision,A. Mwakasege,Faraja Mushi,10,Benford's Law (+10),1.0257142857142858,10.257142857142858,6.4,Low
+TXN10076,2025-04-23 12:27:00,107300.0,Loan Loss Provision,Group Loan - Loan Loss Provision,A. Mwakasege,Amani Shayo,10,Benford's Law (+10),1.0219047619047619,10.219047619047618,6.4,Low
+TXN10090,2025-05-23 15:15:00,108100.0,Loan Loss Provision,Group Loan - Loan Loss Provision,J. Mushi,Mariam Kimaro,10,Benford's Law (+10),1.0295238095238095,10.295238095238094,6.4,Low
+TXN10131,2025-08-14 09:33:00,105700.0,Loan Loss Provision,Group Loan - Loan Loss Provision,F. Kalemela,Amani Kway,10,Benford's Law (+10),1.0066666666666666,10.066666666666666,6.3,Low
+TXN10022,2025-02-10 09:46:00,105600.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,F. Kalemela,Catherine Sanga,10,Benford's Law (+10),1.0057142857142858,10.057142857142857,6.3,Low
+TXN10232,2025-07-17 13:11:00,103700.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,R. Temba,Pendo Kimaro,10,Benford's Law (+10),0.9876190476190476,9.876190476190477,6.2,Low
+TXN10112,2025-05-28 15:07:00,105000.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,S. Ngowi,Joseph Kway,10,Benford's Law (+10),1.0,10.0,6.2,Low
+TXN10032,2025-01-08 09:59:00,198100.0,Loan Repayment,Group Loan - Loan Repayment,S. Ngowi,Faraja Shayo,10,Benford's Law (+10),0.9410926365795724,9.410926365795724,5.9,Low
+TXN10356,2025-06-04 12:31:00,197400.0,Loan Repayment,Salary Advance - Loan Repayment,S. Ngowi,Catherine Mwakatobe,10,Benford's Law (+10),0.9377672209026128,9.377672209026128,5.9,Low
+TXN10072,2025-06-13 16:05:00,195100.0,Loan Repayment,Agri Loan - Loan Repayment,S. Ngowi,Elisha Lyimo,10,Benford's Law (+10),0.9268408551068884,9.268408551068884,5.8,Low
+TXN10261,2025-10-23 13:12:00,191900.0,Loan Repayment,Group Loan - Loan Repayment,S. Ngowi,Pendo Sanga,10,Benford's Law (+10),0.9116389548693586,9.116389548693586,5.7,Low
+TXN10042,2025-05-06 13:18:00,184600.0,Loan Repayment,Micro Business Loan - Loan Repayment,A. Mwakasege,Oscar Sanga,10,Benford's Law (+10),0.876959619952494,8.76959619952494,5.5,Low
+TXN10279,2025-05-07 12:35:00,19700.0,Interest Income,Agri Loan - Interest Income,A. Mwakasege,Hamisi Massawe,10,Benford's Law (+10),0.8794642857142857,8.794642857142858,5.5,Low
+TXN10304,2025-08-22 17:03:00,19700.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,A. Mwakasege,Oscar Mboya,10,Benford's Law (+10),0.8565217391304348,8.565217391304348,5.4,Low
+TXN10319,2025-03-18 12:24:00,182700.0,Loan Repayment,Agri Loan - Loan Repayment,F. Kalemela,Salome Mrema,10,Benford's Law (+10),0.8679334916864608,8.679334916864608,5.4,Low
+TXN10330,2025-06-18 11:24:00,19800.0,Processing Fee Income,Salary Advance - Processing Fee Income,R. Temba,Hamisi Mrema,10,Benford's Law (+10),0.8608695652173913,8.608695652173914,5.4,Low
+TXN10441,2025-02-13 17:06:00,19600.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,S. Ngowi,Elisha Mboya,10,Benford's Law (+10),0.8521739130434782,8.521739130434781,5.3,Low
+TXN10309,2025-12-01 13:07:00,173800.0,Loan Repayment,Agri Loan - Loan Repayment,R. Temba,Salome Shayo,10,Benford's Law (+10),0.8256532066508313,8.256532066508314,5.2,Low
+TXN10172,2025-01-31 17:35:00,19000.0,Processing Fee Income,Group Loan - Processing Fee Income,J. Mushi,Kulwa Mboya,10,Benford's Law (+10),0.8260869565217391,8.26086956521739,5.2,Low
+TXN10010,2025-03-25 15:24:00,18500.0,Interest Income,Micro Business Loan - Interest Income,A. Mwakasege,Salome Lyimo,10,Benford's Law (+10),0.8258928571428571,8.258928571428571,5.2,Low
+TXN10046,2025-05-22 08:00:00,18500.0,Interest Income,Agri Loan - Interest Income,A. Mwakasege,Elisha Mboya,10,Benford's Law (+10),0.8258928571428571,8.258928571428571,5.2,Low
+TXN10395,2025-05-30 12:36:00,18400.0,Interest Income,Agri Loan - Interest Income,J. Mushi,Rashid Mboya,10,Benford's Law (+10),0.8214285714285714,8.214285714285714,5.1,Low
+TXN10008,2025-05-23 15:40:00,18400.0,Interest Income,Agri Loan - Interest Income,A. Mwakasege,Faraja Kimaro,10,Benford's Law (+10),0.8214285714285714,8.214285714285714,5.1,Low
+TXN10011,2025-04-28 08:51:00,18400.0,Interest Income,Agri Loan - Interest Income,J. Mushi,Mariam Massawe,10,Benford's Law (+10),0.8214285714285714,8.214285714285714,5.1,Low
+TXN10224,2025-12-09 09:33:00,18300.0,Interest Income,Micro Business Loan - Interest Income,R. Temba,Catherine Sanga,10,Benford's Law (+10),0.8169642857142857,8.169642857142858,5.1,Low
+TXN10246,2025-07-04 16:36:00,18300.0,Interest Income,Micro Business Loan - Interest Income,F. Kalemela,Oscar Sanga,10,Benford's Law (+10),0.8169642857142857,8.169642857142858,5.1,Low
+TXN10291,2025-03-10 16:29:00,18000.0,Interest Income,Agri Loan - Interest Income,A. Mwakasege,Grace Kileo,10,Benford's Law (+10),0.8035714285714286,8.035714285714286,5.0,Low
+TXN10422,2025-02-10 16:58:00,168300.0,Loan Repayment,Group Loan - Loan Repayment,A. Mwakasege,Elisha Sanga,10,Benford's Law (+10),0.7995249406175772,7.9952494061757715,5.0,Low
+TXN10362,2025-07-21 13:07:00,18500.0,Processing Fee Income,Agri Loan - Processing Fee Income,R. Temba,Grace Ngonyani,10,Benford's Law (+10),0.8043478260869565,8.043478260869566,5.0,Low
+TXN10241,2025-09-23 14:58:00,18500.0,Processing Fee Income,Group Loan - Processing Fee Income,A. Mwakasege,Daniel Massawe,10,Benford's Law (+10),0.8043478260869565,8.043478260869566,5.0,Low
+TXN10286,2025-12-15 10:00:00,18000.0,Processing Fee Income,Group Loan - Processing Fee Income,S. Ngowi,Faraja Shayo,10,Benford's Law (+10),0.782608695652174,7.826086956521739,4.9,Low
+TXN10353,2025-01-14 09:22:00,17900.0,Processing Fee Income,Salary Advance - Processing Fee Income,R. Temba,Catherine Ngonyani,10,Benford's Law (+10),0.7782608695652173,7.782608695652174,4.9,Low
+TXN10104,2025-02-13 11:07:00,17900.0,Processing Fee Income,Agri Loan - Processing Fee Income,R. Temba,Neema Ngonyani,10,Benford's Law (+10),0.7782608695652173,7.782608695652174,4.9,Low
+TXN10077,2025-03-26 15:58:00,162600.0,Loan Repayment,Micro Business Loan - Loan Repayment,S. Ngowi,Salome Mushi,10,Benford's Law (+10),0.7724465558194774,7.724465558194774,4.8,Low
+TXN10245,2025-09-18 11:07:00,158600.0,Loan Repayment,Micro Business Loan - Loan Repayment,S. Ngowi,Elisha Lyimo,10,Benford's Law (+10),0.7534441805225653,7.534441805225653,4.7,Low
+TXN10093,2025-07-28 15:35:00,159400.0,Loan Repayment,Group Loan - Loan Repayment,S. Ngowi,Pendo Mboya,10,Benford's Law (+10),0.7572446555819478,7.572446555819478,4.7,Low
+TXN10277,2025-09-23 11:35:00,16400.0,Interest Income,Salary Advance - Interest Income,S. Ngowi,Pendo Sanga,10,Benford's Law (+10),0.7321428571428571,7.321428571428571,4.6,Low
+TXN10401,2025-09-11 12:20:00,16500.0,Interest Income,Agri Loan - Interest Income,R. Temba,Kulwa Sanga,10,Benford's Law (+10),0.7366071428571429,7.366071428571429,4.6,Low
+TXN10094,2025-01-09 09:18:00,152400.0,Loan Repayment,Salary Advance - Loan Repayment,F. Kalemela,Mariam Kway,10,Benford's Law (+10),0.7239904988123516,7.239904988123516,4.5,Low
+TXN10317,2025-05-21 08:35:00,16100.0,Processing Fee Income,Group Loan - Processing Fee Income,S. Ngowi,Faraja Mboya,10,Benford's Law (+10),0.7,7.0,4.4,Low
+TXN10344,2025-04-02 13:01:00,144300.0,Loan Repayment,Micro Business Loan - Loan Repayment,S. Ngowi,Elisha Kway,10,Benford's Law (+10),0.6855106888361046,6.855106888361045,4.3,Low
+TXN10348,2025-06-17 08:40:00,14900.0,Interest Income,Salary Advance - Interest Income,F. Kalemela,Oscar Mrema,10,Benford's Law (+10),0.6651785714285714,6.6517857142857135,4.2,Low
+TXN10088,2025-12-29 10:27:00,138500.0,Loan Repayment,Group Loan - Loan Repayment,A. Mwakasege,Rashid Mboya,10,Benford's Law (+10),0.6579572446555819,6.579572446555819,4.1,Low
+TXN10169,2025-08-20 11:26:00,14400.0,Interest Income,Micro Business Loan - Interest Income,S. Ngowi,Oscar Shayo,10,Benford's Law (+10),0.6428571428571429,6.428571428571429,4.0,Low
+TXN10268,2025-11-05 16:25:00,14700.0,Processing Fee Income,Agri Loan - Processing Fee Income,J. Mushi,Baraka Mushi,10,Benford's Law (+10),0.6391304347826087,6.391304347826087,4.0,Low
+TXN10015,2025-02-26 10:40:00,135400.0,Loan Repayment,Group Loan - Loan Repayment,J. Mushi,Neema Ngonyani,10,Benford's Law (+10),0.643230403800475,6.43230403800475,4.0,Low
+TXN10136,2025-01-29 12:22:00,14100.0,Interest Income,Group Loan - Interest Income,F. Kalemela,Neema Mwakatobe,10,Benford's Law (+10),0.6294642857142857,6.294642857142857,3.9,Low
+TXN10030,2025-06-23 09:15:00,131800.0,Loan Repayment,Agri Loan - Loan Repayment,S. Ngowi,Grace Sanga,10,Benford's Law (+10),0.6261282660332541,6.261282660332541,3.9,Low
+TXN10292,2025-11-28 12:45:00,132900.0,Loan Repayment,Salary Advance - Loan Repayment,A. Mwakasege,Amani Kway,10,Benford's Law (+10),0.631353919239905,6.31353919239905,3.9,Low
+TXN10084,2025-10-24 08:59:00,13800.0,Interest Income,Micro Business Loan - Interest Income,F. Kalemela,Mariam Shayo,10,Benford's Law (+10),0.6160714285714286,6.1607142857142865,3.9,Low
+TXN10028,2025-10-20 17:30:00,131900.0,Loan Repayment,Micro Business Loan - Loan Repayment,F. Kalemela,Pendo Shayo,10,Benford's Law (+10),0.626603325415677,6.26603325415677,3.9,Low
+TXN10307,2025-01-17 12:26:00,132700.0,Loan Repayment,Salary Advance - Loan Repayment,S. Ngowi,Elisha Mboya,10,Benford's Law (+10),0.6304038004750594,6.304038004750594,3.9,Low
+TXN10359,2025-06-20 17:24:00,13600.0,Interest Income,Agri Loan - Interest Income,S. Ngowi,Oscar Kimaro,10,Benford's Law (+10),0.6071428571428571,6.071428571428571,3.8,Low
+TXN10056,2025-02-25 17:27:00,13400.0,Interest Income,Micro Business Loan - Interest Income,R. Temba,Kulwa Shayo,10,Benford's Law (+10),0.5982142857142857,5.982142857142857,3.7,Low
+TXN10301,2025-10-16 09:03:00,13600.0,Processing Fee Income,Agri Loan - Processing Fee Income,R. Temba,Rashid Lyimo,10,Benford's Law (+10),0.591304347826087,5.91304347826087,3.7,Low
+TXN10228,2025-11-20 10:51:00,121800.0,Loan Repayment,Micro Business Loan - Loan Repayment,S. Ngowi,Catherine Kway,10,Benford's Law (+10),0.5786223277909739,5.786223277909739,3.6,Low
+TXN10196,2025-06-30 16:04:00,12900.0,Interest Income,Micro Business Loan - Interest Income,J. Mushi,Oscar Mrema,10,Benford's Law (+10),0.5758928571428571,5.758928571428571,3.6,Low
+TXN10375,2025-09-22 10:35:00,117500.0,Loan Repayment,Group Loan - Loan Repayment,S. Ngowi,Kulwa Sanga,10,Benford's Law (+10),0.5581947743467933,5.581947743467933,3.5,Low
+TXN10126,2025-06-24 16:17:00,396100.0,Loan Disbursement,Group Loan - Loan Disbursement,A. Mwakasege,Joseph Kway,10,Benford's Law (+10),0.5554180604117048,5.5541806041170485,3.5,Low
+TXN10369,2025-01-06 09:16:00,117000.0,Loan Repayment,Agri Loan - Loan Repayment,R. Temba,Rashid Kway,10,Benford's Law (+10),0.5558194774346793,5.558194774346793,3.5,Low
+TXN10300,2025-10-03 11:48:00,112600.0,Loan Repayment,Salary Advance - Loan Repayment,S. Ngowi,Catherine Sanga,10,Benford's Law (+10),0.534916864608076,5.349168646080759,3.3,Low
+TXN10415,2025-04-16 16:38:00,11900.0,Processing Fee Income,Salary Advance - Processing Fee Income,S. Ngowi,Grace Kway,10,Benford's Law (+10),0.5173913043478261,5.173913043478261,3.2,Low
+TXN10324,2025-09-03 11:55:00,11600.0,Interest Income,Agri Loan - Interest Income,F. Kalemela,Joseph Mushi,10,Benford's Law (+10),0.5178571428571429,5.178571428571429,3.2,Low
+TXN10263,2025-06-30 08:03:00,11500.0,Interest Income,Salary Advance - Interest Income,S. Ngowi,Pendo Ngonyani,10,Benford's Law (+10),0.5133928571428571,5.133928571428571,3.2,Low
+TXN10247,2025-02-03 12:25:00,39700.0,Savings Deposit,Group Loan - Savings Deposit,S. Ngowi,Pendo Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10227,2025-01-23 13:34:00,11000.0,Interest Income,Group Loan - Interest Income,S. Ngowi,Faraja Mboya,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10100,2025-01-28 16:18:00,18200.0,Savings Deposit,Micro Business Loan - Savings Deposit,S. Ngowi,Elisha Mboya,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10037,2025-02-05 17:04:00,10400.0,Savings Deposit,Agri Loan - Savings Deposit,J. Mushi,Hamisi Shayo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10134,2025-11-13 09:15:00,30200.0,Savings Deposit,Group Loan - Savings Deposit,J. Mushi,Joseph Lyimo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10182,2025-11-07 15:26:00,11000.0,Interest Income,Salary Advance - Interest Income,J. Mushi,Grace Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10019,2025-11-17 12:53:00,18200.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Rashid Ngonyani,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10013,2025-05-16 10:15:00,10900.0,Savings Deposit,Group Loan - Savings Deposit,A. Mwakasege,Salome Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10392,2025-05-15 13:55:00,316900.0,Loan Disbursement,Agri Loan - Loan Disbursement,F. Kalemela,Oscar Kileo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10331,2025-05-12 15:46:00,30900.0,Savings Deposit,Salary Advance - Savings Deposit,F. Kalemela,Pendo Mrema,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10396,2025-07-30 08:17:00,13400.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Elisha Kway,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10380,2025-07-18 17:25:00,11200.0,Processing Fee Income,Group Loan - Processing Fee Income,A. Mwakasege,Daniel Kimaro,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10204,2025-06-20 09:37:00,18900.0,Savings Deposit,Group Loan - Savings Deposit,A. Mwakasege,Elisha Kimaro,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10265,2025-07-07 08:25:00,332800.0,Loan Disbursement,Salary Advance - Loan Disbursement,A. Mwakasege,Salome Lyimo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10346,2025-07-16 10:50:00,17600.0,Savings Deposit,Micro Business Loan - Savings Deposit,A. Mwakasege,Catherine Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10382,2025-12-11 10:20:00,183900.0,Loan Disbursement,Agri Loan - Loan Disbursement,J. Mushi,Hamisi Massawe,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10139,2025-12-08 08:57:00,37100.0,Loan Loss Provision,Agri Loan - Loan Loss Provision,R. Temba,Joseph Mboya,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10447,2025-12-23 17:02:00,104300.0,Loan Repayment,Agri Loan - Loan Repayment,J. Mushi,Kulwa Mwakatobe,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10205,2025-12-29 09:19:00,10400.0,Processing Fee Income,Agri Loan - Processing Fee Income,A. Mwakasege,Mariam Mboya,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10340,2025-06-03 09:41:00,33400.0,Savings Deposit,Group Loan - Savings Deposit,S. Ngowi,Baraka Kileo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10121,2025-05-28 15:56:00,30500.0,Savings Deposit,Agri Loan - Savings Deposit,J. Mushi,Pendo Kileo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10188,2025-06-10 17:27:00,11100.0,Processing Fee Income,Salary Advance - Processing Fee Income,S. Ngowi,Mariam Kway,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10170,2025-06-10 14:20:00,31200.0,Savings Deposit,Group Loan - Savings Deposit,F. Kalemela,Irene Kimaro,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10442,2025-10-31 17:03:00,18900.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,A. Mwakasege,Elisha Lyimo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10103,2025-02-07 17:40:00,34100.0,Savings Deposit,Salary Advance - Savings Deposit,F. Kalemela,Baraka Mwakatobe,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10160,2025-05-22 10:08:00,10200.0,Processing Fee Income,Micro Business Loan - Processing Fee Income,J. Mushi,Irene Mwakatobe,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10437,2025-03-19 08:59:00,32900.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,R. Temba,Amani Lyimo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10384,2025-08-05 10:31:00,35600.0,Savings Deposit,Agri Loan - Savings Deposit,F. Kalemela,Salome Kway,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10163,2025-08-18 13:32:00,11300.0,Processing Fee Income,Agri Loan - Processing Fee Income,R. Temba,Daniel Mrema,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10018,2025-08-21 08:46:00,30600.0,Savings Deposit,Micro Business Loan - Savings Deposit,F. Kalemela,Irene Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10271,2025-09-17 16:34:00,31500.0,Loan Loss Provision,Salary Advance - Loan Loss Provision,J. Mushi,Joseph Mrema,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10035,2025-04-08 12:13:00,338900.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,A. Mwakasege,Salome Mushi,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10074,2025-08-04 14:57:00,3300.0,Processing Fee Income,Group Loan - Processing Fee Income,S. Ngowi,Amani Ngonyani,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10426,2025-09-12 13:33:00,10200.0,Processing Fee Income,Agri Loan - Processing Fee Income,A. Mwakasege,Irene Mwakatobe,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10123,2025-02-28 15:07:00,18400.0,Savings Deposit,Salary Advance - Savings Deposit,A. Mwakasege,Elisha Mrema,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10390,2025-10-21 09:17:00,10700.0,Processing Fee Income,Group Loan - Processing Fee Income,J. Mushi,Lucy Sanga,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10147,2025-03-26 12:58:00,34600.0,Loan Loss Provision,Micro Business Loan - Loan Loss Provision,A. Mwakasege,Joseph Kway,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10026,2025-10-29 11:00:00,355400.0,Loan Disbursement,Micro Business Loan - Loan Disbursement,J. Mushi,Baraka Lyimo,10,Benford's Law (+10),0.5,5.0,3.1,Low
+TXN10069,2025-08-15 17:52:00,40000.0,Savings Deposit,Group Loan - Savings Deposit,R. Temba,Rashid Shayo,5,"Round Number (Moderately round (multiple of 10,000)) (+5)",0.5,2.5,1.6,Low

@@ -1,0 +1,27 @@
+loan_id,borrower,product,officer,disbursement_date,disbursement_amount,schedule_outstanding_balance
+LN2015,Catherine Mrema,Salary Advance,R. Temba,2025-08-20 16:01:00,405000.0,236000.0
+LN2030,Joseph Kway,Agri Loan,S. Ngowi,2025-09-09 15:25:00,598000.0,332400.0
+LN2016,Salome Lyimo,Group Loan,F. Kalemela,2025-09-25 12:59:00,1221000.0,813900.0
+LN2021,Grace Massawe,Group Loan,R. Temba,2025-06-06 16:48:00,980000.0,571500.0
+LN2014,Pendo Ngonyani,Micro Business Loan,R. Temba,2025-03-18 10:09:00,788000.0,209357.25
+LN2029,Catherine Mwakatobe,Salary Advance,A. Mwakasege,2025-04-18 11:04:00,716000.0,175958.5
+LN2009,Faraja Kimaro,Agri Loan,R. Temba,2025-05-14 16:23:00,1252000.0,521900.0
+LN2032,Elisha Lyimo,Salary Advance,S. Ngowi,2025-01-27 12:40:00,363000.0,61000.0
+LN2012,Oscar Mboya,Agri Loan,R. Temba,2025-01-15 10:37:00,1188000.0,99000.0
+LN2031,Grace Kway,Micro Business Loan,A. Mwakasege,2025-07-23 09:59:00,1623000.0,1262400.0
+LN2025,Kulwa Kway,Group Loan,F. Kalemela,2025-03-21 17:24:00,405000.0,90000.0
+LN2026,Baraka Mwakatobe,Salary Advance,J. Mushi,2025-04-28 09:01:00,720000.0,80000.0
+LN2005,Neema Sanga,Salary Advance,S. Ngowi,2025-05-23 10:52:00,901000.0,200300.0
+LN2020,Hamisi Kileo,Salary Advance,J. Mushi,2025-05-14 09:38:00,2231000.0,495700.0
+LN2019,Baraka Mwakatobe,Salary Advance,F. Kalemela,2025-02-13 12:17:00,389000.0,43400.0
+LN2024,Amani Kimaro,Group Loan,J. Mushi,2025-04-22 13:11:00,878000.0,194800.0
+LN2027,Grace Lyimo,Group Loan,S. Ngowi,2025-05-16 11:46:00,256000.0,57200.0
+LN2006,Kulwa Mwakatobe,Micro Business Loan,S. Ngowi,2025-07-09 17:36:00,900000.0,600000.0
+LN2028,Baraka Mrema,Salary Advance,J. Mushi,2025-03-10 08:30:00,1603000.0,400600.0
+LN2001,Elisha Massawe,Group Loan,F. Kalemela,2025-04-24 08:35:00,697000.0,290300.0
+LN2013,Neema Mwakatobe,Micro Business Loan,A. Mwakasege,2025-06-16 12:34:00,779000.0,259400.0
+LN2017,Elisha Kway,Salary Advance,F. Kalemela,2025-06-05 09:57:00,963000.0,321000.0
+LN2010,Irene Mrema,Salary Advance,F. Kalemela,2025-07-02 08:01:00,638000.0,318800.0
+LN2022,Pendo Sanga,Group Loan,R. Temba,2025-02-24 14:42:00,727000.0,80600.0
+LN-GHOST0,Catherine Shayo,Group Loan,S. Ngowi,2025-05-08 09:14:00,691000.0,691000.0
+LN-GHOST1,Elisha Mwakatobe,Micro Business Loan,S. Ngowi,2025-02-13 16:49:00,556000.0,556000.0

@@ -1,0 +1,497 @@
+transaction_id,date,account,amount,description,user,counterparty
+TXN10407,2025-01-01 11:30:00,Loan Disbursement,703400.0,Group Loan - Loan Disbursement,F. Kalemela,Elisha Ngonyani
+TXN-RPT0,2025-01-02 14:05:00,Loan Disbursement,532500.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,A. Mwakasege
+TXN10108,2025-01-02 14:28:00,Savings Deposit,100800.0,Agri Loan - Savings Deposit,J. Mushi,Pendo Massawe
+TXN10378,2025-01-03 11:13:00,Interest Income,176300.0,Agri Loan - Interest Income,J. Mushi,Catherine Ngonyani
+TXN10369,2025-01-06 09:16:00,Loan Repayment,117000.0,Agri Loan - Loan Repayment,R. Temba,Rashid Kway
+TXN10101,2025-01-07 17:18:00,Loan Loss Provision,71300.0,Agri Loan - Loan Loss Provision,A. Mwakasege,Pendo Mrema
+TXN10032,2025-01-08 09:59:00,Loan Repayment,198100.0,Group Loan - Loan Repayment,S. Ngowi,Faraja Shayo
+TXN10161,2025-01-08 13:50:00,Loan Repayment,345100.0,Salary Advance - Loan Repayment,F. Kalemela,Kulwa Mushi
+TXN10094,2025-01-09 09:18:00,Loan Repayment,152400.0,Salary Advance - Loan Repayment,F. Kalemela,Mariam Kway
+TXN10403,2025-01-09 09:59:00,Loan Repayment,206600.0,Group Loan - Loan Repayment,J. Mushi,Oscar Mrema
+TXN10337,2025-01-09 16:52:00,Savings Deposit,55700.0,Micro Business Loan - Savings Deposit,J. Mushi,Neema Mwakatobe
+TXN10021,2025-01-10 09:59:00,Interest Income,22600.0,Agri Loan - Interest Income,J. Mushi,Joseph Lyimo
+TXN10151,2025-01-13 17:56:00,Processing Fee Income,25400.0,Micro Business Loan - Processing Fee Income,F. Kalemela,Kulwa Ngonyani
+TXN10114,2025-01-14 09:14:00,Savings Deposit,63600.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Amani Mboya
+TXN10353,2025-01-14 09:22:00,Processing Fee Income,17900.0,Salary Advance - Processing Fee Income,R. Temba,Catherine Ngonyani
+TXN-RND9,2025-01-14 13:38:00,Loan Disbursement,1000000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Irene Mushi
+TXN10055,2025-01-15 09:56:00,Interest Income,60500.0,Micro Business Loan - Interest Income,A. Mwakasege,Faraja Ngonyani
+TXN10177,2025-01-15 10:17:00,Savings Deposit,342900.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Joseph Kimaro
+TXN10377,2025-01-15 17:56:00,Loan Repayment,227100.0,Group Loan - Loan Repayment,S. Ngowi,Oscar Ngonyani
+TXN10237,2025-01-16 10:54:00,Processing Fee Income,22800.0,Micro Business Loan - Processing Fee Income,F. Kalemela,Oscar Mushi
+TXN10427,2025-01-16 13:51:00,Loan Loss Provision,173700.0,Salary Advance - Loan Loss Provision,J. Mushi,Irene Sanga
+TXN10307,2025-01-17 12:26:00,Loan Repayment,132700.0,Salary Advance - Loan Repayment,S. Ngowi,Elisha Mboya
+TXN-ODD3,2025-01-18 11:00:00,Loan Disbursement,1089600.0,Salary Advance - Loan Disbursement,J. Mushi,Neema Mwakatobe
+TXN10049,2025-01-22 12:23:00,Loan Disbursement,234800.0,Micro Business Loan - Loan Disbursement,F. Kalemela,Lucy Lyimo
+TXN10374,2025-01-23 09:01:00,Interest Income,170900.0,Agri Loan - Interest Income,F. Kalemela,Daniel Mboya
+TXN10227,2025-01-23 13:34:00,Interest Income,11000.0,Group Loan - Interest Income,S. Ngowi,Faraja Mboya
+TXN10007,2025-01-24 11:49:00,Interest Income,52600.0,Group Loan - Interest Income,J. Mushi,Catherine Lyimo
+TXN10162,2025-01-27 10:47:00,Loan Loss Provision,254000.0,Group Loan - Loan Loss Provision,J. Mushi,Rashid Kileo
+TXN10323,2025-01-27 12:24:00,Savings Deposit,659500.0,Agri Loan - Savings Deposit,F. Kalemela,Baraka Kileo
+TXN10102,2025-01-27 12:55:00,Loan Loss Provision,75900.0,Group Loan - Loan Loss Provision,S. Ngowi,Daniel Kileo
+TXN10100,2025-01-28 16:18:00,Savings Deposit,18200.0,Micro Business Loan - Savings Deposit,S. Ngowi,Elisha Mboya
+TXN10136,2025-01-29 12:22:00,Interest Income,14100.0,Group Loan - Interest Income,F. Kalemela,Neema Mwakatobe
+TXN10429,2025-01-29 15:54:00,Processing Fee Income,5900.0,Salary Advance - Processing Fee Income,F. Kalemela,Faraja Kimaro
+TXN10172,2025-01-31 17:35:00,Processing Fee Income,19000.0,Group Loan - Processing Fee Income,J. Mushi,Kulwa Mboya
+TXN-ODD4,2025-02-01 12:00:00,Loan Disbursement,541000.0,Salary Advance - Loan Disbursement,J. Mushi,Grace Shayo
+TXN-RND1,2025-02-03 11:57:00,Loan Disbursement,3000000.0,Micro Business Loan - Loan Disbursement,S. Ngowi,Elisha Kileo
+TXN10247,2025-02-03 12:25:00,Savings Deposit,39700.0,Group Loan - Savings Deposit,S. Ngowi,Pendo Sanga
+TXN10171,2025-02-04 09:53:00,Loan Disbursement,445900.0,Salary Advance - Loan Disbursement,J. Mushi,Catherine Shayo
+TXN10226,2025-02-04 13:15:00,Savings Deposit,82700.0,Agri Loan - Savings Deposit,A. Mwakasege,Daniel Ngonyani
+TXN10081,2025-02-05 08:48:00,Loan Disbursement,986400.0,Agri Loan - Loan Disbursement,J. Mushi,Hamisi Lyimo
+TXN10054,2025-02-05 12:22:00,Savings Deposit,222500.0,Salary Advance - Savings Deposit,R. Temba,Rashid Shayo
+TXN10037,2025-02-05 17:04:00,Savings Deposit,10400.0,Agri Loan - Savings Deposit,J. Mushi,Hamisi Shayo
+TXN10409,2025-02-06 11:24:00,Loan Disbursement,1097300.0,Salary Advance - Loan Disbursement,A. Mwakasege,Daniel Kileo
+TXN10187,2025-02-06 14:55:00,Savings Deposit,71900.0,Group Loan - Savings Deposit,J. Mushi,Baraka Shayo
+TXN10417,2025-02-06 16:56:00,Loan Disbursement,837700.0,Group Loan - Loan Disbursement,F. Kalemela,Lucy Kimaro
+TXN10350,2025-02-07 09:17:00,Loan Repayment,248100.0,Group Loan - Loan Repayment,F. Kalemela,Mariam Kway
+TXN-BNF6,2025-02-07 13:45:00,Loan Disbursement,95514.0,Group Loan - Loan Disbursement,A. Mwakasege,Kulwa Mwakatobe
+TXN10266,2025-02-07 14:32:00,Loan Loss Provision,372000.0,Micro Business Loan - Loan Loss Provision,R. Temba,Salome Massawe
+TXN10140,2025-02-07 15:22:00,Processing Fee Income,23400.0,Salary Advance - Processing Fee Income,S. Ngowi,Joseph Mboya
+TXN10041,2025-02-07 16:13:00,Processing Fee Income,22500.0,Micro Business Loan - Processing Fee Income,A. Mwakasege,Irene Mwakatobe
+TXN10103,2025-02-07 17:40:00,Savings Deposit,34100.0,Salary Advance - Savings Deposit,F. Kalemela,Baraka Mwakatobe
+TXN10022,2025-02-10 09:46:00,Loan Loss Provision,105600.0,Agri Loan - Loan Loss Provision,F. Kalemela,Catherine Sanga
+TXN10234,2025-02-10 13:42:00,Interest Income,169500.0,Group Loan - Interest Income,R. Temba,Joseph Mrema
+TXN10006,2025-02-10 16:18:00,Savings Deposit,390000.0,Micro Business Loan - Savings Deposit,F. Kalemela,Lucy Ngonyani
+TXN10422,2025-02-10 16:58:00,Loan Repayment,168300.0,Group Loan - Loan Repayment,A. Mwakasege,Elisha Sanga
+TXN-DUP4,2025-02-10 19:18:00,Savings Deposit,390000.0,Micro Business Loan - Savings Deposit,F. Kalemela,Lucy Ngonyani
+TXN10254,2025-02-11 08:41:00,Processing Fee Income,7000.0,Group Loan - Processing Fee Income,F. Kalemela,Irene Mboya
+TXN10166,2025-02-11 13:38:00,Loan Repayment,353600.0,Salary Advance - Loan Repayment,A. Mwakasege,Catherine Mwakatobe
+TXN10133,2025-02-11 13:54:00,Savings Deposit,125800.0,Group Loan - Savings Deposit,A. Mwakasege,Salome Shayo
+TXN10080,2025-02-11 15:01:00,Savings Deposit,61900.0,Agri Loan - Savings Deposit,A. Mwakasege,Salome Mushi
+TXN10233,2025-02-12 14:05:00,Loan Loss Provision,59200.0,Salary Advance - Loan Loss Provision,A. Mwakasege,Faraja Sanga
+TXN10078,2025-02-12 14:08:00,Loan Loss Provision,107700.0,Group Loan - Loan Loss Provision,A. Mwakasege,Faraja Mushi
+TXN10421,2025-02-12 16:34:00,Processing Fee Income,67500.0,Salary Advance - Processing Fee Income,J. Mushi,Elisha Massawe
+TXN10104,2025-02-13 11:07:00,Processing Fee Income,17900.0,Agri Loan - Processing Fee Income,R. Temba,Neema Ngonyani
+TXN10200,2025-02-13 16:41:00,Loan Repayment,256300.0,Group Loan - Loan Repayment,S. Ngowi,Baraka Lyimo
+TXN10441,2025-02-13 17:06:00,Processing Fee Income,19600.0,Micro Business Loan - Processing Fee Income,S. Ngowi,Elisha Mboya
+TXN10294,2025-02-14 14:42:00,Loan Disbursement,986400.0,Salary Advance - Loan Disbursement,S. Ngowi,Faraja Mwakatobe
+TXN10440,2025-02-17 08:58:00,Loan Repayment,261000.0,Group Loan - Loan Repayment,A. Mwakasege,Rashid Shayo
+TXN-RPT2,2025-02-19 08:13:00,Loan Disbursement,2929200.0,Micro Business Loan - Loan Disbursement,F. Kalemela,F. Kalemela
+TXN10260,2025-02-19 08:18:00,Loan Loss Provision,47400.0,Salary Advance - Loan Loss Provision,F. Kalemela,Neema Lyimo
+TXN10029,2025-02-19 14:22:00,Loan Loss Provision,79100.0,Micro Business Loan - Loan Loss Provision,J. Mushi,Neema Mrema
+TXN10373,2025-02-19 15:46:00,Savings Deposit,206800.0,Salary Advance - Savings Deposit,J. Mushi,Oscar Kimaro
+TXN10135,2025-02-20 09:28:00,Loan Repayment,585600.0,Salary Advance - Loan Repayment,J. Mushi,Joseph Mushi
+TXN10168,2025-02-20 09:54:00,Savings Deposit,60300.0,Group Loan - Savings Deposit,F. Kalemela,Salome Kway
+TXN10347,2025-02-20 14:14:00,Loan Disbursement,298700.0,Group Loan - Loan Disbursement,R. Temba,Kulwa Ngonyani
+TXN10208,2025-02-21 16:49:00,Processing Fee Income,28600.0,Agri Loan - Processing Fee Income,A. Mwakasege,Rashid Mushi
+TXN10044,2025-02-24 16:09:00,Interest Income,7800.0,Salary Advance - Interest Income,F. Kalemela,Joseph Ngonyani
+TXN10175,2025-02-25 13:54:00,Processing Fee Income,35500.0,Agri Loan - Processing Fee Income,A. Mwakasege,Lucy Kileo
+TXN10056,2025-02-25 17:27:00,Interest Income,13400.0,Micro Business Loan - Interest Income,R. Temba,Kulwa Shayo
+TXN10284,2025-02-25 17:47:00,Processing Fee Income,87700.0,Agri Loan - Processing Fee Income,J. Mushi,Hamisi Lyimo
+TXN10015,2025-02-26 10:40:00,Loan Repayment,135400.0,Group Loan - Loan Repayment,J. Mushi,Neema Ngonyani
+TXN10183,2025-02-26 12:43:00,Savings Deposit,126900.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Pendo Sanga
+TXN10189,2025-02-28 14:01:00,Interest Income,7600.0,Salary Advance - Interest Income,S. Ngowi,Faraja Ngonyani
+TXN10123,2025-02-28 15:07:00,Savings Deposit,18400.0,Salary Advance - Savings Deposit,A. Mwakasege,Elisha Mrema
+TXN10025,2025-03-03 11:14:00,Loan Disbursement,835000.0,Agri Loan - Loan Disbursement,R. Temba,Kulwa Mushi
+TXN10221,2025-03-04 08:15:00,Loan Loss Provision,22300.0,Group Loan - Loan Loss Provision,J. Mushi,Oscar Kileo
+TXN10281,2025-03-04 17:43:00,Processing Fee Income,31600.0,Agri Loan - Processing Fee Income,A. Mwakasege,Mariam Shayo
+TXN10250,2025-03-05 16:09:00,Interest Income,9400.0,Agri Loan - Interest Income,A. Mwakasege,Faraja Mwakatobe
+TXN10252,2025-03-06 12:39:00,Processing Fee Income,87100.0,Agri Loan - Processing Fee Income,F. Kalemela,Catherine Sanga
+TXN10082,2025-03-06 15:42:00,Loan Disbursement,2106700.0,Salary Advance - Loan Disbursement,A. Mwakasege,Grace Mrema
+TXN10267,2025-03-07 09:25:00,Interest Income,8100.0,Agri Loan - Interest Income,A. Mwakasege,Kulwa Sanga
+TXN10249,2025-03-07 16:40:00,Processing Fee Income,26500.0,Micro Business Loan - Processing Fee Income,S. Ngowi,Faraja Mwakatobe
+TXN10291,2025-03-10 16:29:00,Interest Income,18000.0,Agri Loan - Interest Income,A. Mwakasege,Grace Kileo
+TXN10218,2025-03-12 08:18:00,Loan Loss Provision,67700.0,Group Loan - Loan Loss Provision,S. Ngowi,Elisha Kway
+TXN10185,2025-03-12 12:18:00,Interest Income,50300.0,Group Loan - Interest Income,S. Ngowi,Daniel Mushi
+TXN-RND6,2025-03-12 14:12:00,Loan Disbursement,3000000.0,Micro Business Loan - Loan Disbursement,R. Temba,Hamisi Mboya
+TXN10315,2025-03-13 16:18:00,Loan Repayment,202900.0,Salary Advance - Loan Repayment,R. Temba,Kulwa Ngonyani
+TXN10065,2025-03-17 08:02:00,Loan Repayment,512000.0,Group Loan - Loan Repayment,J. Mushi,Pendo Ngonyani
+TXN10067,2025-03-17 08:57:00,Loan Disbursement,1528000.0,Group Loan - Loan Disbursement,F. Kalemela,Neema Lyimo
+TXN10319,2025-03-18 12:24:00,Loan Repayment,182700.0,Agri Loan - Loan Repayment,F. Kalemela,Salome Mrema
+TXN10127,2025-03-18 15:34:00,Loan Loss Provision,63400.0,Group Loan - Loan Loss Provision,R. Temba,Lucy Kimaro
+TXN10048,2025-03-18 16:02:00,Interest Income,36700.0,Agri Loan - Interest Income,S. Ngowi,Salome Mwakatobe
+TXN10437,2025-03-19 08:59:00,Loan Loss Provision,32900.0,Salary Advance - Loan Loss Provision,R. Temba,Amani Lyimo
+TXN10130,2025-03-19 15:02:00,Loan Repayment,68300.0,Micro Business Loan - Loan Repayment,A. Mwakasege,Rashid Ngonyani
+TXN10209,2025-03-20 10:11:00,Savings Deposit,3997200.0,Micro Business Loan - Savings Deposit,S. Ngowi,Faraja Kway
+TXN10299,2025-03-20 15:47:00,Processing Fee Income,30900.0,Group Loan - Processing Fee Income,R. Temba,Lucy Shayo
+TXN10213,2025-03-24 11:51:00,Processing Fee Income,31400.0,Group Loan - Processing Fee Income,J. Mushi,Elisha Massawe
+TXN10215,2025-03-24 12:28:00,Processing Fee Income,33800.0,Agri Loan - Processing Fee Income,J. Mushi,Elisha Shayo
+TXN10117,2025-03-24 13:26:00,Savings Deposit,23400.0,Micro Business Loan - Savings Deposit,S. Ngowi,Pendo Massawe
+TXN10010,2025-03-25 15:24:00,Interest Income,18500.0,Micro Business Loan - Interest Income,A. Mwakasege,Salome Lyimo
+TXN10147,2025-03-26 12:58:00,Loan Loss Provision,34600.0,Micro Business Loan - Loan Loss Provision,A. Mwakasege,Joseph Kway
+TXN10302,2025-03-26 13:54:00,Processing Fee Income,33600.0,Group Loan - Processing Fee Income,F. Kalemela,Oscar Kileo
+TXN10411,2025-03-26 15:22:00,Savings Deposit,24500.0,Group Loan - Savings Deposit,F. Kalemela,Grace Mboya
+TXN10077,2025-03-26 15:58:00,Loan Repayment,162600.0,Micro Business Loan - Loan Repayment,S. Ngowi,Salome Mushi
+TXN-DUP0,2025-03-26 17:22:00,Savings Deposit,24500.0,Group Loan - Savings Deposit,F. Kalemela,Grace Mboya
+TXN-BNF13,2025-03-27 14:31:00,Loan Disbursement,908946.0,Group Loan - Loan Disbursement,S. Ngowi,Daniel Mrema
+TXN10235,2025-03-27 15:22:00,Loan Loss Provision,166600.0,Group Loan - Loan Loss Provision,A. Mwakasege,Baraka Kway
+TXN10368,2025-03-27 17:02:00,Processing Fee Income,21400.0,Micro Business Loan - Processing Fee Income,S. Ngowi,Mariam Kimaro
+TXN10083,2025-03-27 17:38:00,Savings Deposit,45600.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Daniel Mwakatobe
+TXN10332,2025-03-28 10:46:00,Processing Fee Income,21100.0,Micro Business Loan - Processing Fee Income,R. Temba,Pendo Mwakatobe
+TXN10186,2025-03-31 10:24:00,Processing Fee Income,27800.0,Salary Advance - Processing Fee Income,R. Temba,Hamisi Sanga
+TXN10115,2025-03-31 15:33:00,Savings Deposit,105500.0,Group Loan - Savings Deposit,F. Kalemela,Oscar Massawe
+TXN10344,2025-04-02 13:01:00,Loan Repayment,144300.0,Micro Business Loan - Loan Repayment,S. Ngowi,Elisha Kway
+TXN10178,2025-04-03 10:36:00,Savings Deposit,59100.0,Micro Business Loan - Savings Deposit,F. Kalemela,Mariam Kileo
+TXN10207,2025-04-03 11:21:00,Loan Loss Provision,151200.0,Agri Loan - Loan Loss Provision,F. Kalemela,Grace Lyimo
+TXN-BNF3,2025-04-07 15:34:00,Loan Disbursement,88035.0,Group Loan - Loan Disbursement,J. Mushi,Catherine Mushi
+TXN10035,2025-04-08 12:13:00,Loan Disbursement,338900.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Salome Mushi
+TXN10125,2025-04-08 17:32:00,Savings Deposit,729100.0,Group Loan - Savings Deposit,A. Mwakasege,Elisha Kileo
+TXN10229,2025-04-14 08:50:00,Loan Repayment,320300.0,Group Loan - Loan Repayment,A. Mwakasege,Baraka Kimaro
+TXN10404,2025-04-14 10:56:00,Savings Deposit,48900.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Joseph Mwakatobe
+TXN10045,2025-04-15 12:32:00,Loan Loss Provision,56000.0,Group Loan - Loan Loss Provision,J. Mushi,Irene Mushi
+TXN10313,2025-04-16 09:06:00,Processing Fee Income,35100.0,Micro Business Loan - Processing Fee Income,R. Temba,Baraka Mrema
+TXN10394,2025-04-16 11:51:00,Loan Disbursement,1721300.0,Agri Loan - Loan Disbursement,A. Mwakasege,Lucy Sanga
+TXN10439,2025-04-16 16:15:00,Loan Loss Provision,95600.0,Salary Advance - Loan Loss Provision,F. Kalemela,Pendo Mushi
+TXN10415,2025-04-16 16:38:00,Processing Fee Income,11900.0,Salary Advance - Processing Fee Income,S. Ngowi,Grace Kway
+TXN10156,2025-04-22 15:28:00,Loan Repayment,728900.0,Salary Advance - Loan Repayment,A. Mwakasege,Lucy Kileo
+TXN10144,2025-04-23 11:39:00,Interest Income,34200.0,Micro Business Loan - Interest Income,J. Mushi,Elisha Mboya
+TXN10076,2025-04-23 12:27:00,Loan Loss Provision,107300.0,Group Loan - Loan Loss Provision,A. Mwakasege,Amani Shayo
+TXN10184,2025-04-23 14:38:00,Loan Disbursement,665800.0,Agri Loan - Loan Disbursement,A. Mwakasege,Amani Lyimo
+TXN10003,2025-04-23 15:37:00,Interest Income,100000.0,Salary Advance - Interest Income,S. Ngowi,Amani Mwakatobe
+TXN10310,2025-04-25 08:48:00,Loan Disbursement,668500.0,Group Loan - Loan Disbursement,R. Temba,Joseph Mrema
+TXN10011,2025-04-28 08:51:00,Interest Income,18400.0,Agri Loan - Interest Income,J. Mushi,Mariam Massawe
+TXN10376,2025-04-29 14:40:00,Loan Repayment,366100.0,Group Loan - Loan Repayment,S. Ngowi,Faraja Mboya
+TXN10285,2025-04-30 08:06:00,Loan Loss Provision,20800.0,Micro Business Loan - Loan Loss Provision,S. Ngowi,Kulwa Kway
+TXN10444,2025-04-30 09:12:00,Loan Repayment,81000.0,Agri Loan - Loan Repayment,J. Mushi,Daniel Mwakatobe
+TXN10002,2025-04-30 16:38:00,Loan Disbursement,1200900.0,Group Loan - Loan Disbursement,R. Temba,Salome Lyimo
+TXN-BNF4,2025-04-30 17:14:00,Loan Disbursement,600011.0,Group Loan - Loan Disbursement,A. Mwakasege,Grace Mwakatobe
+TXN10238,2025-05-01 13:23:00,Loan Loss Provision,58700.0,Group Loan - Loan Loss Provision,F. Kalemela,Baraka Ngonyani
+TXN10217,2025-05-01 14:05:00,Interest Income,22400.0,Micro Business Loan - Interest Income,A. Mwakasege,Hamisi Mushi
+TXN10316,2025-05-02 12:56:00,Loan Repayment,320900.0,Salary Advance - Loan Repayment,S. Ngowi,Rashid Lyimo
+TXN10314,2025-05-06 08:25:00,Loan Loss Provision,285900.0,Micro Business Loan - Loan Loss Provision,F. Kalemela,Hamisi Sanga
+TXN10431,2025-05-06 08:30:00,Interest Income,4800.0,Micro Business Loan - Interest Income,F. Kalemela,Mariam Mwakatobe
+TXN10424,2025-05-06 09:59:00,Loan Loss Provision,168100.0,Micro Business Loan - Loan Loss Provision,R. Temba,Daniel Mrema
+TXN10042,2025-05-06 13:18:00,Loan Repayment,184600.0,Micro Business Loan - Loan Repayment,A. Mwakasege,Oscar Sanga
+TXN10256,2025-05-06 14:19:00,Loan Loss Provision,277200.0,Agri Loan - Loan Loss Provision,J. Mushi,Catherine Kway
+TXN10279,2025-05-07 12:35:00,Interest Income,19700.0,Agri Loan - Interest Income,A. Mwakasege,Hamisi Massawe
+TXN10295,2025-05-08 08:16:00,Loan Loss Provision,57300.0,Salary Advance - Loan Loss Provision,A. Mwakasege,Hamisi Mrema
+TXN-BNF12,2025-05-08 09:22:00,Loan Disbursement,80020.0,Group Loan - Loan Disbursement,J. Mushi,Mariam Mrema
+TXN10331,2025-05-12 15:46:00,Savings Deposit,30900.0,Salary Advance - Savings Deposit,F. Kalemela,Pendo Mrema
+TXN10039,2025-05-14 11:42:00,Savings Deposit,94800.0,Group Loan - Savings Deposit,A. Mwakasege,Kulwa Lyimo
+TXN10329,2025-05-14 16:59:00,Processing Fee Income,30900.0,Agri Loan - Processing Fee Income,F. Kalemela,Neema Massawe
+TXN-ODD0,2025-05-14 23:00:00,Loan Disbursement,742400.0,Salary Advance - Loan Disbursement,J. Mushi,Kulwa Mwakatobe
+TXN10392,2025-05-15 13:55:00,Loan Disbursement,316900.0,Agri Loan - Loan Disbursement,F. Kalemela,Oscar Kileo
+TXN10013,2025-05-16 10:15:00,Savings Deposit,10900.0,Group Loan - Savings Deposit,A. Mwakasege,Salome Sanga
+TXN10273,2025-05-16 17:36:00,Loan Repayment,201400.0,Agri Loan - Loan Repayment,S. Ngowi,Baraka Ngonyani
+TXN10352,2025-05-19 09:08:00,Loan Disbursement,1384400.0,Group Loan - Loan Disbursement,S. Ngowi,Faraja Shayo
+TXN10236,2025-05-21 08:04:00,Savings Deposit,9700.0,Agri Loan - Savings Deposit,R. Temba,Mariam Kimaro
+TXN10317,2025-05-21 08:35:00,Processing Fee Income,16100.0,Group Loan - Processing Fee Income,S. Ngowi,Faraja Mboya
+TXN-RND4,2025-05-21 12:28:00,Loan Disbursement,1000000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Hamisi Mboya
+TXN10071,2025-05-21 15:04:00,Savings Deposit,373900.0,Salary Advance - Savings Deposit,A. Mwakasege,Joseph Lyimo
+TXN-DUP2,2025-05-21 17:04:00,Savings Deposit,373900.0,Salary Advance - Savings Deposit,A. Mwakasege,Joseph Lyimo
+TXN10046,2025-05-22 08:00:00,Interest Income,18500.0,Agri Loan - Interest Income,A. Mwakasege,Elisha Mboya
+TXN10160,2025-05-22 10:08:00,Processing Fee Income,10200.0,Micro Business Loan - Processing Fee Income,J. Mushi,Irene Mwakatobe
+TXN10312,2025-05-22 11:59:00,Savings Deposit,180300.0,Micro Business Loan - Savings Deposit,S. Ngowi,Daniel Mushi
+TXN10098,2025-05-22 17:48:00,Processing Fee Income,20100.0,Salary Advance - Processing Fee Income,F. Kalemela,Joseph Kileo
+TXN10004,2025-05-23 10:13:00,Interest Income,22400.0,Micro Business Loan - Interest Income,S. Ngowi,Daniel Kileo
+TXN10399,2025-05-23 13:29:00,Loan Loss Provision,270800.0,Micro Business Loan - Loan Loss Provision,J. Mushi,Kulwa Ngonyani
+TXN10090,2025-05-23 15:15:00,Loan Loss Provision,108100.0,Group Loan - Loan Loss Provision,J. Mushi,Mariam Kimaro
+TXN10008,2025-05-23 15:40:00,Interest Income,18400.0,Agri Loan - Interest Income,A. Mwakasege,Faraja Kimaro
+TXN-ODD6,2025-05-25 10:00:00,Loan Disbursement,720500.0,Salary Advance - Loan Disbursement,J. Mushi,Baraka Shayo
+TXN10034,2025-05-27 14:44:00,Savings Deposit,179800.0,Agri Loan - Savings Deposit,S. Ngowi,Salome Mboya
+TXN10109,2025-05-28 12:44:00,Loan Loss Provision,94200.0,Salary Advance - Loan Loss Provision,F. Kalemela,Catherine Mboya
+TXN10287,2025-05-28 13:18:00,Savings Deposit,141500.0,Agri Loan - Savings Deposit,R. Temba,Baraka Kileo
+TXN10112,2025-05-28 15:07:00,Loan Loss Provision,105000.0,Salary Advance - Loan Loss Provision,S. Ngowi,Joseph Kway
+TXN10121,2025-05-28 15:56:00,Savings Deposit,30500.0,Agri Loan - Savings Deposit,J. Mushi,Pendo Kileo
+TXN10282,2025-05-29 08:18:00,Savings Deposit,392800.0,Salary Advance - Savings Deposit,S. Ngowi,Catherine Kimaro
+TXN-FF0,2025-05-30 09:30:00,Interest Income,282000.0,Interest Income (possible data entry error),A. Mwakasege,Mariam Mrema
+TXN10364,2025-05-30 09:52:00,Loan Loss Provision,174300.0,Agri Loan - Loan Loss Provision,A. Mwakasege,Pendo Mwakatobe
+TXN10395,2025-05-30 12:36:00,Interest Income,18400.0,Agri Loan - Interest Income,J. Mushi,Rashid Mboya
+TXN10340,2025-06-03 09:41:00,Savings Deposit,33400.0,Group Loan - Savings Deposit,S. Ngowi,Baraka Kileo
+TXN10410,2025-06-03 10:24:00,Loan Repayment,327500.0,Micro Business Loan - Loan Repayment,R. Temba,Elisha Kileo
+TXN10345,2025-06-03 10:36:00,Loan Repayment,234900.0,Salary Advance - Loan Repayment,R. Temba,Mariam Mboya
+TXN10320,2025-06-03 10:51:00,Loan Loss Provision,108100.0,Group Loan - Loan Loss Provision,S. Ngowi,Baraka Sanga
+TXN10360,2025-06-03 13:38:00,Savings Deposit,131800.0,Agri Loan - Savings Deposit,A. Mwakasege,Grace Mrema
+TXN10356,2025-06-04 12:31:00,Loan Repayment,197400.0,Salary Advance - Loan Repayment,S. Ngowi,Catherine Mwakatobe
+TXN10296,2025-06-04 17:46:00,Processing Fee Income,37300.0,Agri Loan - Processing Fee Income,A. Mwakasege,Amani Massawe
+TXN10153,2025-06-05 15:07:00,Loan Disbursement,906500.0,Group Loan - Loan Disbursement,F. Kalemela,Hamisi Sanga
+TXN10053,2025-06-06 11:14:00,Loan Disbursement,1172000.0,Salary Advance - Loan Disbursement,A. Mwakasege,Grace Shayo
+TXN10372,2025-06-09 13:29:00,Loan Repayment,546800.0,Group Loan - Loan Repayment,A. Mwakasege,Rashid Mrema
+TXN10180,2025-06-09 13:49:00,Processing Fee Income,30900.0,Agri Loan - Processing Fee Income,F. Kalemela,Catherine Mushi
+TXN10024,2025-06-09 14:42:00,Savings Deposit,44400.0,Group Loan - Savings Deposit,R. Temba,Lucy Mrema
+TXN10240,2025-06-10 12:15:00,Loan Disbursement,453000.0,Group Loan - Loan Disbursement,F. Kalemela,Amani Kway
+TXN10258,2025-06-10 13:46:00,Interest Income,39900.0,Micro Business Loan - Interest Income,A. Mwakasege,Mariam Mwakatobe
+TXN10328,2025-06-10 14:02:00,Processing Fee Income,30800.0,Micro Business Loan - Processing Fee Income,F. Kalemela,Hamisi Kway
+TXN10170,2025-06-10 14:20:00,Savings Deposit,31200.0,Group Loan - Savings Deposit,F. Kalemela,Irene Kimaro
+TXN10188,2025-06-10 17:27:00,Processing Fee Income,11100.0,Salary Advance - Processing Fee Income,S. Ngowi,Mariam Kway
+TXN10097,2025-06-11 09:47:00,Processing Fee Income,24000.0,Group Loan - Processing Fee Income,F. Kalemela,Faraja Lyimo
+TXN10012,2025-06-11 11:41:00,Loan Loss Provision,121500.0,Agri Loan - Loan Loss Provision,S. Ngowi,Mariam Mboya
+TXN10443,2025-06-11 14:44:00,Savings Deposit,70700.0,Salary Advance - Savings Deposit,S. Ngowi,Kulwa Kimaro
+TXN10351,2025-06-12 13:06:00,Loan Disbursement,2103100.0,Salary Advance - Loan Disbursement,S. Ngowi,Amani Massawe
+TXN-BNF11,2025-06-13 10:40:00,Loan Disbursement,607317.0,Group Loan - Loan Disbursement,J. Mushi,Irene Lyimo
+TXN10259,2025-06-13 11:29:00,Loan Disbursement,1308700.0,Agri Loan - Loan Disbursement,F. Kalemela,Irene Mrema
+TXN10072,2025-06-13 16:05:00,Loan Repayment,195100.0,Agri Loan - Loan Repayment,S. Ngowi,Elisha Lyimo
+TXN10091,2025-06-16 10:31:00,Loan Repayment,391400.0,Salary Advance - Loan Repayment,A. Mwakasege,Lucy Massawe
+TXN10348,2025-06-17 08:40:00,Interest Income,14900.0,Salary Advance - Interest Income,F. Kalemela,Oscar Mrema
+TXN10079,2025-06-17 11:29:00,Interest Income,5100.0,Group Loan - Interest Income,A. Mwakasege,Kulwa Shayo
+TXN10270,2025-06-17 17:20:00,Loan Repayment,543100.0,Salary Advance - Loan Repayment,A. Mwakasege,Mariam Ngonyani
+TXN10203,2025-06-18 09:35:00,Savings Deposit,227800.0,Agri Loan - Savings Deposit,A. Mwakasege,Mariam Massawe
+TXN10330,2025-06-18 11:24:00,Processing Fee Income,19800.0,Salary Advance - Processing Fee Income,R. Temba,Hamisi Mrema
+TXN-RND2,2025-06-19 09:02:00,Loan Disbursement,5000000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Faraja Ngonyani
+TXN10272,2025-06-19 09:26:00,Processing Fee Income,44800.0,Group Loan - Processing Fee Income,J. Mushi,Joseph Kway
+TXN10027,2025-06-19 09:32:00,Loan Repayment,259500.0,Agri Loan - Loan Repayment,S. Ngowi,Irene Mboya
+TXN10059,2025-06-19 17:20:00,Savings Deposit,210300.0,Salary Advance - Savings Deposit,A. Mwakasege,Daniel Kway
+TXN10204,2025-06-20 09:37:00,Savings Deposit,18900.0,Group Loan - Savings Deposit,A. Mwakasege,Elisha Kimaro
+TXN10158,2025-06-20 11:08:00,Processing Fee Income,8800.0,Agri Loan - Processing Fee Income,R. Temba,Grace Kileo
+TXN10269,2025-06-20 15:33:00,Loan Loss Provision,111100.0,Agri Loan - Loan Loss Provision,R. Temba,Elisha Ngonyani
+TXN10359,2025-06-20 17:24:00,Interest Income,13600.0,Agri Loan - Interest Income,S. Ngowi,Oscar Kimaro
+TXN-ODD2,2025-06-23 03:00:00,Loan Disbursement,397400.0,Salary Advance - Loan Disbursement,J. Mushi,Pendo Kway
+TXN10030,2025-06-23 09:15:00,Loan Repayment,131800.0,Agri Loan - Loan Repayment,S. Ngowi,Grace Sanga
+TXN10191,2025-06-23 11:21:00,Loan Repayment,362100.0,Agri Loan - Loan Repayment,J. Mushi,Catherine Sanga
+TXN-BNF5,2025-06-24 10:58:00,Loan Disbursement,80359.0,Group Loan - Loan Disbursement,F. Kalemela,Elisha Kileo
+TXN10126,2025-06-24 16:17:00,Loan Disbursement,396100.0,Group Loan - Loan Disbursement,A. Mwakasege,Joseph Kway
+TXN10318,2025-06-26 14:50:00,Processing Fee Income,25000.0,Group Loan - Processing Fee Income,S. Ngowi,Kulwa Kway
+TXN-RND8,2025-06-26 17:32:00,Loan Disbursement,2000000.0,Micro Business Loan - Loan Disbursement,S. Ngowi,Irene Mwakatobe
+TXN10251,2025-06-27 16:57:00,Interest Income,59800.0,Salary Advance - Interest Income,F. Kalemela,Catherine Massawe
+TXN10263,2025-06-30 08:03:00,Interest Income,11500.0,Salary Advance - Interest Income,S. Ngowi,Pendo Ngonyani
+TXN10174,2025-06-30 09:36:00,Processing Fee Income,24200.0,Agri Loan - Processing Fee Income,S. Ngowi,Grace Mwakatobe
+TXN10075,2025-06-30 12:48:00,Loan Loss Provision,193800.0,Agri Loan - Loan Loss Provision,R. Temba,Neema Sanga
+TXN10096,2025-06-30 15:17:00,Interest Income,35200.0,Agri Loan - Interest Income,J. Mushi,Irene Lyimo
+TXN10196,2025-06-30 16:04:00,Interest Income,12900.0,Micro Business Loan - Interest Income,J. Mushi,Oscar Mrema
+TXN10173,2025-07-01 14:55:00,Savings Deposit,109800.0,Salary Advance - Savings Deposit,R. Temba,Baraka Massawe
+TXN10050,2025-07-01 16:56:00,Loan Loss Provision,129800.0,Agri Loan - Loan Loss Provision,F. Kalemela,Elisha Lyimo
+TXN10448,2025-07-02 14:32:00,Loan Disbursement,547000.0,Micro Business Loan - Loan Disbursement,F. Kalemela,Joseph Massawe
+TXN10386,2025-07-03 08:31:00,Loan Repayment,253500.0,Group Loan - Loan Repayment,R. Temba,Grace Shayo
+TXN10005,2025-07-03 13:38:00,Interest Income,22400.0,Micro Business Loan - Interest Income,S. Ngowi,Baraka Kway
+TXN10099,2025-07-04 10:19:00,Loan Disbursement,660800.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Salome Mwakatobe
+TXN10246,2025-07-04 16:36:00,Interest Income,18300.0,Micro Business Loan - Interest Income,F. Kalemela,Oscar Sanga
+TXN10265,2025-07-07 08:25:00,Loan Disbursement,332800.0,Salary Advance - Loan Disbursement,A. Mwakasege,Salome Lyimo
+TXN10379,2025-07-07 13:12:00,Loan Loss Provision,52200.0,Salary Advance - Loan Loss Provision,S. Ngowi,Daniel Massawe
+TXN10197,2025-07-08 12:04:00,Savings Deposit,90700.0,Group Loan - Savings Deposit,R. Temba,Catherine Ngonyani
+TXN10095,2025-07-08 15:35:00,Processing Fee Income,7300.0,Salary Advance - Processing Fee Income,R. Temba,Lucy Shayo
+TXN10239,2025-07-09 13:28:00,Loan Disbursement,1379500.0,Group Loan - Loan Disbursement,A. Mwakasege,Elisha Sanga
+TXN-FF2,2025-07-09 14:23:00,Interest Income,329000.0,Interest Income (possible data entry error),S. Ngowi,Baraka Massawe
+TXN10214,2025-07-10 16:59:00,Loan Disbursement,625700.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Rashid Kileo
+TXN10335,2025-07-11 08:39:00,Savings Deposit,66600.0,Micro Business Loan - Savings Deposit,S. Ngowi,Pendo Mboya
+TXN10383,2025-07-11 10:32:00,Loan Loss Provision,65500.0,Group Loan - Loan Loss Provision,F. Kalemela,Neema Ngonyani
+TXN10020,2025-07-11 10:34:00,Processing Fee Income,55200.0,Group Loan - Processing Fee Income,A. Mwakasege,Amani Ngonyani
+TXN10370,2025-07-11 14:29:00,Savings Deposit,79400.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Rashid Mwakatobe
+TXN-ODD1,2025-07-12 10:00:00,Loan Disbursement,1478800.0,Salary Advance - Loan Disbursement,J. Mushi,Salome Kileo
+TXN10326,2025-07-14 15:34:00,Savings Deposit,253500.0,Salary Advance - Savings Deposit,A. Mwakasege,Lucy Massawe
+TXN10308,2025-07-15 15:55:00,Loan Loss Provision,155300.0,Agri Loan - Loan Loss Provision,R. Temba,Mariam Kileo
+TXN10016,2025-07-15 17:29:00,Processing Fee Income,9900.0,Micro Business Loan - Processing Fee Income,J. Mushi,Irene Sanga
+TXN10167,2025-07-15 17:33:00,Interest Income,137400.0,Group Loan - Interest Income,R. Temba,Oscar Sanga
+TXN10346,2025-07-16 10:50:00,Savings Deposit,17600.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Catherine Sanga
+TXN10354,2025-07-17 08:18:00,Loan Loss Provision,98500.0,Agri Loan - Loan Loss Provision,R. Temba,Mariam Kileo
+TXN10232,2025-07-17 13:11:00,Loan Loss Provision,103700.0,Salary Advance - Loan Loss Provision,R. Temba,Pendo Kimaro
+TXN10057,2025-07-17 17:12:00,Interest Income,21100.0,Micro Business Loan - Interest Income,S. Ngowi,Baraka Kway
+TXN10380,2025-07-18 17:25:00,Processing Fee Income,11200.0,Group Loan - Processing Fee Income,A. Mwakasege,Daniel Kimaro
+TXN10362,2025-07-21 13:07:00,Processing Fee Income,18500.0,Agri Loan - Processing Fee Income,R. Temba,Grace Ngonyani
+TXN10149,2025-07-22 08:16:00,Processing Fee Income,24600.0,Salary Advance - Processing Fee Income,A. Mwakasege,Daniel Mrema
+TXN10406,2025-07-22 12:46:00,Savings Deposit,26000.0,Micro Business Loan - Savings Deposit,J. Mushi,Hamisi Shayo
+TXN10305,2025-07-22 12:52:00,Loan Disbursement,838600.0,Micro Business Loan - Loan Disbursement,J. Mushi,Grace Ngonyani
+TXN-DUP1,2025-07-22 14:46:00,Savings Deposit,26000.0,Micro Business Loan - Savings Deposit,J. Mushi,Hamisi Shayo
+TXN-RND3,2025-07-22 15:01:00,Loan Disbursement,5000000.0,Micro Business Loan - Loan Disbursement,S. Ngowi,Faraja Kimaro
+TXN10339,2025-07-23 09:23:00,Loan Loss Provision,63500.0,Agri Loan - Loan Loss Provision,F. Kalemela,Oscar Ngonyani
+TXN10157,2025-07-23 12:12:00,Loan Disbursement,1067600.0,Micro Business Loan - Loan Disbursement,F. Kalemela,Oscar Kileo
+TXN10361,2025-07-23 13:18:00,Savings Deposit,371900.0,Salary Advance - Savings Deposit,F. Kalemela,Pendo Ngonyani
+TXN10014,2025-07-24 13:14:00,Loan Repayment,60500.0,Micro Business Loan - Loan Repayment,J. Mushi,Rashid Mrema
+TXN10033,2025-07-25 08:10:00,Loan Loss Provision,42700.0,Group Loan - Loan Loss Provision,A. Mwakasege,Amani Shayo
+TXN10434,2025-07-25 09:56:00,Loan Loss Provision,335000.0,Micro Business Loan - Loan Loss Provision,A. Mwakasege,Joseph Massawe
+TXN10366,2025-07-25 16:32:00,Savings Deposit,97400.0,Salary Advance - Savings Deposit,J. Mushi,Neema Sanga
+TXN10093,2025-07-28 15:35:00,Loan Repayment,159400.0,Group Loan - Loan Repayment,S. Ngowi,Pendo Mboya
+TXN10202,2025-07-29 13:43:00,Processing Fee Income,42400.0,Micro Business Loan - Processing Fee Income,A. Mwakasege,Baraka Mboya
+TXN10387,2025-07-29 15:26:00,Savings Deposit,528600.0,Micro Business Loan - Savings Deposit,F. Kalemela,Oscar Mrema
+TXN10396,2025-07-30 08:17:00,Savings Deposit,13400.0,Agri Loan - Savings Deposit,F. Kalemela,Elisha Kway
+TXN10129,2025-07-30 08:20:00,Savings Deposit,46300.0,Group Loan - Savings Deposit,S. Ngowi,Pendo Kway
+TXN10210,2025-07-30 13:43:00,Savings Deposit,138900.0,Salary Advance - Savings Deposit,R. Temba,Hamisi Mrema
+TXN-RND5,2025-07-30 16:30:00,Loan Disbursement,500000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Irene Shayo
+TXN10051,2025-07-31 08:11:00,Savings Deposit,52200.0,Salary Advance - Savings Deposit,F. Kalemela,Kulwa Shayo
+TXN10276,2025-07-31 11:26:00,Processing Fee Income,23000.0,Agri Loan - Processing Fee Income,J. Mushi,Pendo Kway
+TXN10155,2025-08-01 09:53:00,Loan Loss Provision,56300.0,Salary Advance - Loan Loss Provision,J. Mushi,Neema Massawe
+TXN10146,2025-08-01 10:12:00,Loan Repayment,84900.0,Salary Advance - Loan Repayment,R. Temba,Salome Kimaro
+TXN10073,2025-08-01 14:21:00,Processing Fee Income,59200.0,Agri Loan - Processing Fee Income,J. Mushi,Oscar Shayo
+TXN10124,2025-08-01 15:30:00,Loan Repayment,300400.0,Group Loan - Loan Repayment,F. Kalemela,Oscar Sanga
+TXN10066,2025-08-01 17:12:00,Savings Deposit,72000.0,Agri Loan - Savings Deposit,S. Ngowi,Mariam Mrema
+TXN10357,2025-08-04 12:30:00,Loan Disbursement,637100.0,Group Loan - Loan Disbursement,F. Kalemela,Lucy Massawe
+TXN10418,2025-08-04 13:34:00,Savings Deposit,259000.0,Micro Business Loan - Savings Deposit,J. Mushi,Faraja Mrema
+TXN10061,2025-08-04 14:43:00,Savings Deposit,64100.0,Salary Advance - Savings Deposit,R. Temba,Faraja Ngonyani
+TXN10074,2025-08-04 14:57:00,Processing Fee Income,3300.0,Group Loan - Processing Fee Income,S. Ngowi,Amani Ngonyani
+TXN10031,2025-08-05 10:17:00,Loan Loss Provision,444000.0,Micro Business Loan - Loan Loss Provision,S. Ngowi,Hamisi Kileo
+TXN10384,2025-08-05 10:31:00,Savings Deposit,35600.0,Agri Loan - Savings Deposit,F. Kalemela,Salome Kway
+TXN10306,2025-08-05 13:44:00,Loan Disbursement,1839700.0,Group Loan - Loan Disbursement,J. Mushi,Salome Mushi
+TXN-DUP5,2025-08-05 16:17:00,Loan Loss Provision,444000.0,Micro Business Loan - Loan Loss Provision,S. Ngowi,Hamisi Kileo
+TXN10223,2025-08-08 08:39:00,Interest Income,7000.0,Agri Loan - Interest Income,S. Ngowi,Hamisi Ngonyani
+TXN10176,2025-08-08 16:49:00,Processing Fee Income,20200.0,Salary Advance - Processing Fee Income,R. Temba,Salome Mushi
+TXN10342,2025-08-11 13:36:00,Loan Disbursement,914300.0,Agri Loan - Loan Disbursement,F. Kalemela,Rashid Mushi
+TXN10190,2025-08-12 09:15:00,Loan Loss Provision,69800.0,Group Loan - Loan Loss Provision,J. Mushi,Mariam Sanga
+TXN-BNF7,2025-08-12 15:41:00,Loan Disbursement,89207.0,Group Loan - Loan Disbursement,R. Temba,Lucy Lyimo
+TXN10145,2025-08-14 08:37:00,Interest Income,53200.0,Salary Advance - Interest Income,A. Mwakasege,Elisha Kileo
+TXN10195,2025-08-14 09:30:00,Loan Loss Provision,136400.0,Micro Business Loan - Loan Loss Provision,R. Temba,Joseph Massawe
+TXN10131,2025-08-14 09:33:00,Loan Loss Provision,105700.0,Group Loan - Loan Loss Provision,F. Kalemela,Amani Kway
+TXN10257,2025-08-14 14:30:00,Loan Loss Provision,56600.0,Agri Loan - Loan Loss Provision,R. Temba,Grace Kimaro
+TXN-FF3,2025-08-14 15:16:00,Interest Income,249000.0,Interest Income (possible data entry error),A. Mwakasege,Baraka Mwakatobe
+TXN10047,2025-08-15 16:45:00,Loan Loss Provision,234100.0,Micro Business Loan - Loan Loss Provision,J. Mushi,Salome Mushi
+TXN10069,2025-08-15 17:52:00,Savings Deposit,40000.0,Group Loan - Savings Deposit,R. Temba,Rashid Shayo
+TXN10211,2025-08-18 11:34:00,Loan Repayment,439400.0,Salary Advance - Loan Repayment,F. Kalemela,Joseph Mrema
+TXN10163,2025-08-18 13:32:00,Processing Fee Income,11300.0,Agri Loan - Processing Fee Income,R. Temba,Daniel Mrema
+TXN10216,2025-08-19 13:59:00,Loan Disbursement,459000.0,Salary Advance - Loan Disbursement,S. Ngowi,Neema Mushi
+TXN10445,2025-08-19 15:20:00,Loan Loss Provision,171400.0,Agri Loan - Loan Loss Provision,A. Mwakasege,Daniel Sanga
+TXN10243,2025-08-20 10:57:00,Savings Deposit,187900.0,Salary Advance - Savings Deposit,A. Mwakasege,Oscar Kileo
+TXN10169,2025-08-20 11:26:00,Interest Income,14400.0,Micro Business Loan - Interest Income,S. Ngowi,Oscar Shayo
+TXN10446,2025-08-20 12:29:00,Interest Income,37400.0,Salary Advance - Interest Income,F. Kalemela,Daniel Kileo
+TXN10449,2025-08-20 16:47:00,Processing Fee Income,9600.0,Micro Business Loan - Processing Fee Income,S. Ngowi,Hamisi Kileo
+TXN10018,2025-08-21 08:46:00,Savings Deposit,30600.0,Micro Business Loan - Savings Deposit,F. Kalemela,Irene Sanga
+TXN10118,2025-08-21 09:20:00,Interest Income,72400.0,Micro Business Loan - Interest Income,S. Ngowi,Kulwa Kileo
+TXN10154,2025-08-21 13:42:00,Savings Deposit,104600.0,Agri Loan - Savings Deposit,R. Temba,Salome Shayo
+TXN10435,2025-08-22 08:23:00,Loan Repayment,210500.0,Agri Loan - Loan Repayment,A. Mwakasege,Joseph Ngonyani
+TXN10141,2025-08-22 12:12:00,Loan Loss Provision,286300.0,Group Loan - Loan Loss Provision,F. Kalemela,Pendo Kileo
+TXN10128,2025-08-22 13:55:00,Loan Repayment,214300.0,Agri Loan - Loan Repayment,S. Ngowi,Hamisi Ngonyani
+TXN10304,2025-08-22 17:03:00,Processing Fee Income,19700.0,Micro Business Loan - Processing Fee Income,A. Mwakasege,Oscar Mboya
+TXN10198,2025-08-25 17:35:00,Savings Deposit,82200.0,Agri Loan - Savings Deposit,R. Temba,Baraka Mrema
+TXN10152,2025-08-26 12:41:00,Loan Loss Provision,57900.0,Micro Business Loan - Loan Loss Provision,J. Mushi,Daniel Mwakatobe
+TXN10436,2025-08-26 13:37:00,Loan Loss Provision,370800.0,Agri Loan - Loan Loss Provision,R. Temba,Grace Kway
+TXN10089,2025-08-27 14:52:00,Savings Deposit,131000.0,Micro Business Loan - Savings Deposit,F. Kalemela,Irene Kimaro
+TXN10063,2025-08-27 15:28:00,Savings Deposit,22800.0,Agri Loan - Savings Deposit,S. Ngowi,Grace Sanga
+TXN10148,2025-08-28 09:09:00,Loan Repayment,287200.0,Micro Business Loan - Loan Repayment,A. Mwakasege,Mariam Sanga
+TXN10225,2025-08-29 08:40:00,Loan Loss Provision,240200.0,Salary Advance - Loan Loss Provision,J. Mushi,Lucy Massawe
+TXN10343,2025-09-01 12:02:00,Loan Disbursement,549600.0,Micro Business Loan - Loan Disbursement,R. Temba,Irene Sanga
+TXN10070,2025-09-01 15:16:00,Loan Repayment,256900.0,Agri Loan - Loan Repayment,S. Ngowi,Irene Sanga
+TXN10283,2025-09-03 11:12:00,Processing Fee Income,8500.0,Agri Loan - Processing Fee Income,A. Mwakasege,Irene Sanga
+TXN10325,2025-09-03 11:44:00,Processing Fee Income,8600.0,Salary Advance - Processing Fee Income,F. Kalemela,Grace Shayo
+TXN10324,2025-09-03 11:55:00,Interest Income,11600.0,Agri Loan - Interest Income,F. Kalemela,Joseph Mushi
+TXN10165,2025-09-03 14:27:00,Savings Deposit,118200.0,Micro Business Loan - Savings Deposit,S. Ngowi,Daniel Mrema
+TXN10371,2025-09-05 09:18:00,Loan Loss Provision,149300.0,Salary Advance - Loan Loss Provision,F. Kalemela,Catherine Kileo
+TXN-FF1,2025-09-08 12:05:00,Savings Deposit,378000.0,Savings Deposit (possible data entry error),R. Temba,Mariam Mwakatobe
+TXN10385,2025-09-08 12:08:00,Loan Repayment,222000.0,Micro Business Loan - Loan Repayment,R. Temba,Kulwa Mrema
+TXN10280,2025-09-08 13:30:00,Interest Income,30200.0,Salary Advance - Interest Income,A. Mwakasege,Salome Kway
+TXN10116,2025-09-09 09:30:00,Interest Income,26600.0,Micro Business Loan - Interest Income,A. Mwakasege,Neema Kimaro
+TXN10113,2025-09-10 15:05:00,Processing Fee Income,110300.0,Salary Advance - Processing Fee Income,A. Mwakasege,Baraka Shayo
+TXN10289,2025-09-11 10:59:00,Savings Deposit,41000.0,Salary Advance - Savings Deposit,J. Mushi,Joseph Mushi
+TXN10401,2025-09-11 12:20:00,Interest Income,16500.0,Agri Loan - Interest Income,R. Temba,Kulwa Sanga
+TXN10262,2025-09-12 08:05:00,Loan Loss Provision,7400.0,Agri Loan - Loan Loss Provision,F. Kalemela,Rashid Mrema
+TXN10426,2025-09-12 13:33:00,Processing Fee Income,10200.0,Agri Loan - Processing Fee Income,A. Mwakasege,Irene Mwakatobe
+TXN10327,2025-09-12 15:06:00,Savings Deposit,174200.0,Salary Advance - Savings Deposit,F. Kalemela,Pendo Kimaro
+TXN10138,2025-09-12 17:09:00,Loan Repayment,351500.0,Group Loan - Loan Repayment,A. Mwakasege,Oscar Mboya
+TXN10420,2025-09-17 12:40:00,Savings Deposit,638500.0,Group Loan - Savings Deposit,S. Ngowi,Rashid Shayo
+TXN10087,2025-09-17 13:00:00,Loan Loss Provision,130300.0,Salary Advance - Loan Loss Provision,S. Ngowi,Pendo Kileo
+TXN10271,2025-09-17 16:34:00,Loan Loss Provision,31500.0,Salary Advance - Loan Loss Provision,J. Mushi,Joseph Mrema
+TXN10245,2025-09-18 11:07:00,Loan Repayment,158600.0,Micro Business Loan - Loan Repayment,S. Ngowi,Elisha Lyimo
+TXN10303,2025-09-19 15:51:00,Loan Disbursement,1171000.0,Group Loan - Loan Disbursement,R. Temba,Oscar Mwakatobe
+TXN10375,2025-09-22 10:35:00,Loan Repayment,117500.0,Group Loan - Loan Repayment,S. Ngowi,Kulwa Sanga
+TXN10277,2025-09-23 11:35:00,Interest Income,16400.0,Salary Advance - Interest Income,S. Ngowi,Pendo Sanga
+TXN10241,2025-09-23 14:58:00,Processing Fee Income,18500.0,Group Loan - Processing Fee Income,A. Mwakasege,Daniel Massawe
+TXN10058,2025-09-24 16:43:00,Savings Deposit,108700.0,Micro Business Loan - Savings Deposit,S. Ngowi,Grace Kimaro
+TXN10105,2025-09-25 14:28:00,Loan Loss Provision,138400.0,Salary Advance - Loan Loss Provision,S. Ngowi,Joseph Ngonyani
+TXN10333,2025-09-26 08:53:00,Loan Disbursement,489800.0,Agri Loan - Loan Disbursement,S. Ngowi,Baraka Mushi
+TXN10338,2025-09-26 10:15:00,Loan Repayment,266300.0,Salary Advance - Loan Repayment,A. Mwakasege,Rashid Massawe
+TXN10201,2025-09-26 16:39:00,Loan Repayment,295000.0,Group Loan - Loan Repayment,A. Mwakasege,Lucy Kimaro
+TXN10274,2025-09-26 17:49:00,Loan Loss Provision,45400.0,Micro Business Loan - Loan Loss Provision,F. Kalemela,Elisha Mboya
+TXN10179,2025-09-29 11:24:00,Loan Loss Provision,892600.0,Salary Advance - Loan Loss Provision,F. Kalemela,Oscar Kimaro
+TXN-BNF0,2025-09-29 13:49:00,Loan Disbursement,71640.0,Group Loan - Loan Disbursement,F. Kalemela,Hamisi Massawe
+TXN10278,2025-09-30 13:34:00,Interest Income,29100.0,Agri Loan - Interest Income,S. Ngowi,Irene Ngonyani
+TXN10311,2025-09-30 14:52:00,Loan Repayment,428300.0,Agri Loan - Loan Repayment,A. Mwakasege,Hamisi Mrema
+TXN10336,2025-09-30 16:26:00,Loan Disbursement,443000.0,Salary Advance - Loan Disbursement,A. Mwakasege,Amani Sanga
+TXN-BNF1,2025-10-01 08:48:00,Loan Disbursement,705813.0,Group Loan - Loan Disbursement,F. Kalemela,Faraja Lyimo
+TXN10288,2025-10-01 08:58:00,Loan Repayment,243000.0,Group Loan - Loan Repayment,J. Mushi,Neema Mwakatobe
+TXN10222,2025-10-02 08:40:00,Processing Fee Income,32200.0,Salary Advance - Processing Fee Income,F. Kalemela,Hamisi Kway
+TXN10264,2025-10-02 08:54:00,Loan Disbursement,652900.0,Salary Advance - Loan Disbursement,A. Mwakasege,Neema Mwakatobe
+TXN10300,2025-10-03 11:48:00,Loan Repayment,112600.0,Salary Advance - Loan Repayment,S. Ngowi,Catherine Sanga
+TXN10389,2025-10-03 12:10:00,Loan Loss Provision,62900.0,Micro Business Loan - Loan Loss Provision,R. Temba,Pendo Sanga
+TXN-RND7,2025-10-06 08:24:00,Loan Disbursement,3000000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Pendo Sanga
+TXN10230,2025-10-06 15:16:00,Loan Disbursement,472400.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Grace Massawe
+TXN10001,2025-10-07 09:37:00,Loan Loss Provision,89500.0,Agri Loan - Loan Loss Provision,J. Mushi,Baraka Mushi
+TXN10391,2025-10-07 11:27:00,Loan Disbursement,1080700.0,Group Loan - Loan Disbursement,J. Mushi,Hamisi Massawe
+TXN10062,2025-10-08 08:19:00,Interest Income,10700.0,Salary Advance - Interest Income,R. Temba,Grace Shayo
+TXN-DUP3,2025-10-08 12:19:00,Interest Income,10700.0,Salary Advance - Interest Income,R. Temba,Grace Shayo
+TXN10220,2025-10-08 17:33:00,Loan Loss Provision,644100.0,Salary Advance - Loan Loss Provision,F. Kalemela,Daniel Massawe
+TXN10341,2025-10-10 15:03:00,Savings Deposit,99400.0,Micro Business Loan - Savings Deposit,F. Kalemela,Amani Kway
+TXN10068,2025-10-13 11:58:00,Loan Disbursement,989500.0,Salary Advance - Loan Disbursement,S. Ngowi,Oscar Mwakatobe
+TXN10321,2025-10-13 16:08:00,Loan Loss Provision,161400.0,Salary Advance - Loan Loss Provision,F. Kalemela,Hamisi Massawe
+TXN10301,2025-10-16 09:03:00,Processing Fee Income,13600.0,Agri Loan - Processing Fee Income,R. Temba,Rashid Lyimo
+TXN10194,2025-10-16 17:28:00,Savings Deposit,92500.0,Agri Loan - Savings Deposit,A. Mwakasege,Kulwa Mboya
+TXN10086,2025-10-17 08:22:00,Processing Fee Income,37700.0,Micro Business Loan - Processing Fee Income,A. Mwakasege,Neema Mboya
+TXN10388,2025-10-17 08:50:00,Loan Repayment,386500.0,Agri Loan - Loan Repayment,A. Mwakasege,Joseph Mushi
+TXN10143,2025-10-17 08:58:00,Processing Fee Income,22700.0,Salary Advance - Processing Fee Income,F. Kalemela,Pendo Massawe
+TXN-BNF10,2025-10-17 09:59:00,Loan Disbursement,95425.0,Group Loan - Loan Disbursement,J. Mushi,Hamisi Kimaro
+TXN10137,2025-10-17 10:10:00,Loan Repayment,160000.0,Agri Loan - Loan Repayment,S. Ngowi,Catherine Ngonyani
+TXN10402,2025-10-17 15:50:00,Interest Income,27500.0,Group Loan - Interest Income,J. Mushi,Baraka Mushi
+TXN-ODD7,2025-10-20 02:00:00,Loan Disbursement,384300.0,Salary Advance - Loan Disbursement,J. Mushi,Elisha Mushi
+TXN10433,2025-10-20 13:07:00,Processing Fee Income,32900.0,Micro Business Loan - Processing Fee Income,F. Kalemela,Baraka Mwakatobe
+TXN10142,2025-10-20 13:36:00,Interest Income,7000.0,Salary Advance - Interest Income,S. Ngowi,Joseph Mushi
+TXN10212,2025-10-20 15:29:00,Interest Income,61600.0,Group Loan - Interest Income,R. Temba,Mariam Sanga
+TXN10355,2025-10-20 16:10:00,Savings Deposit,27800.0,Salary Advance - Savings Deposit,F. Kalemela,Mariam Mwakatobe
+TXN10028,2025-10-20 17:30:00,Loan Repayment,131900.0,Micro Business Loan - Loan Repayment,F. Kalemela,Pendo Shayo
+TXN10275,2025-10-21 09:12:00,Loan Disbursement,1059100.0,Agri Loan - Loan Disbursement,S. Ngowi,Oscar Kimaro
+TXN10430,2025-10-21 09:14:00,Savings Deposit,23100.0,Micro Business Loan - Savings Deposit,J. Mushi,Rashid Mushi
+TXN10390,2025-10-21 09:17:00,Processing Fee Income,10700.0,Group Loan - Processing Fee Income,J. Mushi,Lucy Sanga
+TXN-BNF9,2025-10-21 14:54:00,Loan Disbursement,69869.0,Group Loan - Loan Disbursement,A. Mwakasege,Hamisi Mboya
+TXN10248,2025-10-22 09:08:00,Interest Income,122900.0,Salary Advance - Interest Income,S. Ngowi,Catherine Mrema
+TXN-BNF14,2025-10-23 11:10:00,Loan Disbursement,90547.0,Group Loan - Loan Disbursement,A. Mwakasege,Amani Kimaro
+TXN10261,2025-10-23 13:12:00,Loan Repayment,191900.0,Group Loan - Loan Repayment,S. Ngowi,Pendo Sanga
+TXN10084,2025-10-24 08:59:00,Interest Income,13800.0,Micro Business Loan - Interest Income,F. Kalemela,Mariam Shayo
+TXN10038,2025-10-24 17:02:00,Processing Fee Income,8000.0,Salary Advance - Processing Fee Income,R. Temba,Catherine Shayo
+TXN10150,2025-10-27 14:52:00,Savings Deposit,100100.0,Group Loan - Savings Deposit,F. Kalemela,Lucy Kileo
+TXN10036,2025-10-27 15:32:00,Processing Fee Income,23100.0,Micro Business Loan - Processing Fee Income,R. Temba,Faraja Mushi
+TXN10419,2025-10-28 09:00:00,Interest Income,29000.0,Group Loan - Interest Income,J. Mushi,Grace Mushi
+TXN10423,2025-10-28 09:19:00,Savings Deposit,209400.0,Micro Business Loan - Savings Deposit,F. Kalemela,Neema Kway
+TXN10159,2025-10-28 11:52:00,Loan Repayment,315300.0,Micro Business Loan - Loan Repayment,R. Temba,Kulwa Mwakatobe
+TXN-BNF8,2025-10-29 10:24:00,Loan Disbursement,802086.0,Group Loan - Loan Disbursement,F. Kalemela,Amani Kway
+TXN10026,2025-10-29 11:00:00,Loan Disbursement,355400.0,Micro Business Loan - Loan Disbursement,J. Mushi,Baraka Lyimo
+TXN10393,2025-10-29 13:55:00,Savings Deposit,504900.0,Agri Loan - Savings Deposit,R. Temba,Neema Mwakatobe
+TXN10413,2025-10-29 14:22:00,Loan Loss Provision,279600.0,Salary Advance - Loan Loss Provision,F. Kalemela,Kulwa Mwakatobe
+TXN10085,2025-10-31 11:06:00,Savings Deposit,46300.0,Micro Business Loan - Savings Deposit,R. Temba,Joseph Mboya
+TXN-BNF2,2025-10-31 13:51:00,Loan Disbursement,85761.0,Group Loan - Loan Disbursement,R. Temba,Elisha Ngonyani
+TXN10442,2025-10-31 17:03:00,Loan Loss Provision,18900.0,Salary Advance - Loan Loss Provision,A. Mwakasege,Elisha Lyimo
+TXN10290,2025-11-05 09:59:00,Interest Income,22900.0,Group Loan - Interest Income,R. Temba,Joseph Mrema
+TXN10193,2025-11-05 10:48:00,Savings Deposit,21600.0,Group Loan - Savings Deposit,S. Ngowi,Catherine Mwakatobe
+TXN10268,2025-11-05 16:25:00,Processing Fee Income,14700.0,Agri Loan - Processing Fee Income,J. Mushi,Baraka Mushi
+TXN10199,2025-11-06 15:32:00,Loan Repayment,90600.0,Salary Advance - Loan Repayment,J. Mushi,Baraka Mrema
+TXN10182,2025-11-07 15:26:00,Interest Income,11000.0,Salary Advance - Interest Income,J. Mushi,Grace Sanga
+TXN10242,2025-11-10 12:44:00,Loan Loss Provision,150100.0,Micro Business Loan - Loan Loss Provision,F. Kalemela,Grace Kileo
+TXN10164,2025-11-11 08:46:00,Savings Deposit,207700.0,Micro Business Loan - Savings Deposit,S. Ngowi,Rashid Massawe
+TXN10219,2025-11-12 08:57:00,Loan Disbursement,818700.0,Agri Loan - Loan Disbursement,F. Kalemela,Amani Massawe
+TXN10358,2025-11-12 11:29:00,Loan Disbursement,963700.0,Group Loan - Loan Disbursement,J. Mushi,Elisha Massawe
+TXN10412,2025-11-12 15:55:00,Loan Repayment,69100.0,Micro Business Loan - Loan Repayment,F. Kalemela,Catherine Kileo
+TXN10255,2025-11-13 08:31:00,Savings Deposit,47200.0,Group Loan - Savings Deposit,A. Mwakasege,Salome Massawe
+TXN10181,2025-11-13 08:43:00,Loan Disbursement,433600.0,Group Loan - Loan Disbursement,S. Ngowi,Irene Mrema
+TXN10134,2025-11-13 09:15:00,Savings Deposit,30200.0,Group Loan - Savings Deposit,J. Mushi,Joseph Lyimo
+TXN10381,2025-11-13 10:52:00,Savings Deposit,41900.0,Micro Business Loan - Savings Deposit,R. Temba,Joseph Ngonyani
+TXN10106,2025-11-14 08:39:00,Savings Deposit,534000.0,Salary Advance - Savings Deposit,F. Kalemela,Daniel Lyimo
+TXN10019,2025-11-17 12:53:00,Savings Deposit,18200.0,Agri Loan - Savings Deposit,F. Kalemela,Rashid Ngonyani
+TXN10120,2025-11-17 15:48:00,Loan Disbursement,1323300.0,Agri Loan - Loan Disbursement,R. Temba,Grace Massawe
+TXN10110,2025-11-17 17:42:00,Loan Repayment,52900.0,Agri Loan - Loan Repayment,R. Temba,Neema Kileo
+TXN10398,2025-11-18 14:24:00,Loan Loss Provision,91200.0,Group Loan - Loan Loss Provision,J. Mushi,Catherine Mboya
+TXN-RND0,2025-11-19 09:37:00,Loan Disbursement,10000000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Catherine Mushi
+TXN10334,2025-11-19 11:04:00,Savings Deposit,210200.0,Group Loan - Savings Deposit,F. Kalemela,Elisha Mushi
+TXN10228,2025-11-20 10:51:00,Loan Repayment,121800.0,Micro Business Loan - Loan Repayment,S. Ngowi,Catherine Kway
+TXN10000,2025-11-24 09:01:00,Savings Deposit,128800.0,Agri Loan - Savings Deposit,F. Kalemela,Irene Lyimo
+TXN10298,2025-11-24 12:23:00,Processing Fee Income,35100.0,Group Loan - Processing Fee Income,F. Kalemela,Hamisi Lyimo
+TXN10416,2025-11-27 08:50:00,Loan Repayment,586100.0,Agri Loan - Loan Repayment,J. Mushi,Pendo Shayo
+TXN10414,2025-11-27 09:15:00,Processing Fee Income,25200.0,Salary Advance - Processing Fee Income,J. Mushi,Joseph Kway
+TXN10192,2025-11-27 10:15:00,Loan Disbursement,895400.0,Agri Loan - Loan Disbursement,F. Kalemela,Elisha Massawe
+TXN10322,2025-11-28 09:59:00,Loan Loss Provision,51800.0,Agri Loan - Loan Loss Provision,R. Temba,Lucy Kileo
+TXN10111,2025-11-28 10:58:00,Interest Income,26800.0,Agri Loan - Interest Income,J. Mushi,Elisha Kileo
+TXN10292,2025-11-28 12:45:00,Loan Repayment,132900.0,Salary Advance - Loan Repayment,A. Mwakasege,Amani Kway
+TXN10309,2025-12-01 13:07:00,Loan Repayment,173800.0,Agri Loan - Loan Repayment,R. Temba,Salome Shayo
+TXN10132,2025-12-02 10:04:00,Loan Loss Provision,42500.0,Group Loan - Loan Loss Provision,R. Temba,Irene Kimaro
+TXN10405,2025-12-02 13:16:00,Loan Disbursement,1180900.0,Micro Business Loan - Loan Disbursement,F. Kalemela,Lucy Mboya
+TXN10231,2025-12-02 13:17:00,Loan Disbursement,896800.0,Group Loan - Loan Disbursement,S. Ngowi,Lucy Shayo
+TXN10432,2025-12-02 14:14:00,Interest Income,21800.0,Salary Advance - Interest Income,A. Mwakasege,Hamisi Shayo
+TXN10119,2025-12-03 16:29:00,Loan Loss Provision,183100.0,Salary Advance - Loan Loss Provision,R. Temba,Baraka Lyimo
+TXN10064,2025-12-04 09:18:00,Processing Fee Income,35100.0,Salary Advance - Processing Fee Income,F. Kalemela,Kulwa Kileo
+TXN10365,2025-12-04 10:45:00,Loan Loss Provision,72400.0,Group Loan - Loan Loss Provision,S. Ngowi,Mariam Kileo
+TXN10023,2025-12-04 15:35:00,Loan Repayment,74500.0,Group Loan - Loan Repayment,R. Temba,Irene Sanga
+TXN10253,2025-12-04 17:46:00,Processing Fee Income,40900.0,Micro Business Loan - Processing Fee Income,J. Mushi,Kulwa Ngonyani
+TXN10107,2025-12-05 09:10:00,Loan Repayment,225700.0,Agri Loan - Loan Repayment,J. Mushi,Faraja Sanga
+TXN-RPT1,2025-12-05 17:30:00,Loan Disbursement,344200.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,A. Mwakasege
+TXN10139,2025-12-08 08:57:00,Loan Loss Provision,37100.0,Agri Loan - Loan Loss Provision,R. Temba,Joseph Mboya
+TXN10297,2025-12-08 09:29:00,Interest Income,35600.0,Salary Advance - Interest Income,R. Temba,Faraja Shayo
+TXN10425,2025-12-08 10:07:00,Loan Disbursement,1956500.0,Agri Loan - Loan Disbursement,J. Mushi,Elisha Kway
+TXN10060,2025-12-08 14:20:00,Loan Loss Provision,68000.0,Agri Loan - Loan Loss Provision,F. Kalemela,Joseph Sanga
+TXN10043,2025-12-08 16:19:00,Savings Deposit,56900.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Daniel Mwakatobe
+TXN10224,2025-12-09 09:33:00,Interest Income,18300.0,Micro Business Loan - Interest Income,R. Temba,Catherine Sanga
+TXN10040,2025-12-10 12:29:00,Interest Income,51300.0,Micro Business Loan - Interest Income,S. Ngowi,Catherine Mushi
+TXN10009,2025-12-10 12:44:00,Savings Deposit,135000.0,Agri Loan - Savings Deposit,F. Kalemela,Catherine Ngonyani
+TXN10206,2025-12-10 16:05:00,Savings Deposit,131200.0,Micro Business Loan - Savings Deposit,A. Mwakasege,Neema Sanga
+TXN10382,2025-12-11 10:20:00,Loan Disbursement,183900.0,Agri Loan - Loan Disbursement,J. Mushi,Hamisi Massawe
+TXN10293,2025-12-12 11:11:00,Processing Fee Income,36000.0,Salary Advance - Processing Fee Income,R. Temba,Mariam Shayo
+TXN10286,2025-12-15 10:00:00,Processing Fee Income,18000.0,Group Loan - Processing Fee Income,S. Ngowi,Faraja Shayo
+TXN10349,2025-12-15 17:42:00,Loan Loss Provision,84200.0,Agri Loan - Loan Loss Provision,A. Mwakasege,Catherine Ngonyani
+TXN10363,2025-12-16 16:01:00,Savings Deposit,116900.0,Group Loan - Savings Deposit,F. Kalemela,Oscar Kway
+TXN10017,2025-12-16 16:48:00,Interest Income,35800.0,Group Loan - Interest Income,A. Mwakasege,Kulwa Kileo
+TXN10438,2025-12-22 08:21:00,Loan Disbursement,244500.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Mariam Kway
+TXN-ODD5,2025-12-23 03:00:00,Loan Disbursement,452800.0,Salary Advance - Loan Disbursement,J. Mushi,Irene Mboya
+TXN10408,2025-12-23 13:52:00,Loan Disbursement,840300.0,Group Loan - Loan Disbursement,F. Kalemela,Neema Kway
+TXN10447,2025-12-23 17:02:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment,J. Mushi,Kulwa Mwakatobe
+TXN10400,2025-12-24 13:54:00,Loan Disbursement,263200.0,Group Loan - Loan Disbursement,F. Kalemela,Salome Shayo
+TXN10052,2025-12-26 09:24:00,Loan Disbursement,489800.0,Group Loan - Loan Disbursement,F. Kalemela,Pendo Lyimo
+TXN10092,2025-12-26 12:35:00,Loan Disbursement,481600.0,Agri Loan - Loan Disbursement,J. Mushi,Rashid Lyimo
+TXN10367,2025-12-26 16:38:00,Savings Deposit,78500.0,Salary Advance - Savings Deposit,F. Kalemela,Catherine Kileo
+TXN10205,2025-12-29 09:19:00,Processing Fee Income,10400.0,Agri Loan - Processing Fee Income,A. Mwakasege,Mariam Mboya
+TXN10088,2025-12-29 10:27:00,Loan Repayment,138500.0,Group Loan - Loan Repayment,A. Mwakasege,Rashid Mboya
+TXN10244,2025-12-30 09:35:00,Processing Fee Income,8700.0,Agri Loan - Processing Fee Income,F. Kalemela,Joseph Massawe
+TXN10122,2025-12-30 10:19:00,Processing Fee Income,52900.0,Micro Business Loan - Processing Fee Income,S. Ngowi,Amani Sanga
+TXN10397,2025-12-31 13:53:00,Loan Repayment,511200.0,Salary Advance - Loan Repayment,F. Kalemela,Mariam Mrema
+TXN10428,2025-12-31 17:40:00,Loan Disbursement,1585900.0,Salary Advance - Loan Disbursement,R. Temba,Pendo Mrema

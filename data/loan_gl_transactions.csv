@@ -1,0 +1,263 @@
+transaction_id,loan_id,date,account,amount,description,user,counterparty
+LN2011-DISB,LN2011,2025-01-01 15:58:00,Loan Disbursement,819000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Lucy Mboya
+LN2012-DISB,LN2012,2025-01-15 10:37:00,Loan Disbursement,1188000.0,Agri Loan - Loan Disbursement,R. Temba,Oscar Mboya
+LN2032-DISB,LN2032,2025-01-27 12:40:00,Loan Disbursement,363000.0,Salary Advance - Loan Disbursement,S. Ngowi,Elisha Lyimo
+LN2011-REP1,LN2011,2025-02-03 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 1),J. Mushi,Lucy Mboya
+LN2019-DISB,LN2019,2025-02-13 12:17:00,Loan Disbursement,389000.0,Salary Advance - Loan Disbursement,F. Kalemela,Baraka Mwakatobe
+LN2023-DISB,LN2023,2025-02-13 14:55:00,Loan Disbursement,2747000.0,Salary Advance - Loan Disbursement,R. Temba,Rashid Mboya
+LN2012-REP1,LN2012,2025-02-14 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 1),R. Temba,Oscar Mboya
+LN2022-DISB,LN2022,2025-02-24 14:42:00,Loan Disbursement,727000.0,Group Loan - Loan Disbursement,R. Temba,Pendo Sanga
+LN2032-REP1,LN2032,2025-02-25 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 1),S. Ngowi,Elisha Lyimo
+LN2011-REP2,LN2011,2025-02-28 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 2),J. Mushi,Lucy Mboya
+LN2008-DISB,LN2008,2025-03-04 09:54:00,Loan Disbursement,1575000.0,Group Loan - Loan Disbursement,S. Ngowi,Pendo Mrema
+LN2033-DISB,LN2033,2025-03-07 10:30:00,Loan Disbursement,1208000.0,Salary Advance - Loan Disbursement,A. Mwakasege,Neema Kimaro
+LN2028-DISB,LN2028,2025-03-10 08:30:00,Loan Disbursement,1603000.0,Salary Advance - Loan Disbursement,J. Mushi,Baraka Mrema
+LN2012-REP2,LN2012,2025-03-15 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 2),R. Temba,Oscar Mboya
+LN2023-REP1,LN2023,2025-03-17 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 1),R. Temba,Rashid Mboya
+LN2014-DISB,LN2014,2025-03-18 10:09:00,Loan Disbursement,788000.0,Micro Business Loan - Loan Disbursement,R. Temba,Pendo Ngonyani
+LN2019-REP1,LN2019,2025-03-18 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 1),F. Kalemela,Baraka Mwakatobe
+LN2000-DISB,LN2000,2025-03-19 14:41:00,Loan Disbursement,2281000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Baraka Kileo
+LN2025-DISB,LN2025,2025-03-21 17:24:00,Loan Disbursement,405000.0,Group Loan - Loan Disbursement,F. Kalemela,Kulwa Kway
+LN2007-DISB,LN2007,2025-03-25 09:21:00,Loan Disbursement,343000.0,Micro Business Loan - Loan Disbursement,R. Temba,Baraka Kileo
+LN2003-DISB,LN2003,2025-03-26 13:09:00,Loan Disbursement,1126000.0,Micro Business Loan - Loan Disbursement,J. Mushi,Pendo Shayo
+LN2032-REP2,LN2032,2025-03-27 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 2),S. Ngowi,Elisha Lyimo
+LN2022-REP1,LN2022,2025-03-28 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 1),R. Temba,Pendo Sanga
+LN2011-REP3,LN2011,2025-03-30 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 3),J. Mushi,Lucy Mboya
+LN2008-REP1,LN2008,2025-03-31 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 1),S. Ngowi,Pendo Mrema
+LN2028-REP1,LN2028,2025-04-07 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 1),J. Mushi,Baraka Mrema
+LN2033-REP1,LN2033,2025-04-08 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 1),A. Mwakasege,Neema Kimaro
+LN2023-REP2,LN2023,2025-04-14 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 2),R. Temba,Rashid Mboya
+LN2000-REP1,LN2000,2025-04-15 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 1),A. Mwakasege,Baraka Kileo
+LN2014-REP1,LN2014,2025-04-16 10:09:00,Loan Repayment,131300.0,Micro Business Loan - Loan Repayment (installment 1),R. Temba,Pendo Ngonyani
+LN2012-REP3,LN2012,2025-04-16 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 3),R. Temba,Oscar Mboya
+LN2019-REP2,LN2019,2025-04-17 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 2),F. Kalemela,Baraka Mwakatobe
+LN2029-DISB,LN2029,2025-04-18 11:04:00,Loan Disbursement,716000.0,Salary Advance - Loan Disbursement,A. Mwakasege,Catherine Mwakatobe
+LN2024-DISB,LN2024,2025-04-22 13:11:00,Loan Disbursement,878000.0,Group Loan - Loan Disbursement,J. Mushi,Amani Kimaro
+LN2025-REP1,LN2025,2025-04-22 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 1),F. Kalemela,Kulwa Kway
+LN2022-REP2,LN2022,2025-04-23 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 2),R. Temba,Pendo Sanga
+LN2001-DISB,LN2001,2025-04-24 08:35:00,Loan Disbursement,697000.0,Group Loan - Loan Disbursement,F. Kalemela,Elisha Massawe
+LN2007-REP1,LN2007,2025-04-25 09:21:00,Loan Repayment,57200.0,Micro Business Loan - Loan Repayment (installment 1),R. Temba,Baraka Kileo
+LN2003-REP1,LN2003,2025-04-26 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 1),J. Mushi,Pendo Shayo
+LN2032-REP3,LN2032,2025-04-27 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 3),S. Ngowi,Elisha Lyimo
+LN2026-DISB,LN2026,2025-04-28 09:01:00,Loan Disbursement,720000.0,Salary Advance - Loan Disbursement,J. Mushi,Baraka Mwakatobe
+LN2011-REP4,LN2011,2025-05-03 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 4),J. Mushi,Lucy Mboya
+LN2008-REP2,LN2008,2025-05-05 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 2),S. Ngowi,Pendo Mrema
+LN2028-REP2,LN2028,2025-05-08 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 2),J. Mushi,Baraka Mrema
+LN2033-REP2,LN2033,2025-05-08 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 2),A. Mwakasege,Neema Kimaro
+LN2012-REP4,LN2012,2025-05-12 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 4),R. Temba,Oscar Mboya
+LN2023-REP3,LN2023,2025-05-13 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 3),R. Temba,Rashid Mboya
+LN2020-DISB,LN2020,2025-05-14 09:38:00,Loan Disbursement,2231000.0,Salary Advance - Loan Disbursement,J. Mushi,Hamisi Kileo
+LN2019-REP3,LN2019,2025-05-14 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 3),F. Kalemela,Baraka Mwakatobe
+LN2009-DISB,LN2009,2025-05-14 16:23:00,Loan Disbursement,1252000.0,Agri Loan - Loan Disbursement,R. Temba,Faraja Kimaro
+LN2027-DISB,LN2027,2025-05-16 11:46:00,Loan Disbursement,256000.0,Group Loan - Loan Disbursement,S. Ngowi,Grace Lyimo
+LN2014-REP2,LN2014,2025-05-18 10:09:00,Loan Repayment,131300.0,Micro Business Loan - Loan Repayment (installment 2),R. Temba,Pendo Ngonyani
+LN2029-REP1,LN2029,2025-05-19 11:04:00,Loan Repayment,119300.0,Salary Advance - Loan Repayment (installment 1),A. Mwakasege,Catherine Mwakatobe
+LN2001-REP1,LN2001,2025-05-21 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 1),F. Kalemela,Elisha Massawe
+LN2024-REP1,LN2024,2025-05-21 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 1),J. Mushi,Amani Kimaro
+LN2007-REP2,LN2007,2025-05-23 09:21:00,Loan Repayment,57200.0,Micro Business Loan - Loan Repayment (installment 2),R. Temba,Baraka Kileo
+LN2005-DISB,LN2005,2025-05-23 10:52:00,Loan Disbursement,901000.0,Salary Advance - Loan Disbursement,S. Ngowi,Neema Sanga
+LN2004-DISB,LN2004,2025-05-26 14:56:00,Loan Disbursement,583000.0,Group Loan - Loan Disbursement,A. Mwakasege,Lucy Mushi
+LN2003-REP2,LN2003,2025-05-28 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 2),J. Mushi,Pendo Shayo
+LN2022-REP3,LN2022,2025-05-28 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 3),R. Temba,Pendo Sanga
+LN2032-REP4,LN2032,2025-05-30 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 4),S. Ngowi,Elisha Lyimo
+LN2026-REP1,LN2026,2025-05-31 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 1),J. Mushi,Baraka Mwakatobe
+LN2008-REP3,LN2008,2025-06-01 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 3),S. Ngowi,Pendo Mrema
+LN2011-REP5,LN2011,2025-06-03 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 5),J. Mushi,Lucy Mboya
+LN2017-DISB,LN2017,2025-06-05 09:57:00,Loan Disbursement,963000.0,Salary Advance - Loan Disbursement,F. Kalemela,Elisha Kway
+LN2021-DISB,LN2021,2025-06-06 16:48:00,Loan Disbursement,980000.0,Group Loan - Loan Disbursement,R. Temba,Grace Massawe
+LN2028-REP3,LN2028,2025-06-07 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 3),J. Mushi,Baraka Mrema
+LN2033-REP3,LN2033,2025-06-07 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 3),A. Mwakasege,Neema Kimaro
+LN2020-REP1,LN2020,2025-06-10 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 1),J. Mushi,Hamisi Kileo
+LN2002-DISB,LN2002,2025-06-10 15:37:00,Loan Disbursement,916000.0,Salary Advance - Loan Disbursement,F. Kalemela,Oscar Kimaro
+LN2027-REP1,LN2027,2025-06-12 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 1),S. Ngowi,Grace Lyimo
+LN2023-REP4,LN2023,2025-06-12 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 4),R. Temba,Rashid Mboya
+LN2019-REP4,LN2019,2025-06-14 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 4),F. Kalemela,Baraka Mwakatobe
+LN2012-REP5,LN2012,2025-06-16 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 5),R. Temba,Oscar Mboya
+LN2013-DISB,LN2013,2025-06-16 12:34:00,Loan Disbursement,779000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Neema Mwakatobe
+LN2009-REP1,LN2009,2025-06-16 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 1),R. Temba,Faraja Kimaro
+LN2000-REP3,LN2000,2025-06-17 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 3),A. Mwakasege,Baraka Kileo
+LN2029-REP2,LN2029,2025-06-18 11:04:00,Loan Repayment,119300.0,Salary Advance - Loan Repayment (installment 2),A. Mwakasege,Catherine Mwakatobe
+LN2014-REP3,LN2014,2025-06-19 10:09:00,Loan Repayment,131300.0,Micro Business Loan - Loan Repayment (installment 3),R. Temba,Pendo Ngonyani
+LN2024-REP2,LN2024,2025-06-19 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 2),J. Mushi,Amani Kimaro
+LN2007-REP3,LN2007,2025-06-20 09:21:00,Loan Repayment,57200.0,Micro Business Loan - Loan Repayment (installment 3),R. Temba,Baraka Kileo
+LN2034-DISB,LN2034,2025-06-20 15:27:00,Loan Disbursement,289000.0,Agri Loan - Loan Disbursement,F. Kalemela,Elisha Sanga
+LN2025-REP3,LN2025,2025-06-22 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 3),F. Kalemela,Kulwa Kway
+LN2018-DISB,LN2018,2025-06-23 14:12:00,Loan Disbursement,1047000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Lucy Kimaro
+LN2001-REP2,LN2001,2025-06-24 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 2),F. Kalemela,Elisha Massawe
+LN2026-REP2,LN2026,2025-06-24 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 2),J. Mushi,Baraka Mwakatobe
+LN2005-REP1,LN2005,2025-06-24 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 1),S. Ngowi,Neema Sanga
+LN2032-REP5,LN2032,2025-06-26 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 5),S. Ngowi,Elisha Lyimo
+LN2003-REP3,LN2003,2025-06-26 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 3),J. Mushi,Pendo Shayo
+LN2022-REP4,LN2022,2025-06-26 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 4),R. Temba,Pendo Sanga
+LN2004-REP1,LN2004,2025-06-26 14:56:00,Loan Repayment,97200.0,Group Loan - Loan Repayment (installment 1),A. Mwakasege,Lucy Mushi
+LN2010-DISB,LN2010,2025-07-02 08:01:00,Loan Disbursement,638000.0,Salary Advance - Loan Disbursement,F. Kalemela,Irene Mrema
+LN2011-REP6,LN2011,2025-07-02 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 6),J. Mushi,Lucy Mboya
+LN2017-REP1,LN2017,2025-07-03 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 1),F. Kalemela,Elisha Kway
+LN2008-REP4,LN2008,2025-07-04 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 4),S. Ngowi,Pendo Mrema
+LN2021-REP1,LN2021,2025-07-04 16:48:00,Loan Repayment,81700.0,Group Loan - Loan Repayment (installment 1),R. Temba,Grace Massawe
+LN2033-REP4,LN2033,2025-07-05 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 4),A. Mwakasege,Neema Kimaro
+LN2028-REP4,LN2028,2025-07-08 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 4),J. Mushi,Baraka Mrema
+LN2006-DISB,LN2006,2025-07-09 17:36:00,Loan Disbursement,900000.0,Micro Business Loan - Loan Disbursement,S. Ngowi,Kulwa Mwakatobe
+LN2023-REP5,LN2023,2025-07-12 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 5),R. Temba,Rashid Mboya
+LN2002-REP1,LN2002,2025-07-12 15:37:00,Loan Repayment,152700.0,Salary Advance - Loan Repayment (installment 1),F. Kalemela,Oscar Kimaro
+LN2020-REP2,LN2020,2025-07-14 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 2),J. Mushi,Hamisi Kileo
+LN2029-REP3,LN2029,2025-07-14 11:04:00,Loan Repayment,119300.0,Salary Advance - Loan Repayment (installment 3),A. Mwakasege,Catherine Mwakatobe
+LN2012-REP6,LN2012,2025-07-15 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 6),R. Temba,Oscar Mboya
+LN2019-REP5,LN2019,2025-07-15 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 5),F. Kalemela,Baraka Mwakatobe
+LN2000-REP4,LN2000,2025-07-15 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 4),A. Mwakasege,Baraka Kileo
+LN2009-REP2,LN2009,2025-07-15 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 2),R. Temba,Faraja Kimaro
+LN2027-REP2,LN2027,2025-07-17 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 2),S. Ngowi,Grace Lyimo
+LN2013-REP1,LN2013,2025-07-18 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 1),A. Mwakasege,Neema Mwakatobe
+LN2034-REP1,LN2034,2025-07-18 15:27:00,Loan Repayment,48200.0,Agri Loan - Loan Repayment (installment 1),F. Kalemela,Elisha Sanga
+LN2005-REP2,LN2005,2025-07-20 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 2),S. Ngowi,Neema Sanga
+LN2025-REP4,LN2025,2025-07-20 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 4),F. Kalemela,Kulwa Kway
+LN2001-REP3,LN2001,2025-07-21 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 3),F. Kalemela,Elisha Massawe
+LN2018-REP1,LN2018,2025-07-22 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 1),A. Mwakasege,Lucy Kimaro
+LN2004-REP2,LN2004,2025-07-22 14:56:00,Loan Repayment,97200.0,Group Loan - Loan Repayment (installment 2),A. Mwakasege,Lucy Mushi
+LN2031-DISB,LN2031,2025-07-23 09:59:00,Loan Disbursement,1623000.0,Micro Business Loan - Loan Disbursement,A. Mwakasege,Grace Kway
+LN2007-REP4,LN2007,2025-07-24 09:21:00,Loan Repayment,57200.0,Micro Business Loan - Loan Repayment (installment 4),R. Temba,Baraka Kileo
+LN2003-REP4,LN2003,2025-07-24 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 4),J. Mushi,Pendo Shayo
+LN2022-REP5,LN2022,2025-07-24 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 5),R. Temba,Pendo Sanga
+LN2032-REP6,LN2032,2025-07-27 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 6),S. Ngowi,Elisha Lyimo
+LN2026-REP3,LN2026,2025-07-29 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 3),J. Mushi,Baraka Mwakatobe
+LN2008-REP5,LN2008,2025-07-29 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 5),S. Ngowi,Pendo Mrema
+LN2011-REP7,LN2011,2025-07-30 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 7),J. Mushi,Lucy Mboya
+LN2010-REP1,LN2010,2025-08-02 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 1),F. Kalemela,Irene Mrema
+LN2017-REP2,LN2017,2025-08-02 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 2),F. Kalemela,Elisha Kway
+LN2033-REP5,LN2033,2025-08-04 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 5),A. Mwakasege,Neema Kimaro
+LN2002-REP2,LN2002,2025-08-06 15:37:00,Loan Repayment,152700.0,Salary Advance - Loan Repayment (installment 2),F. Kalemela,Oscar Kimaro
+LN2028-REP5,LN2028,2025-08-08 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 5),J. Mushi,Baraka Mrema
+LN2020-REP3,LN2020,2025-08-11 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 3),J. Mushi,Hamisi Kileo
+LN2012-REP7,LN2012,2025-08-11 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 7),R. Temba,Oscar Mboya
+LN2027-REP3,LN2027,2025-08-11 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 3),S. Ngowi,Grace Lyimo
+LN2006-REP1,LN2006,2025-08-11 17:36:00,Loan Repayment,75000.0,Micro Business Loan - Loan Repayment (installment 1),S. Ngowi,Kulwa Mwakatobe
+LN2014-REP5,LN2014,2025-08-13 10:09:00,Loan Repayment,131300.0,Micro Business Loan - Loan Repayment (installment 5),R. Temba,Pendo Ngonyani
+LN2023-REP6,LN2023,2025-08-13 14:55:00,Loan Repayment,457800.0,Salary Advance - Loan Repayment (installment 6),R. Temba,Rashid Mboya
+LN2029-REP4,LN2029,2025-08-14 11:04:00,Loan Repayment,119300.0,Salary Advance - Loan Repayment (installment 4),A. Mwakasege,Catherine Mwakatobe
+LN2009-REP3,LN2009,2025-08-15 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 3),R. Temba,Faraja Kimaro
+LN2013-REP2,LN2013,2025-08-16 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 2),A. Mwakasege,Neema Mwakatobe
+LN2034-REP2,LN2034,2025-08-16 15:27:00,Loan Repayment,48200.0,Agri Loan - Loan Repayment (installment 2),F. Kalemela,Elisha Sanga
+LN2005-REP3,LN2005,2025-08-19 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 3),S. Ngowi,Neema Sanga
+LN2024-REP4,LN2024,2025-08-19 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 4),J. Mushi,Amani Kimaro
+LN2022-REP6,LN2022,2025-08-20 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 6),R. Temba,Pendo Sanga
+LN2015-DISB,LN2015,2025-08-20 16:01:00,Loan Disbursement,405000.0,Salary Advance - Loan Disbursement,R. Temba,Catherine Mrema
+LN2025-REP5,LN2025,2025-08-20 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 5),F. Kalemela,Kulwa Kway
+LN2018-REP2,LN2018,2025-08-22 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 2),A. Mwakasege,Lucy Kimaro
+LN2001-REP4,LN2001,2025-08-23 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 4),F. Kalemela,Elisha Massawe
+LN2004-REP3,LN2004,2025-08-23 14:56:00,Loan Repayment,97200.0,Group Loan - Loan Repayment (installment 3),A. Mwakasege,Lucy Mushi
+LN2026-REP4,LN2026,2025-08-24 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 4),J. Mushi,Baraka Mwakatobe
+LN2007-REP5,LN2007,2025-08-24 09:21:00,Loan Repayment,57200.0,Micro Business Loan - Loan Repayment (installment 5),R. Temba,Baraka Kileo
+LN2011-REP8,LN2011,2025-08-26 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 8),J. Mushi,Lucy Mboya
+LN2032-REP7,LN2032,2025-08-27 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 7),S. Ngowi,Elisha Lyimo
+LN2010-REP2,LN2010,2025-08-31 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 2),F. Kalemela,Irene Mrema
+LN2017-REP3,LN2017,2025-08-31 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 3),F. Kalemela,Elisha Kway
+LN2008-REP6,LN2008,2025-09-01 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 6),S. Ngowi,Pendo Mrema
+LN2028-REP6,LN2028,2025-09-03 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 6),J. Mushi,Baraka Mrema
+LN2033-REP6,LN2033,2025-09-05 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 6),A. Mwakasege,Neema Kimaro
+LN2006-REP2,LN2006,2025-09-07 17:36:00,Loan Repayment,75000.0,Micro Business Loan - Loan Repayment (installment 2),S. Ngowi,Kulwa Mwakatobe
+LN2020-REP4,LN2020,2025-09-08 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 4),J. Mushi,Hamisi Kileo
+LN2030-DISB,LN2030,2025-09-09 15:25:00,Loan Disbursement,598000.0,Agri Loan - Loan Disbursement,S. Ngowi,Joseph Kway
+LN2002-REP3,LN2002,2025-09-09 15:37:00,Loan Repayment,152700.0,Salary Advance - Loan Repayment (installment 3),F. Kalemela,Oscar Kimaro
+LN2019-REP7,LN2019,2025-09-13 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 7),F. Kalemela,Baraka Mwakatobe
+LN2009-REP4,LN2009,2025-09-14 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 4),R. Temba,Faraja Kimaro
+LN2012-REP8,LN2012,2025-09-15 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 8),R. Temba,Oscar Mboya
+LN2029-REP5,LN2029,2025-09-15 11:04:00,Loan Repayment,119300.0,Salary Advance - Loan Repayment (installment 5),A. Mwakasege,Catherine Mwakatobe
+LN2027-REP4,LN2027,2025-09-15 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 4),S. Ngowi,Grace Lyimo
+LN2013-REP3,LN2013,2025-09-15 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 3),A. Mwakasege,Neema Mwakatobe
+LN2000-REP6,LN2000,2025-09-16 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 6),A. Mwakasege,Baraka Kileo
+LN2014-REP6,LN2014,2025-09-17 10:09:00,Loan Repayment,131300.0,Micro Business Loan - Loan Repayment (installment 6),R. Temba,Pendo Ngonyani
+LN2024-REP5,LN2024,2025-09-17 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 5),J. Mushi,Amani Kimaro
+LN2034-REP3,LN2034,2025-09-17 15:27:00,Loan Repayment,48200.0,Agri Loan - Loan Repayment (installment 3),F. Kalemela,Elisha Sanga
+LN2025-REP6,LN2025,2025-09-18 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 6),F. Kalemela,Kulwa Kway
+LN2003-REP6,LN2003,2025-09-19 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 6),J. Mushi,Pendo Shayo
+LN2001-REP5,LN2001,2025-09-20 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 5),F. Kalemela,Elisha Massawe
+LN2007-REP6,LN2007,2025-09-20 09:21:00,Loan Repayment,57000.0,Micro Business Loan - Loan Repayment (installment 6),R. Temba,Baraka Kileo
+LN2015-REP1,LN2015,2025-09-20 16:01:00,Loan Repayment,33800.0,Salary Advance - Loan Repayment (installment 1),R. Temba,Catherine Mrema
+LN2031-REP2,LN2031,2025-09-21 09:59:00,Loan Repayment,180300.0,Micro Business Loan - Loan Repayment (installment 2),A. Mwakasege,Grace Kway
+LN2018-REP3,LN2018,2025-09-21 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 3),A. Mwakasege,Lucy Kimaro
+LN2004-REP4,LN2004,2025-09-21 14:56:00,Loan Repayment,97200.0,Group Loan - Loan Repayment (installment 4),A. Mwakasege,Lucy Mushi
+LN2026-REP5,LN2026,2025-09-22 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 5),J. Mushi,Baraka Mwakatobe
+LN2005-REP4,LN2005,2025-09-22 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 4),S. Ngowi,Neema Sanga
+LN2016-DISB,LN2016,2025-09-25 12:59:00,Loan Disbursement,1221000.0,Group Loan - Loan Disbursement,F. Kalemela,Salome Lyimo
+LN2032-REP8,LN2032,2025-09-26 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 8),S. Ngowi,Elisha Lyimo
+LN2011-REP9,LN2011,2025-09-26 15:58:00,Loan Repayment,91000.0,Micro Business Loan - Loan Repayment (installment 9),J. Mushi,Lucy Mboya
+LN2033-REP7,LN2033,2025-10-01 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 7),A. Mwakasege,Neema Kimaro
+LN2021-REP4,LN2021,2025-10-01 16:48:00,Loan Repayment,81700.0,Group Loan - Loan Repayment (installment 4),R. Temba,Grace Massawe
+LN2010-REP3,LN2010,2025-10-02 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 3),F. Kalemela,Irene Mrema
+LN2008-REP7,LN2008,2025-10-02 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 7),S. Ngowi,Pendo Mrema
+LN2028-REP7,LN2028,2025-10-03 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 7),J. Mushi,Baraka Mrema
+LN2017-REP4,LN2017,2025-10-03 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 4),F. Kalemela,Elisha Kway
+LN2006-REP3,LN2006,2025-10-04 17:36:00,Loan Repayment,75000.0,Micro Business Loan - Loan Repayment (installment 3),S. Ngowi,Kulwa Mwakatobe
+LN2002-REP4,LN2002,2025-10-07 15:37:00,Loan Repayment,152700.0,Salary Advance - Loan Repayment (installment 4),F. Kalemela,Oscar Kimaro
+LN2019-REP8,LN2019,2025-10-08 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 8),F. Kalemela,Baraka Mwakatobe
+LN2020-REP5,LN2020,2025-10-09 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 5),J. Mushi,Hamisi Kileo
+LN2030-REP1,LN2030,2025-10-09 15:25:00,Loan Repayment,66400.0,Agri Loan - Loan Repayment (installment 1),S. Ngowi,Joseph Kway
+LN2013-REP4,LN2013,2025-10-12 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 4),A. Mwakasege,Neema Mwakatobe
+LN2000-REP7,LN2000,2025-10-13 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 7),A. Mwakasege,Baraka Kileo
+LN2027-REP5,LN2027,2025-10-14 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 5),S. Ngowi,Grace Lyimo
+LN2009-REP5,LN2009,2025-10-14 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 5),R. Temba,Faraja Kimaro
+LN2012-REP9,LN2012,2025-10-15 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 9),R. Temba,Oscar Mboya
+LN2024-REP6,LN2024,2025-10-16 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 6),J. Mushi,Amani Kimaro
+LN2025-REP7,LN2025,2025-10-18 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 7),F. Kalemela,Kulwa Kway
+LN2034-REP4,LN2034,2025-10-19 15:27:00,Loan Repayment,48200.0,Agri Loan - Loan Repayment (installment 4),F. Kalemela,Elisha Sanga
+LN2005-REP5,LN2005,2025-10-20 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 5),S. Ngowi,Neema Sanga
+LN2015-REP2,LN2015,2025-10-21 16:01:00,Loan Repayment,33800.0,Salary Advance - Loan Repayment (installment 2),R. Temba,Catherine Mrema
+LN2026-REP6,LN2026,2025-10-22 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 6),J. Mushi,Baraka Mwakatobe
+LN2016-REP1,LN2016,2025-10-22 12:59:00,Loan Repayment,135700.0,Group Loan - Loan Repayment (installment 1),F. Kalemela,Salome Lyimo
+LN2003-REP7,LN2003,2025-10-22 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 7),J. Mushi,Pendo Shayo
+LN2018-REP4,LN2018,2025-10-22 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 4),A. Mwakasege,Lucy Kimaro
+LN2022-REP8,LN2022,2025-10-24 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 8),R. Temba,Pendo Sanga
+LN2032-REP9,LN2032,2025-10-25 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 9),S. Ngowi,Elisha Lyimo
+LN2004-REP5,LN2004,2025-10-26 14:56:00,Loan Repayment,97200.0,Group Loan - Loan Repayment (installment 5),A. Mwakasege,Lucy Mushi
+LN2008-REP8,LN2008,2025-10-27 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 8),S. Ngowi,Pendo Mrema
+LN2010-REP4,LN2010,2025-10-29 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 4),F. Kalemela,Irene Mrema
+LN2028-REP8,LN2028,2025-11-02 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 8),J. Mushi,Baraka Mrema
+LN2017-REP5,LN2017,2025-11-04 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 5),F. Kalemela,Elisha Kway
+LN2021-REP5,LN2021,2025-11-04 16:48:00,Loan Repayment,81700.0,Group Loan - Loan Repayment (installment 5),R. Temba,Grace Massawe
+LN2033-REP8,LN2033,2025-11-05 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 8),A. Mwakasege,Neema Kimaro
+LN2002-REP5,LN2002,2025-11-06 15:37:00,Loan Repayment,152700.0,Salary Advance - Loan Repayment (installment 5),F. Kalemela,Oscar Kimaro
+LN2019-REP9,LN2019,2025-11-07 12:17:00,Loan Repayment,43200.0,Salary Advance - Loan Repayment (installment 9),F. Kalemela,Baraka Mwakatobe
+LN2020-REP6,LN2020,2025-11-08 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 6),J. Mushi,Hamisi Kileo
+LN2012-REP10,LN2012,2025-11-10 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 10),R. Temba,Oscar Mboya
+LN2013-REP5,LN2013,2025-11-10 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 5),A. Mwakasege,Neema Mwakatobe
+LN2009-REP6,LN2009,2025-11-10 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 6),R. Temba,Faraja Kimaro
+LN2027-REP6,LN2027,2025-11-11 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 6),S. Ngowi,Grace Lyimo
+LN2030-REP2,LN2030,2025-11-11 15:25:00,Loan Repayment,66400.0,Agri Loan - Loan Repayment (installment 2),S. Ngowi,Joseph Kway
+LN2034-REP5,LN2034,2025-11-14 15:27:00,Loan Repayment,48200.0,Agri Loan - Loan Repayment (installment 5),F. Kalemela,Elisha Sanga
+LN2000-REP8,LN2000,2025-11-15 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 8),A. Mwakasege,Baraka Kileo
+LN2001-REP7,LN2001,2025-11-17 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 7),F. Kalemela,Elisha Massawe
+LN2005-REP6,LN2005,2025-11-17 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 6),S. Ngowi,Neema Sanga
+LN2024-REP7,LN2024,2025-11-17 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 7),J. Mushi,Amani Kimaro
+LN2018-REP5,LN2018,2025-11-17 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 5),A. Mwakasege,Lucy Kimaro
+LN2025-REP8,LN2025,2025-11-17 17:24:00,Loan Repayment,45000.0,Group Loan - Loan Repayment (installment 8),F. Kalemela,Kulwa Kway
+LN2015-REP3,LN2015,2025-11-19 16:01:00,Loan Repayment,33800.0,Salary Advance - Loan Repayment (installment 3),R. Temba,Catherine Mrema
+LN2031-REP4,LN2031,2025-11-20 09:59:00,Loan Repayment,180300.0,Micro Business Loan - Loan Repayment (installment 4),A. Mwakasege,Grace Kway
+LN2004-REP6,LN2004,2025-11-20 14:56:00,Loan Repayment,97000.0,Group Loan - Loan Repayment (installment 6),A. Mwakasege,Lucy Mushi
+LN2022-REP9,LN2022,2025-11-21 14:42:00,Loan Repayment,80800.0,Group Loan - Loan Repayment (installment 9),R. Temba,Pendo Sanga
+LN2026-REP7,LN2026,2025-11-25 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 7),J. Mushi,Baraka Mwakatobe
+LN2032-REP10,LN2032,2025-11-25 12:40:00,Loan Repayment,30200.0,Salary Advance - Loan Repayment (installment 10),S. Ngowi,Elisha Lyimo
+LN2010-REP5,LN2010,2025-11-26 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 5),F. Kalemela,Irene Mrema
+LN2008-REP9,LN2008,2025-11-28 09:54:00,Loan Repayment,175000.0,Group Loan - Loan Repayment (installment 9),S. Ngowi,Pendo Mrema
+LN2017-REP6,LN2017,2025-11-30 09:57:00,Loan Repayment,107000.0,Salary Advance - Loan Repayment (installment 6),F. Kalemela,Elisha Kway
+LN2033-REP9,LN2033,2025-11-30 10:30:00,Loan Repayment,134200.0,Salary Advance - Loan Repayment (installment 9),A. Mwakasege,Neema Kimaro
+LN2006-REP5,LN2006,2025-12-03 17:36:00,Loan Repayment,75000.0,Micro Business Loan - Loan Repayment (installment 5),S. Ngowi,Kulwa Mwakatobe
+LN2002-REP6,LN2002,2025-12-04 15:37:00,Loan Repayment,152500.0,Salary Advance - Loan Repayment (installment 6),F. Kalemela,Oscar Kimaro
+LN2021-REP6,LN2021,2025-12-04 16:48:00,Loan Repayment,81700.0,Group Loan - Loan Repayment (installment 6),R. Temba,Grace Massawe
+LN2028-REP9,LN2028,2025-12-05 08:30:00,Loan Repayment,133600.0,Salary Advance - Loan Repayment (installment 9),J. Mushi,Baraka Mrema
+LN2030-REP3,LN2030,2025-12-07 15:25:00,Loan Repayment,66400.0,Agri Loan - Loan Repayment (installment 3),S. Ngowi,Joseph Kway
+LN2020-REP7,LN2020,2025-12-08 09:38:00,Loan Repayment,247900.0,Salary Advance - Loan Repayment (installment 7),J. Mushi,Hamisi Kileo
+LN2009-REP7,LN2009,2025-12-08 16:23:00,Loan Repayment,104300.0,Agri Loan - Loan Repayment (installment 7),R. Temba,Faraja Kimaro
+LN2012-REP11,LN2012,2025-12-12 10:37:00,Loan Repayment,99000.0,Agri Loan - Loan Repayment (installment 11),R. Temba,Oscar Mboya
+LN2027-REP7,LN2027,2025-12-14 11:46:00,Loan Repayment,28400.0,Group Loan - Loan Repayment (installment 7),S. Ngowi,Grace Lyimo
+LN2000-REP9,LN2000,2025-12-15 14:41:00,Loan Repayment,190100.0,Micro Business Loan - Loan Repayment (installment 9),A. Mwakasege,Baraka Kileo
+LN2005-REP7,LN2005,2025-12-16 10:52:00,Loan Repayment,100100.0,Salary Advance - Loan Repayment (installment 7),S. Ngowi,Neema Sanga
+LN2013-REP6,LN2013,2025-12-16 12:34:00,Loan Repayment,86600.0,Micro Business Loan - Loan Repayment (installment 6),A. Mwakasege,Neema Mwakatobe
+LN2024-REP8,LN2024,2025-12-16 13:11:00,Loan Repayment,97600.0,Group Loan - Loan Repayment (installment 8),J. Mushi,Amani Kimaro
+LN2034-REP6,LN2034,2025-12-17 15:27:00,Loan Repayment,48000.0,Agri Loan - Loan Repayment (installment 6),F. Kalemela,Elisha Sanga
+LN2015-REP4,LN2015,2025-12-18 16:01:00,Loan Repayment,33800.0,Salary Advance - Loan Repayment (installment 4),R. Temba,Catherine Mrema
+LN2001-REP8,LN2001,2025-12-20 08:35:00,Loan Repayment,58100.0,Group Loan - Loan Repayment (installment 8),F. Kalemela,Elisha Massawe
+LN2026-REP8,LN2026,2025-12-21 09:01:00,Loan Repayment,80000.0,Salary Advance - Loan Repayment (installment 8),J. Mushi,Baraka Mwakatobe
+LN2016-REP3,LN2016,2025-12-22 12:59:00,Loan Repayment,135700.0,Group Loan - Loan Repayment (installment 3),F. Kalemela,Salome Lyimo
+LN2003-REP9,LN2003,2025-12-23 13:09:00,Loan Repayment,93800.0,Micro Business Loan - Loan Repayment (installment 9),J. Mushi,Pendo Shayo
+LN2018-REP6,LN2018,2025-12-23 14:12:00,Loan Repayment,174500.0,Micro Business Loan - Loan Repayment (installment 6),A. Mwakasege,Lucy Kimaro
+LN2010-REP6,LN2010,2025-12-27 08:01:00,Loan Repayment,53200.0,Salary Advance - Loan Repayment (installment 6),F. Kalemela,Irene Mrema
