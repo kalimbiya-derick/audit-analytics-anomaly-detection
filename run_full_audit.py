@@ -1,47 +1,39 @@
 """
 run_full_audit.py
 --------------------
-Orchestrates all Week 1 detection modules against a single transaction
-dataset and consolidates their output into one prioritized findings table.
+CLI entry point: runs the full audit pipeline (modules/audit_pipeline.py)
+and handles all presentation — console summaries, charts, CSV exports, and
+the final PDF report. The computation itself is shared with the Streamlit
+dashboard (app.py) via audit_pipeline.run_audit_pipeline(), so both stay
+in sync from one source of truth rather than maintaining duplicate
+orchestration logic.
 
 WHY CONSOLIDATION MATTERS:
-Each module (Benford's Law, duplicate detection, round-number detection,
-outlier detection) looks for a different kind of anomaly using independent
-logic. A transaction flagged by only ONE method might be a false positive —
-but a transaction flagged by TWO OR MORE independent methods is a much
-stronger audit lead, because it's unlikely that unrelated detection logic
-would coincidentally agree on a genuinely innocent transaction.
-
-This script doesn't yet apply weighted risk scoring (that's Week 2) — it
-simply counts how many methods flagged each transaction and sorts by that
-count, surfacing the highest-confidence leads at the top. Consider this
-the bridge between Week 1's individual detectors and Week 2's formal
-risk-scoring engine.
+Each detection module looks for a different kind of anomaly using
+independent logic. A transaction flagged by only ONE method might be a
+false positive — but a transaction flagged by TWO OR MORE independent
+methods is a much stronger audit lead, because it's unlikely that
+unrelated detection logic would coincidentally agree on a genuinely
+innocent transaction. The naive flag-count view (_consolidate_findings,
+saved as consolidated_findings.csv) captures this at a glance; the
+weighted risk-scoring engine (risk_scored_findings.csv, and the PDF
+report) goes further by weighting each method's evidentiary strength.
 """
 
 import pandas as pd
 from pathlib import Path
 
-from modules.data_loader import load_transactions, print_data_quality_report
-from modules.benford_analysis import (
-    run_benford_analysis, flag_suspect_transactions, print_benford_summary, plot_benford_chart,
-)
-from modules.duplicate_detector import find_potential_duplicate_payments, print_duplicate_summary
-from modules.round_number_detector import flag_round_number_transactions, print_round_number_summary
-from modules.outlier_detector import detect_outliers, print_outlier_summary, plot_outliers_by_account
-from modules.journal_entry_tester import (
-    flag_timing_anomalies, analyze_user_concentration, flag_high_risk_timing_entries,
-    print_journal_entry_summary, plot_user_concentration,
-)
-from modules.related_party_detector import (
-    flag_related_party_transactions, flag_fuzzy_related_party_candidates,
-    print_related_party_summary, plot_related_party_findings,
-)
-from modules.risk_scoring_engine import compute_risk_scores, print_risk_summary, plot_risk_distribution
+from modules.audit_pipeline import run_audit_pipeline
+from modules.data_loader import print_data_quality_report
+from modules.benford_analysis import print_benford_summary, plot_benford_chart
+from modules.duplicate_detector import print_duplicate_summary
+from modules.round_number_detector import print_round_number_summary
+from modules.outlier_detector import print_outlier_summary, plot_outliers_by_account
+from modules.journal_entry_tester import print_journal_entry_summary, plot_user_concentration
+from modules.related_party_detector import print_related_party_summary, plot_related_party_findings
+from modules.risk_scoring_engine import print_risk_summary, plot_risk_distribution
 from modules.summary_visuals import plot_risk_rating_breakdown, plot_flags_by_method, plot_monthly_anomaly_trend
-from modules.reconciliation_engine import (
-    compute_gl_loan_balances, reconcile_loan_portfolio, print_reconciliation_summary, plot_reconciliation_chart,
-)
+from modules.reconciliation_engine import print_reconciliation_summary, plot_reconciliation_chart
 from modules.pdf_report_generator import generate_report
 
 
@@ -49,10 +41,11 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
                      loan_gl_path: str = None, loan_schedule_path: str = None,
                      prepared_by: str = "Audit Analytics System") -> pd.DataFrame:
     """
-    Runs all Week 1 detection procedures against the given transaction file,
-    consolidates their findings, and produces a weighted risk score per
-    transaction (Day 8: likelihood x materiality, replacing Day 7's naive
-    flag-count prioritization).
+    Runs the full audit pipeline (modules/audit_pipeline.py) and handles
+    ALL presentation: console summaries, chart generation, CSV exports,
+    and the final PDF report. The computation itself lives in
+    audit_pipeline.run_audit_pipeline(), shared with the Streamlit
+    dashboard (app.py) so both stay in sync from one source of truth.
 
     Saves two CSVs to output_dir:
         - consolidated_findings.csv : Day 7 view (which methods flagged what)
@@ -62,55 +55,39 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
     """
     Path(output_dir).mkdir(exist_ok=True)
 
-    print("Loading transactions...")
-    df = load_transactions(transactions_path)
+    print("Running audit pipeline...")
+    results = run_audit_pipeline(transactions_path, loan_gl_path, loan_schedule_path)
+
+    df = results["df"]
     print_data_quality_report(df)
     print()
 
-    # --- Run each detection module independently ---
-    print("Running Benford's Law analysis...")
-    benford_results = run_benford_analysis(df)
-    print_benford_summary(benford_results)
-    benford_flagged = flag_suspect_transactions(df, benford_results)
+    print("Benford's Law analysis:")
+    print_benford_summary(results["benford_results"])
     print()
 
-    print("Running duplicate payment detection...")
-    duplicate_flagged = find_potential_duplicate_payments(df)
-    print_duplicate_summary(duplicate_flagged)
+    print("Duplicate payment detection:")
+    print_duplicate_summary(results["duplicate_flagged"])
     print()
 
-    print("Running round-number detection...")
-    round_flagged = flag_round_number_transactions(df)
-    print_round_number_summary(round_flagged)
+    print("Round-number detection:")
+    print_round_number_summary(results["round_flagged"])
     print()
 
-    print("Running statistical outlier detection...")
-    outlier_flagged = detect_outliers(df, method="modified_zscore")
-    print_outlier_summary(outlier_flagged, method_label="Modified Z-Score")
+    print("Statistical outlier detection:")
+    print_outlier_summary(results["outlier_flagged"], method_label="Modified Z-Score")
     print()
 
-    print("Running journal entry testing (timing & user concentration)...")
-    timing_flagged = flag_timing_anomalies(df)
-    user_concentration = analyze_user_concentration(df, timing_flagged)
-    journal_high_risk = flag_high_risk_timing_entries(timing_flagged, user_concentration)
-    print_journal_entry_summary(timing_flagged, user_concentration)
+    print("Journal entry testing (timing & user concentration):")
+    print_journal_entry_summary(results["timing_flagged"], results["user_concentration"])
     print()
 
-    print("Running related-party transaction screening...")
-    related_party_flagged = flag_related_party_transactions(df)
-    related_party_fuzzy = flag_fuzzy_related_party_candidates(df, related_party_flagged)
-    print_related_party_summary(related_party_flagged, related_party_fuzzy)
+    print("Related-party transaction screening:")
+    print_related_party_summary(results["related_party_flagged"], results["related_party_fuzzy"])
     print()
 
     # --- Consolidate into one findings table (Day 7: naive flag-count view) ---
-    flagged_sets = {
-        "flagged_benford": benford_flagged,
-        "flagged_duplicate": duplicate_flagged,
-        "flagged_round_number": round_flagged,
-        "flagged_outlier": outlier_flagged,
-        "flagged_journal_entry": journal_high_risk,
-        "flagged_related_party": related_party_flagged,
-    }
+    flagged_sets = results["flagged_sets"]
     consolidated = _consolidate_findings(df, flagged_sets)
 
     output_path = Path(output_dir) / "consolidated_findings.csv"
@@ -119,11 +96,9 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
     _print_consolidation_summary(consolidated)
     print(f"\nConsolidated findings saved to: {output_path}")
 
-    # --- Weighted risk scoring (Day 8: replaces naive counting with proper
-    #     likelihood x materiality prioritization) ---
+    # --- Weighted risk scoring (Day 8) ---
+    risk_scored = results["risk_scored"]
     print()
-    print("Computing weighted risk scores...")
-    risk_scored = compute_risk_scores(df, flagged_sets)
     print_risk_summary(risk_scored, top_n=10)
 
     risk_output_path = Path(output_dir) / "risk_scored_findings.csv"
@@ -140,40 +115,29 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
     plot_monthly_anomaly_trend(risk_scored, str(Path(output_dir) / "summary_monthly_trend.png"))
     print("Executive summary visuals saved to output directory.")
 
-    # --- Loan portfolio reconciliation (Day 5 workstream, folded into the
-    #     same engagement here so the final report covers both transaction-
-    #     level anomalies and reconciliation findings) ---
-    data_dir = Path(transactions_path).parent
-    loan_gl_path = loan_gl_path or str(data_dir / "loan_gl_transactions.csv")
-    loan_schedule_path = loan_schedule_path or str(data_dir / "loan_portfolio_schedule.csv")
-
+    # --- Loan portfolio reconciliation ---
+    reconciled = results["reconciled"]
     print()
-    print("Running loan portfolio reconciliation...")
-    gl_df = load_transactions(loan_gl_path)
-    schedule_df = pd.read_csv(loan_schedule_path)
-    gl_balances = compute_gl_loan_balances(gl_df)
-    reconciled = reconcile_loan_portfolio(gl_balances, schedule_df)
     print_reconciliation_summary(reconciled)
 
-    # --- Detailed-findings charts (Day 11: per-method evidence embedded
-    #     alongside the executive summary visuals) ---
+    # --- Detailed-findings charts (Day 11) ---
     benford_chart_path = Path(output_dir) / "benford_chart.png"
-    plot_benford_chart(benford_results, str(benford_chart_path), title="Amani Microfinance Ltd — All Transactions")
+    plot_benford_chart(results["benford_results"], str(benford_chart_path),
+                         title="Amani Microfinance Ltd — All Transactions")
 
     outlier_chart_path = Path(output_dir) / "outliers_by_account.png"
-    plot_outliers_by_account(df, outlier_flagged, str(outlier_chart_path))
+    plot_outliers_by_account(df, results["outlier_flagged"], str(outlier_chart_path))
 
     reconciliation_chart_path = Path(output_dir) / "reconciliation_chart.png"
     plot_reconciliation_chart(reconciled, str(reconciliation_chart_path))
 
     journal_entry_chart_path = Path(output_dir) / "user_concentration.png"
-    plot_user_concentration(user_concentration, str(journal_entry_chart_path))
+    plot_user_concentration(results["user_concentration"], str(journal_entry_chart_path))
 
     related_party_chart_path = Path(output_dir) / "related_party_findings.png"
-    plot_related_party_findings(related_party_flagged, str(related_party_chart_path))
+    plot_related_party_findings(results["related_party_flagged"], str(related_party_chart_path))
 
-    # --- Final PDF report (cover, executive summary, detailed findings,
-    #     methodology & limitations appendix) ---
+    # --- Final PDF report ---
     print()
     print("Generating PDF audit report...")
     chart_paths = {
@@ -189,10 +153,10 @@ def run_full_audit(transactions_path: str, output_dir: str = "output",
     report_path = Path(output_dir) / "Amani_Microfinance_Audit_Report.pdf"
     generate_report(
         str(report_path), df, risk_scored, reconciled, chart_paths,
-        benford_results=benford_results, duplicate_flagged=duplicate_flagged,
-        round_flagged=round_flagged, outlier_flagged=outlier_flagged,
-        timing_flagged=timing_flagged, user_concentration=user_concentration,
-        related_party_flagged=related_party_flagged, related_party_fuzzy=related_party_fuzzy,
+        benford_results=results["benford_results"], duplicate_flagged=results["duplicate_flagged"],
+        round_flagged=results["round_flagged"], outlier_flagged=results["outlier_flagged"],
+        timing_flagged=results["timing_flagged"], user_concentration=results["user_concentration"],
+        related_party_flagged=results["related_party_flagged"], related_party_fuzzy=results["related_party_fuzzy"],
         prepared_by=prepared_by,
     )
     print(f"PDF audit report saved to: {report_path}")

@@ -16,12 +16,18 @@ Running a single command against a transaction CSV produces:
 - **One weighted risk score per transaction** (0–100), combining corroborating evidence across methods with financial materiality
 - **A complete PDF audit report** — cover page, table of contents with clickable bookmarks, executive summary, detailed per-method findings, and a methodology/limitations appendix
 - **CSV exports** of consolidated and risk-scored findings for further analysis
-- **101 passing automated tests**
+- **An interactive Streamlit dashboard** — upload your own transaction data (or explore the bundled demo dataset), browse live charts and findings tables across all seven procedures, and download the PDF report on demand
+- **110 passing automated tests**
 
 ```bash
 python run_full_audit.py
 ```
 …and the full report, charts, and CSVs land in `output/`.
+
+```bash
+streamlit run app.py
+```
+…and an interactive dashboard opens in your browser at `localhost:8501`.
 
 ## Sample output
 
@@ -32,6 +38,8 @@ python run_full_audit.py
 | Journal Entry Testing | Related-Party Screening |
 |---|---|
 | ![Journal Entry Testing](docs/screenshots/journal_entry_testing.png) | ![Related Party](docs/screenshots/related_party_screening.png) |
+
+**Live dashboard:** *(add your Streamlit Community Cloud link here once deployed — see "Deploying the dashboard live" below)*
 
 On the demo dataset (496 transactions, 37 loan accounts), the toolkit flags 260 transactions across all procedures, with 11 reaching Critical risk and 18 High — representing TZS 44.1M in combined exposure — alongside 2 possible ghost loans identified through reconciliation.
 
@@ -69,13 +77,16 @@ audit_analytics/
 │   ├── related_party_detector.py
 │   ├── reconciliation_engine.py
 │   ├── risk_scoring_engine.py
+│   ├── audit_pipeline.py         # Shared computation core (CLI + dashboard)
 │   ├── chart_style.py            # Shared visual identity across all charts
 │   ├── summary_visuals.py        # Executive-summary level charts
 │   └── pdf_report_generator.py   # ReportLab-based PDF assembly
 ├── data/                         # Demo dataset generators + generated CSVs
-├── tests/                        # 101 pytest tests (unit + integration)
+├── docs/screenshots/             # README screenshots
+├── tests/                        # 110 pytest tests (unit + integration + dashboard)
 ├── output/                       # Generated reports, charts, CSVs
-├── run_full_audit.py             # Orchestrates the full pipeline end to end
+├── app.py                        # Streamlit interactive dashboard
+├── run_full_audit.py             # CLI: orchestrates the full pipeline, builds the PDF
 ├── requirements.txt
 └── pytest.ini
 ```
@@ -87,8 +98,13 @@ pip install -r requirements.txt
 python data/generate_demo_data.py        # generates the transaction dataset
 python data/generate_loan_portfolio.py   # generates the loan GL + schedule
 python run_full_audit.py                 # runs everything, produces the PDF
-pytest                                    # runs the full test suite
+streamlit run app.py                     # or explore interactively in the browser
+pytest                                   # runs the full test suite
 ```
+
+### Deploying the dashboard live (free)
+
+[Streamlit Community Cloud](https://streamlit.io/cloud) will host `app.py` directly from this GitHub repo for free, producing a public shareable link — far more compelling for a portfolio than a screenshot or local-only instructions. Sign in with GitHub, point it at this repo and `app.py`, and it deploys automatically on every push.
 
 ## Engineering notes
 
@@ -98,13 +114,14 @@ A few real bugs were found and fixed during development by validating against ac
 - **Risk score pile-up at the ceiling:** hard-clipping each transaction's score at 100 caused unrelated transactions to tie at the maximum, because the outlier flag and the materiality multiplier are correlated (both measure distance from a typical account size). Fixed by rescaling the whole score distribution proportionally instead of clipping per-transaction.
 - **PDF blank page / orphaned headings:** an explicit page break combined with content that already overflowed naturally produced a stray blank page; later, a section heading could render with nothing underneath it if upstream data was incomplete. Both fixed by mirroring each section's actual rendering condition exactly, and verified by rendering every page to an image and inspecting it — not just checking the PDF built without error.
 - **Fuzzy name-matching threshold:** a realistic single-character typo ("Alise" vs "Alice") scored exactly 0.80 similarity under `difflib`, just under the initial 0.82 cutoff — recalibrated to reliably catch genuine minor data-entry variants.
+- **Dashboard testing without a browser:** the Streamlit dashboard is tested with Streamlit's own `AppTest` framework, which actually executes `app.py`'s logic (not just a syntax check) and inspects what renders — closer in spirit to the PDF's render-and-visually-inspect QA process than a plain HTTP request, which would only confirm the page shell loaded, not that the underlying Python logic ran correctly.
 
 ## Testing
 
 ```bash
 pytest
 ```
-101 tests across unit tests (isolated logic on small synthetic data) and integration tests (the real pipeline against the actual demo dataset, locking in known planted-anomaly counts so future changes can't silently break detection).
+110 tests across unit tests (isolated logic on small synthetic data), integration tests (the real pipeline against the actual demo dataset, locking in known planted-anomaly counts so future changes can't silently break detection), and dashboard tests (using Streamlit's `AppTest` framework to actually execute `app.py`'s logic headlessly and confirm it runs without exceptions — not just a syntax check).
 
 ## Roadmap
 
@@ -112,7 +129,7 @@ pytest
 - [x] Weighted risk scoring
 - [x] PDF audit report generation
 - [x] Journal entry testing & related-party screening
-- [ ] Interactive Streamlit dashboard
+- [x] Interactive Streamlit dashboard
 - [ ] AI-generated findings narrative
 
 ## Author
